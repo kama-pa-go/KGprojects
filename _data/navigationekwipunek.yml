@@ -15,7 +15,7 @@
   link2: /dokumenty.html
 - name: Prowiant
   link: /KGprojects/prowiant.html
-  link2: a
+  link2: /prowiant.html
 - name: Pozostałe
   link: /KGprojects/pozostale.html
-  link2: b
+  link2: /pozostale.html
