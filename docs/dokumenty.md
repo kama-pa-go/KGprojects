@@ -19,7 +19,7 @@ Przykłądowe miejsca: wewnętrzna kieszeń kurtki, nerka (torebka, którą nosi
 
 <blockquote>
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="{{ '/images/bulb.png' | relative_url }}" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
     <p style= "color: rgb(75, 70, 70); padding: 8px;">
         W niektórych miejscowościach w górach nie ma zasięgu. Bezpiecznie jest mieć przy sobie trochę gotówki na wypadek, gdyby terminal nie działał.
     </p>
