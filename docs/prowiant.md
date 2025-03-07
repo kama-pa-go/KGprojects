@@ -25,7 +25,7 @@ Zadbaj, by mieć ze sobą odpowiednio dużo jedzenia. Warto, żeby rzeczy, któr
 
 <blockquote>
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="{{ '/assets/images/bulb.png' | relative_url }}" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
     <p style= "color: rgb(75, 70, 70); padding: 8px;">
         Ceny jedzenia w schronisku potrafią być drogie, jednak dużo schronisk udostępnia za darmo wrzątek. To oznacza możliwość zjedzenia zabranej z domu: zupki chińskiej, owsianki, herbatki lub kawy. <br> Sprawdź w internecie, czy schronisko w którym się zatrzymujesz oferuje darmowy wrzątek!
     </p>
