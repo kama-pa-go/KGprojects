@@ -1,9 +1,9 @@
 - name: Główna
-  link: /KGprojects/index.html
+  link: /
 - name: Odzież
-  link: /KGprojects/odziez.html
+  link: /odziez.html
 - name: Apteczka
-  link: /KGprojects/apteczka.html
+  link: /apteczka.html
 - name: Kosmetyczka
   link: https://kamaliana.github.io/KGprojects/kosmetyczka.html
 - name: Dokumenty
