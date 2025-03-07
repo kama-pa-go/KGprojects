@@ -1,8 +1,7 @@
 <nav>
     {% for item in site.data.navigationekwipunek %}
-        <a href="{{ item.link }}"{% if item.link == "/KGprojects" + page.url %} style="color: darkkhaki;"{% endif %}>
+        <a href="{{ item.link }}"{% if page.url == item.link2 %} style="color: darkkhaki;"{% endif %}>
             {{ item.name }}
         </a>
     {% endfor %}
-     <p> {{ page.link }} == /KGprojects{{ page.url }} </p>
 </nav>
