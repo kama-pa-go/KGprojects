@@ -38,7 +38,7 @@ title: Kosmetyczka
 ### Jeśli planujesz nocleg na dziko zadbaj o to, żeby Twoje środki czystości nie wpłynęły negatywnie na środowisko.
 
 <div style="display: flex; background-color:rgb(242, 242, 242);">
-<img src="images/book.jpg" alt="Książka_ikona" style="margin-right: 20px; width: 70px; height: auto;">
+<img src="images/book.jpg" alt="Książka_ikona" style="margin-right: 20px; width: 130px; height: auto;">
     <h3 style= "padding: 20px;">
         Sprawdź <a href="{{ site.baseurl }}/https://ebooks.com.pl/podrecznik-ekologicznego-obozowania.html">Poradnik Ekologicznego Obozowania</a>
     </h3>
