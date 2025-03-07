@@ -1,9 +1,12 @@
 - name: Główna
   link: /KGprojects
+  link2: /
 - name: Odzież
-  link: /odziez.html
+  link: /KGprojects/odziez.html
+  link2: /odziez.html
 - name: Apteczka
-  link: /apteczka.html
+  link: /KGprojects/apteczka.html
+  link2: /apteczka.html
 - name: Kosmetyczka
   link: /kosmetyczka.html
 - name: Dokumenty
