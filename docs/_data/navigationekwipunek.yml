@@ -1,0 +1,14 @@
+- name: Główna
+  link: /index.html
+- name: Odzież
+  link: /odziez.html
+- name: Apteczka
+  link: /apteczka.html
+- name: Kosmetyczka
+  link: /kosmetyczka.html
+- name: Dokumenty
+  link: /dokumenty.html
+- name: Prowiant
+  link: /prowiant.html
+- name: Pozostałe
+  link: /pozostale.html
