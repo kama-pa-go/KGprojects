@@ -1,9 +1,9 @@
 - name: Główna
-  link: /
+  link: /docs
 - name: Odzież
-  link: /odziez.html
+  link: /docs/odziez.html
 - name: Apteczka
-  link: /apteczka.html
+  link: /docs/apteczka.html
 - name: Kosmetyczka
   link: /kosmetyczka.html
 - name: Dokumenty
