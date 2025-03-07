@@ -27,7 +27,7 @@ title: Kosmetyczka
 
 <blockquote>
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="{{ '/assets/images/bulb.png' | relative_url }}" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <img src="{{ 'docs/_site/assets/images/bulb.png' | relative_url }}" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
     <p style= "color: rgb(75, 70, 70); padding: 8px;">
         Papier i mały plastikowy woreczek miej zawsze pod ręką. To wygodna opcja w razie potrzeby toaletowej na szlaku. <br> Pamiętaj, żeby zostawić po sobie czystość: papier wyrzuć do woreczka i zabierz ze sobą. 
     </p>
