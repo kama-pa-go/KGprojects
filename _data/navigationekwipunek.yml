@@ -8,10 +8,14 @@
   link: /KGprojects/apteczka.html
   link2: /apteczka.html
 - name: Kosmetyczka
-  link: /kosmetyczka.html
+  link: /KGprojects/kosmetyczka.html
+  link2: /kosmetyczka.html
 - name: Dokumenty
   link: /KGprojects/dokumenty.html
+  link2: /dokumenty.html
 - name: Prowiant
   link: /KGprojects/prowiant.html
+  link2: a
 - name: Pozostałe
   link: /KGprojects/pozostale.html
+  link2: b
