@@ -1,11 +1,11 @@
 - name: Główna
-  link: /docs
+  link: /KGprojects
 - name: Odzież
-  link: /docs/odziez.html
+  link: /KGprojects/odziez.html
 - name: Apteczka
-  link: /docs/apteczka.html
+  link: /KGprojects/apteczka.html
 - name: Kosmetyczka
-  link: /kosmetyczka.html
+  link: /KGprojects/kosmetyczka.html
 - name: Dokumenty
   link: /dokumenty.html
 - name: Prowiant
