@@ -1,2 +1,0 @@
-# KGprojects
-KG's repository
