@@ -36,7 +36,7 @@ Zadbaj, by mieć ze sobą odpowiednio dużo jedzenia. Warto, żeby rzeczy, któr
 # Oprócz jedzenia pamiętaj o piciu!
 
 <div style="display: flex; background-color:rgb(242, 242, 242);">
-<img src="images/bottle.jpg" alt="butelka_ikona" style="margin-right: 20px; width: 120px; height: 10px;">
+<img src="images/bottle.jpg" alt="butelka_ikona" style="margin-right: 20px; width: 120px; height: 100px;">
     <h3 style= "padding: 10px;">
         Dziennie człowiek powinien pić conajmniej 2L <br> Wysiłek fizyczny= większe pragnienie- spakuj co najmniej 2,5L/ dizeń <br> Przemyśl, gdzie podczas trasy, będziesz mógł ponownie wypełnić swoją butelkę z wodą (z częście strumyków górskich można bezpiecznie czerpać wodę).
     </h3>
