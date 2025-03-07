@@ -5,10 +5,10 @@
 - name: Apteczka
   link: /apteczka.html
 - name: Kosmetyczka
-  link: https://kamaliana.github.io/KGprojects/kosmetyczka.html
+  link: /kosmetyczka.html
 - name: Dokumenty
-  link: https://kamaliana.github.io/KGprojects/dokumenty.html
+  link: /dokumenty.html
 - name: Prowiant
-  link: /KGprojects/prowiant.html
+  link: /prowiant.html
 - name: Pozostałe
-  link: /KGprojects/pozostale.html
+  link: /pozostale.html
