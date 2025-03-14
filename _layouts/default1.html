@@ -14,11 +14,19 @@
       background-color: rgb(198, 213, 171);
     "
   >
-    <h1 style="background-color: rgb(255, 255, 255)">{{ page.title }}</h1>
-    {{ content }}
-    <br />
-    <h3 style="background-color: rgb(255, 255, 255)">
+    <header>
+      <h1 style="background-color: rgb(255, 255, 255)">{{ page.title }}</h1>
+    </header>
+    
+    <article>
+      {{ content }}
+      <br/>
+    </article>
+    
+    <footer>
+      <h3 style="background-color: rgb(255, 255, 255)">
       Nawigacja: {% include navigation_ekwipunek.html %} żółty= tu jesteś
-    </h3>
+      </h3>
+    </footer>
   </body>
 </html>
