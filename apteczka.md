@@ -18,14 +18,14 @@ title: Apteczka
 
 <br>
 
-<blockquote>
-    <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 8px;">
+<pro-tip>
+    <div>
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <p>
         Niemusisz wszystkiego nieść sam: jeśli podróżujesz w grupie warto przed wyjazdem ustalić co kto bierze. Pozwoli to rozsądniej rozłożyć ciężar między Wasszymi bagażami.
     </p>
     </div>
-</blockquote>
+</pro-tip>
 <br>
 
 ---
