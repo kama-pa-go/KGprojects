@@ -15,8 +15,18 @@ document.addEventListener('DOMContentLoaded', function() {
         const wykonaneZadania = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
         const postep = (wykonaneZadania / checkboxes.length) * 100;
         console.log(`Wykonane zadania: ${wykonaneZadania}, Postęp: ${postep}%`);
-        pasekPostepu.value = postep;
-        procentPostepu.textContent = postep.toFixed(0);
+        
+        if (pasekPostepu) {
+    
+            pasekPostepu.value = postep; // Ustaw wartość paska postępu
+
+        }
+
+        if (procentPostepu) {
+    
+            procentPostepu.textContent = postep.toFixed(0); // Ustaw tekst procentowy
+
+        }
     }
 
     checkboxes.forEach(checkbox => {
