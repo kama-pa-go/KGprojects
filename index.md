@@ -28,32 +28,28 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <progress id="postep" value="0" max="100">0%</progress>
     <p>Aktualny postęp: <span id="procent">0</span>%</p>
     <script>
-        // Pobierz wszystkie checkboxy i elementy związane z postępem
         const checkboxes = document.querySelectorAll('.zadanie');
-        const pasekPostepu = document.getElementById('postep');
-        const procentPostepu = document.getElementById('procent');
-        // Funkcja do obliczania i aktualizacji postępu
-        function aktualizujPostep() {
-            const liczbaZadan = checkboxes.length; // Liczba wszystkich zadań (8)
-            let wykonaneZadania = 0;
-            // Policz zaznaczone zadania
-            checkboxes.forEach(checkbox => {
-                if (checkbox.checked) {
-                    wykonaneZadania++;
-                }
-            });
-            // Oblicz postęp w procentach
-            const postep = (wykonaneZadania / liczbaZadan) * 100;
-            // Zaktualizuj pasek postępu i tekst
-            pasekPostepu.value = postep;
-            procentPostepu.textContent = postep.toFixed(0); // Zaokrąglij do liczby całkowitej
+  const pasekPostepu = document.getElementById('postep');
+const procentPostepu = document.getElementById('procent');
+
+function aktualizujPostep() {
+    const liczbaZadan = checkboxes.length;
+    let wykonaneZadania = 0;
+    checkboxes.forEach(checkbox => {
+        if (checkbox.checked) {
+            wykonaneZadania++;
         }
-        // Dodaj nasłuchiwanie zdarzeń do każdego checkboxa
-        checkboxes.forEach(checkbox => {
-            checkbox.addEventListener('change', aktualizujPostep);
-        });
-        // Inicjalizacja postępu na starcie
-        aktualizujPostep();
+    });
+    const postep = (wykonaneZadania / liczbaZadan) * 100;
+    pasekPostepu.value = postep;
+    procentPostepu.textContent = postep.toFixed(0);
+}
+
+checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', aktualizujPostep);
+});
+
+aktualizujPostep();
     </script>
 <br>
 
