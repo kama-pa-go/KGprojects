@@ -15,9 +15,6 @@ caption {
 }
 body {
   line-height: 1.5;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: rgb(198, 213, 171);
 }
 /* Simple box sizing to avoid weird element expansions */
 *, *::before, *::after {
@@ -32,10 +29,10 @@ ul {
 /* ========== Body Typography ========== */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #fafafa;
-  color: #333;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(198, 213, 171);
   -webkit-font-smoothing: antialiased;
-  margin: 0;
   padding: 0;
 }
 /* Restrict content width on large screens for readability */
