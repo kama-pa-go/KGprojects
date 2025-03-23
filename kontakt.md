@@ -25,7 +25,7 @@ title: Kontakt
         </optgroup>
         <option value="inne">Inne</option>
     </select>
-    <br>
+    <br><br>
     <label for="tresc">Treść wiadomości:</label><br>
     <textarea id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
     <br><br>
