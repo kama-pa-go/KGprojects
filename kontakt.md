@@ -35,7 +35,7 @@ title: Kontakt
             <p>
                 Administratorem Twoich danych osobowych jest firma XYZ. Dane są przetwarzane w celu realizacji zgłoszenia oraz w celach statystycznych. 
                 Masz prawo dostępu do swoich danych, ich poprawiania, usunięcia lub ograniczenia przetwarzania. Więcej informacji znajdziesz w naszej 
-                <a href="/polityka-prywatnosci" target="_blank">Polityce Prywatności</a>.
+                <a href="/polityka-prywatnosci">Polityce Prywatności</a>.
             </p>
         </details>
         <br>
