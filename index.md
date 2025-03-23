@@ -23,37 +23,11 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
 </div>
-    <!-- Pasek postępu -->
     <label for="postep">Postęp:</label>
     <progress id="postep" value="0" max="100">0%</progress>
     <p>Aktualny postęp: <span id="procent">0</span>%</p>
-    <script>
-        const checkboxes = document.querySelectorAll('.zadanie');
-  const pasekPostepu = document.getElementById('postep');
-const procentPostepu = document.getElementById('procent');
-
-function aktualizujPostep() {
-    const liczbaZadan = checkboxes.length;
-    let wykonaneZadania = 0;
-    checkboxes.forEach(checkbox => {
-        if (checkbox.checked) {
-            wykonaneZadania++;
-        }
-    });
-    const postep = (wykonaneZadania / liczbaZadan) * 100;
-    pasekPostepu.value = postep;
-    procentPostepu.textContent = postep.toFixed(0);
-}
-
-checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('change', aktualizujPostep);
-});
-
-aktualizujPostep();
-    </script>
 <br>
-
-<br><br>
+<br>
 # Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
 
 <div style="display: flex; justify-content: center;">
@@ -96,3 +70,6 @@ aktualizujPostep();
     </tfoot>
 </table>
 <br><br>
+
+<!-- Podłącz zewnętrzny plik JavaScript -->
+<script src="/_includes/script.js"></script>
