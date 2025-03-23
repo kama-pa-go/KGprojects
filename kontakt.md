@@ -2,7 +2,7 @@
 layout: default1
 title: Kontakt
 ---
-#Skontaktuj się z nami:
+# Skontaktuj się z nami:
 <form action="/submit-form" method="post">
     <!-- Pole tekstowe -->
     <label for="imie">Imię:</label>
