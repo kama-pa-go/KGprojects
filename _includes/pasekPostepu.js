@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const checkboxes = document.querySelectorAll('zadanie');
+    const checkboxes = document.querySelectorAll('checkbox');
     const pasekPostepu = document.getElementById('postep');
     const procentPostepu = document.getElementById('procent');
 
