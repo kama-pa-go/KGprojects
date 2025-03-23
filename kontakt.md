@@ -26,7 +26,7 @@ title: Kontakt
     </select>
     <br><br>
     <label for="tresc">Treść wiadomości:</label><br>
-    <textarea id="tresc" name="tresc" rows="5" cols="40" placeholder="Zacznij pisać..." required></textarea>
+    <textarea id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
     <br><br>
     <!-- Przycisk -->
     <button type="submit">Wyślij</button>
