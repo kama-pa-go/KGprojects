@@ -15,13 +15,13 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 ### Zadani do zrobienia:
 <!-- Checklista z zadaniami -->
 <div class="zadania">
-        <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
-        <label><input type="checkbox" class="zadanie"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
-        <label><input type="checkbox" class="zadanie"> Zaplanuj trasę</label>
-        <label><input type="checkbox" class="zadanie"> Zaplanuj dojazd</label>
-        <label><input type="checkbox" class="zadanie"> Zaplanuj jedzenie i picie (ile ze sobą weźmiesz i gdzie uzupwłnisz)</label>
-        <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
-        <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
+        <label><input type="checkbox" class="zadania"> Wybranie celu podróży</label>
+        <label><input type="checkbox" class="zadania"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
+        <label><input type="checkbox" class="zadania"> Zaplanuj trasę</label>
+        <label><input type="checkbox" class="zadania"> Zaplanuj dojazd</label>
+        <label><input type="checkbox" class="zadania"> Zaplanuj jedzenie i picie (ile ze sobą weźmiesz i gdzie uzupwłnisz)</label>
+        <label><input type="checkbox" class="zadania"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
+        <label><input type="checkbox" class="zadania"> Przygotuj resztę ekwipunku</label>
 </div>
 <label for="postep">Postęp:</label>
 <progress id="postep" value="0" max="100">0%</progress>
