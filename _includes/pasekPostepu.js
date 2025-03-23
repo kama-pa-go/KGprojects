@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const checkboxes = document.querySelectorAll('checkbox');
+    const checkboxes = document.querySelectorAll('.zadania');
     const pasekPostepu = document.getElementById('postep');
     const procentPostepu = document.getElementById('procent');
 
@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', aktualizujPostep);
+        alert("hej");
     });
 
     aktualizujPostep();
