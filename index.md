@@ -14,7 +14,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <br>
 ### Zadani do zrobienia:
 <!-- Checklista z zadaniami -->
-<div class="zadania">
+<div>
         <label><input type="checkbox" class="zadania"> Wybranie celu podróży</label>
         <label><input type="checkbox" class="zadania"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
         <label><input type="checkbox" class="zadania"> Zaplanuj trasę</label>
