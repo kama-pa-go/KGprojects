@@ -2,7 +2,7 @@
   "name": "your-project-name",
   "version": "1.0.0",
   "scripts": {
-    "build": "sass assets/main.sass"
+    "build": "sass assets/main.sass css/styles.css"
   },
   "dependencies": {
     "sass": "^1.32.0"
