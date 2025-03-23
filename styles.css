@@ -1,0 +1,164 @@
+/* ========== Base Reset / Normalize ========== */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption {
+  margin: 0; 
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+body {
+  line-height: 1.5;
+}
+/* Simple box sizing to avoid weird element expansions */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* Remove list style from nav lists, etc. */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* ========== Body Typography ========== */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+/* Restrict content width on large screens for readability */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem; /* global side padding */
+}
+/* ========== Headings ========== */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+  margin-top: 1.25rem;
+}
+/* ========== Paragraphs & Inline Elements ========== */
+p {
+  margin-bottom: 1em;
+  line-height: 1.6;
+}
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+em, i {
+  font-style: italic;
+}
+strong, b {
+  font-weight: 700;
+}
+/* ========== Navigation ========== */
+header, nav {
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+header .container,
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+nav a {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+nav a:hover {
+  background: #f0f0f0;
+}
+/* ========== Footer ========== */
+footer {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+  padding: 0.5rem 0;
+}
+footer p {
+  margin: 0;
+}
+/* ========== Code / Pre Elements ========== */
+code {
+  background: #f4f4f4;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+pre {
+  background: #f4f4f4;
+  padding: 1em;
+  overflow: auto;
+  border-radius: 3px;
+}
+/* ========== Images ========== */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+/* ========== Tables ========== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+th {
+  background: #f9f9f9;
+  font-weight: 600;
+}
+/* ========== MathJax (if used) ========== */
+/* Just add a little spacing for display math. */
+mjx-container[jax="CHTML"][display="true"] {
+  display: block;
+  margin: 1em 0;
+  text-align: center;
+}
+/* ========== Media Queries ========== */
+/* Basic example: small screens get smaller font sizes if desired */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  .container {
+    padding: 0.5rem;
+  }
+}
