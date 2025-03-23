@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const postep = (wykonaneZadania / checkboxes.length) * 100;
         pasekPostepu.value = postep;
         procentPostepu.textContent = postep.toFixed(0);
+        alert("hej");
     }
 
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', aktualizujPostep);
-        alert("hej");
     });
 
     aktualizujPostep();
