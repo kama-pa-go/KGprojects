@@ -14,15 +14,14 @@ title: Kontakt
     <!-- Pole wyboru z optgroup -->
     <label for="temat">W jakiej sprawie chcesz się skontaktować:</label>
     <select id="temat" name="temat" required>
-            <optgroup label="Kolory podstawowe">
-                <option value="czerwony">Czerwony</option>
-                <option value="zielony">Zielony</option>
-                <option value="niebieski">Niebieski</option>
+            <optgroup label="Pochwały">
+                <option value="wspolpraca">Współpraca</option>
+                <option value="zespol">Dołącz do zespołu</option>
+                <option value="pytanie">Pytanie do autorów</option>
         </optgroup>
-        <optgroup label="Kolory dodatkowe">
-            <option value="żółty">Żółty</option>
-            <option value="pomarańczowy">Pomarańczowy</option>
-            <option value="fioletowy">Fioletowy</option>
+        <optgroup label="Skargi">
+            <option value="blad">Zgłoś błąd na stronie</option>
+            <option value="rodo">Zgłoś naruszenie praw autorskich</option>
         </optgroup>
     </select>
     <label for="tresc">Treść wiadomości:</label>
