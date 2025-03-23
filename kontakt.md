@@ -10,7 +10,7 @@ title: Kontakt
     <br>
     <label for="mail">Mail:</label>
     <input type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
-    <br>
+    <be><be>
     <!-- Pole wyboru z optgroup -->
     <label for="temat">W jakiej sprawie chcesz się skontaktować:</label>
     <select id="temat" name="temat" required>
@@ -24,9 +24,10 @@ title: Kontakt
             <option value="rodo">Zgłoś naruszenie praw autorskich</option>
         </optgroup>
     </select>
-    <label for="tresc">Treść wiadomości:</label>
-    <input type="tresc" id="tresc" name="tresc" placeholder="Zacznij pisać" required>
     <br>
+    <label for="tresc">Treść wiadomości:</label>
+    <textarea id="tresc" name="tresc" rows="5" cols="40" placeholder="Zacznij pisać..." required></textarea>
+    <br><br>
     <!-- Przycisk -->
     <button type="submit">Wyślij</button>
 </form>
