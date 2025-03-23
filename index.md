@@ -14,6 +14,52 @@ title: Poradnik przygotowania wycieczki górskiej
   <li>Zadbaj o resztę ekwipunmku <a href="{{ site.baseurl }}/https://ebooks.com.pl/podrecznik-ekologicznego-obozowania.html">(poradnik jak się  spakować)</a></li>
 </ol>
 <br>
+    <h1>Lista zadań do wykonania</h1>
+    <p>Zaznacz zadania, które zostały już wykonane:</p>
+    <!-- Checklista z zadaniami -->
+    <div class="zadania">
+        <label><input type="checkbox" class="zadanie"> Zadanie 1</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 2</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 3</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 4</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 5</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 6</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 7</label>
+        <label><input type="checkbox" class="zadanie"> Zadanie 8</label>
+    </div>
+    <!-- Pasek postępu -->
+    <label for="postep">Postęp:</label>
+    <progress id="postep" value="0" max="100">0%</progress>
+    <p>Aktualny postęp: <span id="procent">0</span>%</p>
+    <script>
+        // Pobierz wszystkie checkboxy i elementy związane z postępem
+        const checkboxes = document.querySelectorAll('.zadanie');
+        const pasekPostepu = document.getElementById('postep');
+        const procentPostepu = document.getElementById('procent');
+        // Funkcja do obliczania i aktualizacji postępu
+        function aktualizujPostep() {
+            const liczbaZadan = checkboxes.length; // Liczba wszystkich zadań (8)
+            let wykonaneZadania = 0;
+            // Policz zaznaczone zadania
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    wykonaneZadania++;
+                }
+            });
+            // Oblicz postęp w procentach
+            const postep = (wykonaneZadania / liczbaZadan) * 100;
+            // Zaktualizuj pasek postępu i tekst
+            pasekPostepu.value = postep;
+            procentPostepu.textContent = postep.toFixed(0); // Zaokrąglij do liczby całkowitej
+        }
+        // Dodaj nasłuchiwanie zdarzeń do każdego checkboxa
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', aktualizujPostep);
+        });
+        // Inicjalizacja postępu na starcie
+        aktualizujPostep();
+    </script>
+<br>
 <table border="1">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
