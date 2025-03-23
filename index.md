@@ -8,8 +8,8 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <ol type="I">
   <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
   <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
-  <li>Sprawdź nasz <a href="/ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
-  <li>Jeśli masz dodatkowe pytania <a href="/kontakt.html">skontaktuj się z nami!</a></li>
+  <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
+  <li>Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
 </ol>
 <br>
 ### Zadani do zrobienia:
