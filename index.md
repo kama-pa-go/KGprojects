@@ -70,6 +70,29 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     </tfoot>
 </table>
 <br><br>
+## trasy poza Polską:
+
+Interaktywna Mapa Europy
+<p>Kliknij na wybrany kraj, aby dowiedzieć się więcej:</p>
+
+<!-- Mapa obrazkowa -->
+<img style="width: 100%; max-width: 600px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
+
+<!-- Definicja obszarów mapy -->
+<map name="europemap">
+   <!-- Obszar 1: Polska -->
+   <area shape="rect" coords="400,200,450,250" alt="Polska" href="https://pl.wikipedia.org/wiki/Polska" target="_blank" title="Polska">
+
+    <!-- Obszar 2: Niemcy -->
+   <area shape="circle" coords="300,250,30" alt="Niemcy" href="https://de.wikipedia.org/wiki/Deutschland" target="_blank" title="Niemcy">
+
+  <!-- Obszar 3: Francja -->
+  <area shape="poly" coords="150,300,200,350,250,300,200,250" alt="Francja" href="https://fr.wikipedia.org/wiki/France" target="_blank" title="Francja">
+</map>
+
+<p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
+
+<br><br>
 
 <!-- Podłącz zewnętrzny plik JavaScript -->
 <script src="assets/pasekPostepu.js"></script>
