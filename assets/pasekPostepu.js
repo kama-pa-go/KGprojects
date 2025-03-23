@@ -13,9 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     checkboxes.forEach(checkbox => {
         checkbox.addEventListener('change', aktualizujPostep);
-        checkbox.addEventListener('click', function() {
-            alert("hej");
-        });
     });
 
     aktualizujPostep();
