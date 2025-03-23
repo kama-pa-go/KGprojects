@@ -23,9 +23,9 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
 </div>
-    <label for="postep">Postęp:</label>
-    <progress id="postep" value="0" max="100">0%</progress>
-    <p>Aktualny postęp: <span id="procent">0</span>%</p>
+<label for="postep">Postęp:</label>
+<progress id="postep" value="0" max="100">0%</progress>
+<p>Aktualny postęp: <span id="procent">0</span>%</p>
 <br>
 <br>
 # Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
@@ -34,7 +34,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br><br>
-<table border="1">
+<table border="1" style="display: flex; justify-content: center;">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
         <tr>
