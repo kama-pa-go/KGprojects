@@ -76,7 +76,7 @@ Interaktywna Mapa Europy
 <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej:</p>
 
 <!-- Mapa obrazkowa -->
-<img style="width: 100%; max-width: 600px; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
+<img style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
 
 <!-- Definicja obszarów mapy -->
 <map name="europemap">
