@@ -15,14 +15,15 @@ title: Kontakt
     <label for="temat">W jakiej sprawie chcesz się skontaktować:</label>
     <select id="temat" name="temat" required>
             <optgroup label="Pochwały">
+                <option value="pytanie">Pytanie do autorów</option>
                 <option value="wspolpraca">Współpraca</option>
                 <option value="zespol">Dołącz do zespołu</option>
-                <option value="pytanie">Pytanie do autorów</option>
         </optgroup>
         <optgroup label="Skargi">
             <option value="blad">Zgłoś błąd na stronie</option>
             <option value="rodo">Zgłoś naruszenie praw autorskich</option>
         </optgroup>
+        <option value="inne">Inne</option>
     </select>
     <br>
     <label for="tresc">Treść wiadomości:</label><br>
