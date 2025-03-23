@@ -1,9 +1,10 @@
 {
-  "name": "your-project-name",
+  "name": "Jak-spakowac-sie-w-gory",
   "version": "1.0.0",
   "scripts": {
     "build": "sass assets/main.sass css/styles.css"
-  },
+    "build-css": "npx @tailwindcss/cli -i <input/file.css> -o <output/file.css>"
+  }
   "dependencies": {
     "sass": "^1.32.0"
   }
