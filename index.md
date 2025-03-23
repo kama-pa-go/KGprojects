@@ -15,7 +15,7 @@ title: Poradnik przygotowania wycieczki górskiej
 </ol>
 <br>
 <table border="1">
-    <caption><strong>Poniżej tabela z propozycjami trasm</strong></caption>
+    <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
         <tr>
             <th>Pasmo górskie </th>
