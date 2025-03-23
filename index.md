@@ -72,4 +72,4 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <br><br>
 
 <!-- Podłącz zewnętrzny plik JavaScript -->
-<script src="/_includes/script.js"></script>
+<script src="/_includes/pasekPostepu.js"></script>
