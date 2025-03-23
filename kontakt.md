@@ -10,7 +10,7 @@ title: Kontakt
     <br>
     <label for="mail">Mail:</label>
     <input type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
-    <be><be>
+    <br><br>
     <!-- Pole wyboru z optgroup -->
     <label for="temat">W jakiej sprawie chcesz się skontaktować:</label>
     <select id="temat" name="temat" required>
@@ -30,4 +30,3 @@ title: Kontakt
     <br><br>
     <!-- Przycisk -->
     <button type="submit">Wyślij</button>
-</form>
