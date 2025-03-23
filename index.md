@@ -14,10 +14,9 @@ title: Poradnik przygotowania wycieczki górskiej
   <li>Zadbaj o resztę ekwipunmku <a href="{{ site.baseurl }}/https://ebooks.com.pl/podrecznik-ekologicznego-obozowania.html">(poradnik jak się  spakować)</a></li>
 </ol>
 <br>
-    <h1>Lista zadań do wykonania</h1>
-    <p>Zaznacz zadania, które zostały już wykonane:</p>
-    <!-- Checklista z zadaniami -->
-    <div class="zadania">
+## Zaznacz zadania, które już zrobiłeś:
+<!-- Checklista z zadaniami -->
+<div class="zadania">
         <label><input type="checkbox" class="zadanie"> Zadanie 1</label>
         <label><input type="checkbox" class="zadanie"> Zadanie 2</label>
         <label><input type="checkbox" class="zadanie"> Zadanie 3</label>
@@ -26,7 +25,7 @@ title: Poradnik przygotowania wycieczki górskiej
         <label><input type="checkbox" class="zadanie"> Zadanie 6</label>
         <label><input type="checkbox" class="zadanie"> Zadanie 7</label>
         <label><input type="checkbox" class="zadanie"> Zadanie 8</label>
-    </div>
+</div>
     <!-- Pasek postępu -->
     <label for="postep">Postęp:</label>
     <progress id="postep" value="0" max="100">0%</progress>
