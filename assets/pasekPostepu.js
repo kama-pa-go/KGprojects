@@ -1,7 +1,10 @@
+console.log("Plik JavaScript został załadowany!");
+
 document.addEventListener('DOMContentLoaded', function() {
     const checkboxes = document.querySelectorAll('.zadania');
     const pasekPostepu = document.getElementById('postep');
     const procentPostepu = document.getElementById('procent');
+    console.log("DOMContentLoaded!");
 
     // Dodaj logi, aby sprawdzić, czy elementy istnieją
     console.log(pasekPostepu); // Powinno pokazać element <progress>
