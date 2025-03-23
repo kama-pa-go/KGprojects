@@ -56,6 +56,14 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         aktualizujPostep();
     </script>
 <br>
+
+<br><br>
+# Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
+
+<div style="display: flex; justify-content: center;">
+    <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
+</div>
+<br><br>
 <table border="1">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
@@ -91,11 +99,4 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         </tr>
     </tfoot>
 </table>
-
-<br><br>
-# Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
-
-<div style="display: flex; justify-content: center;">
-    <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
-</div>
 <br><br>
