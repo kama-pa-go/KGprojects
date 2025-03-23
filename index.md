@@ -38,36 +38,28 @@ title: Poradnik przygotowania wycieczki górskiej
     </thead>
     <tbody>
         <tr>
-            <td>Pieniny</td>
-            <td>Beskid Mały</td>
-            <td>Dane 3</td>
+            <td> Pieniny </td><td>40</td><td> nie  </td><td> tak</td><td>tak </td><td>tu opis trasy 1 </td>
         </tr>
         <tr>
-            <td>Dane 4</td>
-            <td>Dane 5</td>
-            <td>Dane 6</td>
+            <td>Beskid Mały </td><td>24 </td><td>tak  </td><td> tak</td><td> tak </td><td>tu opis trasy 2 </td>
         </tr>
       <tr>
-            <td>Trasa 1</td>
-            <td>Trasa 2</td>
-            <td>Trasa 3</td>
-            <td>Trasa 4</td>
-            <td>Trasa 5</td>
+            <td rowspan="2">Beskid Żywiecki</td><td>53</td><td>nie</td><td>tak</td><td>nie</td><td>tu opis trasy 3</td>
+        </tr>
+      <tr>
+            <td>60</td><td>nie</td><td>nie</td><td>nie</td><td>opis trasy 4</td>
+        </tr>
+      <tr>
+            <td>Bieszczady</td><td> 56</td><td>tak</td><td>tak</td><td>tak</td><td>opis trasy 5 </td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="3">Stopka tabeli</td>
+            <td colspan="5">Stopka tabeli</td>
         </tr>
     </tfoot>
 </table>
 
-
-| Pieniny        | 40   | nie      | tak    | tak    | tu opis trasy 1 |
-| Beskid Mały       | 24      | tak          | tak    | tak    |tu opis trasy 2 |
-| Beskid Żywiecki     | 53 | nie          | tak    | nie    |tu opis trasy 3 |
-| Beskid Żywiecki      | 60     | nie        | nie    | nie    |opis trasy 4 |
-| Bieszczady  | 56   | tak     | tak    | tak    |opis trasy 5 |
 <br><br>
 # Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
 
