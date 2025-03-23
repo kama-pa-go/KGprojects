@@ -24,7 +24,38 @@ title: Poradnik przygotowania wycieczki górskiej
 | Maria      | Wójcik     | Biologia    | 4.0   | 2023-05-22    |
 | Krzysztof  | Kamiński   | Informatyka | 4.5   | 2023-05-25    |
 
-## Poniżej tabela z propozycjami tras
+<table border="1">
+    <caption>Poniżej tabela z propozycjami trasm</caption>
+    <thead>
+        <tr>
+            <th>Pasmo górskie </th>
+            <th> GOT</th>
+            <th>Nocleg pod dachem </th>
+          <th>Dostęp do wody</th>
+          <th> Dojazd pociągiem </th>
+          <th> Trasa </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Dane 1</td>
+            <td>Dane 2</td>
+            <td>Dane 3</td>
+        </tr>
+        <tr>
+            <td>Dane 4</td>
+            <td>Dane 5</td>
+            <td>Dane 6</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Stopka tabeli</td>
+        </tr>
+    </tfoot>
+</table>
+
+## 
 | Pasmo górskie       | GOT  | Nocleg pod dachem   | Dostęp do wody | Dostęp do sklepu | Trasa  |
 |------------|------------|-----------------|--------|---------------|----------------------------------------------------------------------------------------------|
 | Pieniny        | 40   | nie      | tak    | tak    | tu opis trasy 1 |
