@@ -73,21 +73,21 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 ## trasy poza Polską:
 
 Interaktywna Mapa Europy
-<p>Kliknij na wybrany kraj, aby dowiedzieć się więcej:</p>
+<p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
 
 <!-- Mapa obrazkowa -->
 <img style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
 
 <!-- Definicja obszarów mapy -->
 <map name="europemap">
-   <!-- Obszar 1: Polska -->
-   <area shape="rect" coords="400,200,450,250" alt="Polska" href="https://pl.wikipedia.org/wiki/Polska" target="_blank" title="Polska">
+   <!-- Obszar 1: Ukraina -->
+   <area shape="rect" coords="400,200,450,250" alt="Polska" href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" title="Ukraina">
 
     <!-- Obszar 2: Niemcy -->
    <area shape="circle" coords="300,250,30" alt="Niemcy" href="https://de.wikipedia.org/wiki/Deutschland" target="_blank" title="Niemcy">
 
-  <!-- Obszar 3: Francja -->
-  <area shape="poly" coords="150,300,200,350,250,300,200,250" alt="Francja" href="https://fr.wikipedia.org/wiki/France" target="_blank" title="Francja">
+  <!-- Obszar 3: Portugalia -->
+  <area shape="poly" coords="150,300,200,350,250,300,200,250" alt="Francja" href="https://pt.wikipedia.org/wiki/Portugal" target="_blank" title="Portugalia">
 </map>
 
 <p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
