@@ -14,6 +14,16 @@ title: Poradnik przygotowania wycieczki górskiej
   <li>Zadbaj o resztę ekwipunmku <a href="{{ site.baseurl }}/https://ebooks.com.pl/podrecznik-ekologicznego-obozowania.html">(poradnik jak się  spakować)</a></li>
 </ol>
 
+# Tabela: Wyniki Egzaminów Studenckich 2023
+
+| Imię       | Nazwisko   | Przedmiot   | Ocena | Data Egzaminu |
+|------------|------------|-------------|-------|---------------|
+| Jan        | Kowalski   | Matematyka  | 4.5   | 2023-05-15    |
+| Anna       | Nowak      | Fizyka      | 5.0   | 2023-05-17    |
+| Piotr      | Wiśniewski | Chemia      | 3.0   | 2023-05-20    |
+| Maria      | Wójcik     | Biologia    | 4.0   | 2023-05-22    |
+| Krzysztof  | Kamiński   | Informatyka | 4.5   | 2023-05-25    |
+
 ## Poniżej tabela z propozycjami tras
 | Pasmo górskie       | GOT  | Nocleg pod dachem   | Dostęp do wody | Dostęp do sklepu | Trasa  |
 |------------|------------|-----------------|--------|---------------|----------------------------------------------------------------------------------------------|
