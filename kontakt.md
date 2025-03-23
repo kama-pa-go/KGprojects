@@ -28,6 +28,17 @@ title: Kontakt
     <br><br>
     <label for="tresc">Treść wiadomości:</label><br>
     <textarea id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
-    <br><br>
+    <br>
+    <!-- Rozwijane zasady przetwarzania danych -->
+        <details>
+            <summary>Zasady przetwarzania danych osobowych</summary>
+            <p>
+                Administratorem Twoich danych osobowych jest firma XYZ. Dane są przetwarzane w celu realizacji zgłoszenia oraz w celach statystycznych. 
+                Masz prawo dostępu do swoich danych, ich poprawiania, usunięcia lub ograniczenia przetwarzania. Więcej informacji znajdziesz w naszej 
+                <a href="/polityka-prywatnosci" target="_blank">Polityce Prywatności</a>.
+            </p>
+        </details>
+        <br>
+    <br>
     <!-- Przycisk -->
     <button type="submit">Wyślij</button>
