@@ -38,14 +38,21 @@ title: Poradnik przygotowania wycieczki górskiej
     </thead>
     <tbody>
         <tr>
-            <td>Dane 1</td>
-            <td>Dane 2</td>
+            <td>Pieniny</td>
+            <td>Beskid Mały</td>
             <td>Dane 3</td>
         </tr>
         <tr>
             <td>Dane 4</td>
             <td>Dane 5</td>
             <td>Dane 6</td>
+        </tr>
+      <tr>
+            <td>Trasa 1</td>
+            <td>Trasa 2</td>
+            <td>Trasa 3</td>
+            <td>Trasa 4</td>
+            <td>Trasa 5</td>
         </tr>
     </tbody>
     <tfoot>
@@ -55,9 +62,7 @@ title: Poradnik przygotowania wycieczki górskiej
     </tfoot>
 </table>
 
-## 
-| Pasmo górskie       | GOT  | Nocleg pod dachem   | Dostęp do wody | Dostęp do sklepu | Trasa  |
-|------------|------------|-----------------|--------|---------------|----------------------------------------------------------------------------------------------|
+
 | Pieniny        | 40   | nie      | tak    | tak    | tu opis trasy 1 |
 | Beskid Mały       | 24      | tak          | tak    | tak    |tu opis trasy 2 |
 | Beskid Żywiecki     | 53 | nie          | tak    | nie    |tu opis trasy 3 |
