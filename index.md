@@ -30,11 +30,11 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <br>
 # Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex;">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br><br>
-<table border="1" style="justify-content: center;">
+<table border="1">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
         <tr>
@@ -82,14 +82,11 @@ Interaktywna Mapa Europy
 <map name="europemap">
    <!-- Obszar 1: Ukraina -->
    <area shape="rect" coords="400,200,450,250" alt="Polska" href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" title="Ukraina">
-
     <!-- Obszar 2: Niemcy -->
    <area shape="circle" coords="300,250,30" alt="Niemcy" href="https://de.wikipedia.org/wiki/Deutschland" target="_blank" title="Niemcy">
-
   <!-- Obszar 3: Portugalia -->
   <area shape="poly" coords="150,300,200,350,250,300,200,250" alt="Francja" href="https://pt.wikipedia.org/wiki/Portugal" target="_blank" title="Portugalia">
 </map>
-
 <p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
 
 <br><br>
