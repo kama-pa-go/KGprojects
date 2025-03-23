@@ -33,7 +33,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <div style="display: flex;">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
-<br><br>
+<br>
 <table border="1">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
@@ -89,7 +89,7 @@ Interaktywna Mapa Europy
 </map>
 <p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
 
-<br><br>
+<br>
 
 <!-- Podłącz zewnętrzny plik JavaScript -->
 <script src="assets/pasekPostepu.js"></script>
