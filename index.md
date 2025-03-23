@@ -4,27 +4,24 @@ title: Poradnik przygotowania wycieczki górskiej
 ---
 
 # Co należy przygotować jadąc w góry?
+To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <ol type="I">
-  <li>Wybierz pasmo górskie/ górę którą chciałbyś zdobyć</li>
-  <li>Przyjrzyj się, czy zdobycie tej góry jest osiągalne: cz jest to możliwe żeby tam dojechać, czy jest gdzie spać (jeśli trasa jest dłuższa), czy będzie gdzie zjeść itp.</li>
-  <li>Zaplanuj trasę</li>
-  <li>Zaplanuj dojazd</li>
-  <li>Zaplanuj jedzenie i picie (ile ze sobą weźmiesz i gdzie uzupwłnisz)</li>
-  <li>Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</li>
-  <li>Zadbaj o resztę ekwipunmku <a href="{{ site.baseurl }}/https://ebooks.com.pl/podrecznik-ekologicznego-obozowania.html">(poradnik jak się  spakować)</a></li>
+  <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
+  <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
+  <li>Sprawdź nasz <a href="/ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
+  <li>Jeśli masz dodatkowe pytania <a href="/kontakt.html">skontaktuj się z nami!</a></li>
 </ol>
 <br>
-## Zaznacz zadania, które już zrobiłeś:
+### Zadani do zrobienia:
 <!-- Checklista z zadaniami -->
 <div class="zadania">
-        <label><input type="checkbox" class="zadanie"> Zadanie 1</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 2</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 3</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 4</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 5</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 6</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 7</label>
-        <label><input type="checkbox" class="zadanie"> Zadanie 8</label>
+        <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
+        <label><input type="checkbox" class="zadanie"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
+        <label><input type="checkbox" class="zadanie"> Zaplanuj trasę</label>
+        <label><input type="checkbox" class="zadanie"> Zaplanuj dojazd</label>
+        <label><input type="checkbox" class="zadanie"> Zaplanuj jedzenie i picie (ile ze sobą weźmiesz i gdzie uzupwłnisz)</label>
+        <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
+        <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
 </div>
     <!-- Pasek postępu -->
     <label for="postep">Postęp:</label>
