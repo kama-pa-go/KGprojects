@@ -1,3 +1,7 @@
+---
+title: galeria
+---
+
 <!doctype html>
 <html lang="pl">
 
@@ -23,15 +27,15 @@
       box-shadow: 0px 14px 55px rgb(173, 83, 42);
     }
 
-    .lightShadow {
+  .lightShadow {
       position: relative;
       overflow: hidden;
-    }
+  }
 
-    .lightShadow p {
+  .lightShadow p {
       position: relative;
       z-index: 2;
-    }
+  }
   </style>
 </head>
 
@@ -48,6 +52,8 @@
   </header>
 
   <main>
+
+  {% include galeriaZdjec.html %}
     
   <div class="m-4 grid grid-cols-2 gap-4 sm:grid-cols-3">
     <div class="grid gap-4">
