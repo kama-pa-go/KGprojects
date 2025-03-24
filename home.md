@@ -1,7 +1,70 @@
----
-layout: wstep
-title: home
----
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crystal Math</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .bgGrid {
+      background-size: 40px 40px;
+      background-image: linear-gradient(to right, #eef2ff 1px, transparent 1px), linear-gradient(to bottom, #eef2ff 1px, transparent 1px);
+    }
+
+  * {
+      font-family: 'JetBrains Mono', sans-serif;
+      font-weight: 300;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: "Press Start 2P", system-ui;
+    }
+
+    .blueShadow {
+      box-shadow: 0px 14px 55px rgba(106, 96, 255, 0.35);
+    }
+
+    .lightShadow {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .lightShadow p {
+      position: relative;
+      z-index: 2;
+    }
+
+    .lightShadow::after {
+      position: absolute;
+      content: '';
+      background: navy;
+      opacity: 0.04;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 100%;
+      transition-duration: 200ms;
+      z-index: 0;
+    }
+
+    .lightShadow:hover::after {
+      transform: translateX(100%);
+    }
+  </style>
+</head>
+
 <body class="relative text-sm sm:text-base text-[#3929ff] min-h-screen flex flex-col">
   <div class="absolute inset-0 bgGrid z-[-1] opacity-50"></div>
   <header
@@ -43,8 +106,11 @@ title: home
         <p>(250+)</p>
       </div>
 
-    </section>
+  </section>
   </main>
   <footer class="flex items-center justify-center py-10">
     <p>Made with 💛</p>
   </footer>
+</body>
+
+</html>
