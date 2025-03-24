@@ -19,10 +19,6 @@
       background-attachment: fixed;
       color: RGB(41, 17, 2);
     }
-    .bgGrid {
-      background-size: 40px 40px;
-      background-image: linear-gradient(to right, #fff7f0 1px, transparent 1px), linear-gradient(to bottom, #b57741 1px, transparent 1px);
-    }
 
     * {
       font-family: Mono, sans-serif;
@@ -66,23 +62,12 @@
       transform: translateX(100%);
     }
     
-    @keyframes wiggle {
-      0%, 100% { transform: rotate(-3deg); }
-      50% { transform: rotate(3deg); }
-    }
-    
-    .animate-wiggle {
-      animation: wiggle 2s ease-in-out infinite;
-    }
-    
   </style>
 </head>
 
-<body class="relative text-sm sm:text-base text-[#f542b3] min-h-screen flex flex-col">
+<body>
   <main>
-    
-
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
     <div class="grid gap-4">
         <div>
             <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
@@ -131,7 +116,7 @@
 
   </main>
   
-  <footer class="bg-white opacity-25 flex items-center justify-center py-10 overline">
+  <footer class="bg-white-25 flex items-center justify-center py-10 overline">
     <p>🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
   </footer>
 </body>
