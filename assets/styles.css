@@ -2,13 +2,13 @@
 
 @font-face {
   font-family: 'Knight';
-  src: url('../fonts/Kingthings_Petrock.ttf') format('truetype');
+  src: url('assets/fonts/Kingthings_Petrock.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: Knight, Monospace;
+  font-family: Knight, sans-serif;
   margin-left: 20px;
   margin-right: 20px;
   background-color: rgb(243, 226, 198);
