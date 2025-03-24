@@ -18,13 +18,13 @@ title: start
       background-image: url("assets/images/gory_tlo.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position:  30 50;
+      background-position:  center -30;
       background-attachment: scroll;
       color: RGB(41, 17, 2);
     }
 
   * {
-      font-family: Mono, sans-serif;
+      font-family: Knight, sans-serif;
       font-weight: 300;
     }
 
