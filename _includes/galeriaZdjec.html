@@ -1,0 +1,17 @@
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+  {% for item in site.data.zdjeciaGorskie %}
+    <a 
+      href="{{ item.link }}" 
+      class="block relative group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+    >
+      <img 
+        src="{{ item.src }}" 
+        alt="{{ item.name }}" 
+        class="w-full h-64 object-cover transition-all duration-300 rounded-lg shadow-2xs group-hover:brightness-50"
+      />
+      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black/50 text-white text-center p-4">
+        <p class="text-xl font-bold">{{ item.name }}<be>{{ item.date }}</p>
+      </div>
+    </a>
+  {% endfor %}
+</div>
