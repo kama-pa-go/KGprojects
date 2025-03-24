@@ -64,6 +64,9 @@
     .lightShadow:hover::after {
       transform: translateX(100%);
     }
+    .triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
   </style>
 </head>
 
@@ -84,18 +87,8 @@
       <p class="mx-auto max-w-[800px] w-full text-center text-base sm:text-lg md:text-xl">Z doświadczeniem lub bez- pokażemy Ci jak od zera zaplanować wycieczkę 🔥 </p>
       <div class="grid grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 sm:w-fit sm:mx-auto py-4">
         <button
-          class=" px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white font-medium ">
-          <div className="group h-[150px] w-[150px] cursor-pointer rounded-full bg-transparent perspective"> 
-            <div className="relative h-full w-full rounded-full duration-1000 preserve-3d group-hover:my-rotate-y-180"> 
-              <div className="absolute h-full w-full rounded-full backface-hidden"> 
-                <img src="assets/images/bulb.png" alt="" className=" h-full w-full rounded-full" />
-              </div> 
-              <div className="absolute h-full w-full rounded-full my-rotate-y-180 backface-hidden "> 
-                <img src="assets/images/kompas.jpg" alt="" className=" h-full w-full rounded-full bg-gray-200 p-2" /> 
-              </div> 
-            </div> 
-          </div>
-          
+          class="triangle px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white font-medium ">
+             <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>
         </button>
         <button
           class=" px-6 lightShadow py-3 sm:px-10 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium ">
@@ -103,11 +96,12 @@
         </button>
       </div>
 
-  <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>
+ 
+      <img src="assets/images/kompas.jpg" alt="" className=" h-full w-full rounded-full bg-gray-200 p-2" />  
   </section>
   </main>
   
-  <footer class="bg-none flex items-center justify-center py-10">
+  <footer class="bg-none flex items-center justify-center py-10 overline">
     <p>🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
   </footer>
   
