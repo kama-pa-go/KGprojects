@@ -3,11 +3,12 @@
 
 body {
   font-family: Monaco, Monospace;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: rgb(198, 213, 171);
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(243, 226, 198);
   -webkit-font-smoothing: antialiased;
   padding: 0;
+  color: RGB(41, 17, 2);
 }
 
 .container {
