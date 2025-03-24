@@ -94,10 +94,11 @@ title: start
       <h2 class="font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center">Zaplanuj własną wędrówkę górską</h2>
       <p class="mx-auto max-w-[800px] w-full text-center text-base sm:text-lg md:text-xl">Z doświadczeniem lub bez- pokażemy Ci jak od zera zaplanować wycieczkę 🔥 </p>
       
-  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-8 sm:w-fit sm:w-fit py-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 sm:w-fit sm:w-fit py-4">
         
   <div><img src="assets/images/kompas.jpg" alt="kompas" class="h-auto rounded-full orangeShadow animate-wiggle"></div>
-        
+
+  <div class="grid grid-rows-2 py-4">
   <button class=" px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white orangeShadow"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/home.html'">
           <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>      
@@ -106,7 +107,9 @@ title: start
   <buttonn class=" px-6 lightShadow py-3 sm:px-10 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-25 orangeShadow font-medium"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
           <p class="text-base sm:text-lg md:text-xl">Archiwum wycieczek</p>
-  </button>  
+  </button> 
+  </div>
+  
   </div>
 </section>
     
