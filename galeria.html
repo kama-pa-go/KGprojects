@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Górołazy</title>
   <link rel="stylesheet" href="assets/output.css" />
@@ -11,7 +12,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     body {
-      background-color: rgb(243, 226, 198);
       background-repeat: no-repeat;
       background-size: cover;
       background-position: top center;
@@ -31,21 +31,37 @@
       position: relative;
       z-index: 2;
   }
+  .lightShadow::after {
+      position: absolute;
+      content: '';
+      background: RGB(173, 83, 42);
+      opacity: 0.1;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 100%;
+      transition-duration: 200ms;
+      z-index: 0;
+    }
+
+    .lightShadow:hover::after {
+      transform: translateX(100%);
+    }
   </style>
 </head>
 
 <body class="relative text-sm sm:text-base min-h-screen flex flex-col">
-  <div class="absolute inset-0 z-[-1] opacity-50 pointer-events-none"></div>
+  <div class="absolute inset-0 z-10 opacity-50 pointer-events-none"></div>
   <header
-    class="bg-none sticky top-1 max-w-[1000px] mx-auto w-full p-4 sm:p-8 gap-4 sm:gap-8 flex items-center justify-between gap-4">
-    <h1 class="">Górołazy</h1>
+    class="bg-none sticky top-0 max-w-[1000px] mx-auto w-full p-4 sm:p-8 gap-4 sm:gap-8 flex items-center justify-between gap-4">
+    <h1>Górołazy</h1>
     <button class="px-6 lightShadow py-3 cursor-pointer rounded-full bg-white orangeShadow font-medium"
       onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/'">
       <p>Główna</p>
     </button>
   </header>
 
-  <main>
+  <main id="app" class="flex flex-col flex-1">
 
     
   <div class="m-4 grid grid-cols-2 gap-4 sm:grid-cols-4">
