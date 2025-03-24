@@ -96,7 +96,7 @@ title: start
       
   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 sm:w-fit sm:w-fit py-4">
         
-  <div><img src="assets/images/kompas.jpg" alt="kompas" class="max-w-[30px] h-auto rounded-full orangeShadow animate-wiggle"></div>
+  <div style="max-w-[50px]"><img src="assets/images/kompas.jpg" alt="kompas" class="h-auto rounded-full orangeShadow animate-wiggle"></div>
 
   <div class="grid grid-rows-2 py-4">
   <button class=" px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white orangeShadow"
