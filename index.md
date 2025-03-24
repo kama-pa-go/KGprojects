@@ -104,7 +104,7 @@ title: start
           <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>      
   </button>
         
-  <buttonn class=" px-6 lightShadow py-3 sm:px-10 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-25 orangeShadow font-medium"
+  <button class=" px-6 lightShadow py-3 sm:px-10 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-25 orangeShadow font-medium"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
           <p class="text-base sm:text-lg md:text-xl">Archiwum wycieczek</p>
   </button> 
