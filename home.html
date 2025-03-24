@@ -82,12 +82,27 @@
     <section class="flex flex-col max-w-[1000px] w-full mx-auto p-8 gap-8 md:gap-14 py-10 sm:py-14 md:py-20">
       <h2 class="font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl  text-center">Zaplanuj własną wędrówkę górską</h2>
       <p class="mx-auto max-w-[800px] w-full text-center text-base sm:text-lg md:text-xl">Z doświadczeniem lub bez- pokażemy Ci jak od zera zaplanować wycieczkę 🔥 </p>
-      <div class="grid items-center">
+      <div class="grid grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 sm:w-fit sm:mx-auto py-4">
         <button
-          class="bg-image[url(assets/images/kompas.jpg)] px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer rounded-full orangeShadow font-medium ">
-          <p class=" text-base sm:text-lg md:text-xl">Zaplanuj wycieczkę</p>
+          class=" px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white font-medium ">
+          <div className="group h-[150px] w-[150px] cursor-pointer rounded-full bg-transparent perspective"> 
+            <div className="relative h-full w-full rounded-full duration-1000 preserve-3d group-hover:my-rotate-y-180"> 
+              <div className="absolute h-full w-full rounded-full backface-hidden"> 
+                <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>
+              </div> 
+              <div className="absolute h-full w-full rounded-full my-rotate-y-180 backface-hidden "> 
+                <img src="/assets/images/kompas.jpg" alt="" className=" h-full w-full rounded-full bg-gray-200 p-2" /> 
+              </div> 
+            </div> 
+          </div>
+          
+        </button>
+        <button
+          class=" px-6 lightShadow py-3 sm:px-10 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium ">
+          <p class="text-white text-base sm:text-lg md:text-xl">Zobacz wycieczki zaplanowane przez innych</p>
         </button>
       </div>
+
   
   </section>
   </main>
