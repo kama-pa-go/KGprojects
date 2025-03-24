@@ -91,20 +91,20 @@ title: start
   <main id="app" class="flex flex-col flex-1">
     
   <section class="flex flex-col max-w-[1000px] w-full mx-auto p-8 gap-8 md:gap-14 py-10 sm:py-14 md:py-20">
-      <h2 class="font-bold text-2xl sm:text-4xl md:text-5xl lg:text-6xl text-center">Witaj w społeczności Górołazów!</h2>
-      <p class="mx-auto max-w-[800px] w-full text-center text-base sm:text-lg md:text-xl">Dołącz do nas: zaplanuj własną wędrówkę górską. Nie ważne jak dużo masz doświadczenia- pokażemy Ci jak od zera zaplanować wycieczkę 🔥 </p>
+      <h2 class="font-bold text-3xl sm:text-6xl md:text-6xl lg:text-8xl text-center">Witaj w społeczności Górołazów!</h2>
+      <p class="mx-auto max-w-[800px] w-full text-center text-large sm:text-xl md:text-2xl">Dołącz do nas: zaplanuj własną wędrówkę górską. Nie ważne jak dużo masz doświadczenia- pokażemy Ci jak od zera zaplanować wycieczkę 🔥 </p>
       
-  <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 gap-4 sm:gap-8 py-5">  
+  <div class="grid grid-cols-1 justify-content: space-around justify-items-center sm:grid-cols-2 gap-4 sm:gap-8 py-5">  
       
   <div style=""><img src="assets/images/kompas.jpg" alt="kompas" class="rounded-full orangeShadow animate-wiggle max-w-[100px] sm: max-w-[200px] md: max-w-[300px]"></div>
 
   <div class="grid grid-rows-2 gap-4">
-        <button class=" px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white orangeShadow"
+        <button class=" px-6 lightShadow py-3 sm:px-15 dm:px-20 sm:py-4  cursor-pointer   rounded-full bg-white orangeShadow"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/home.html'">
           <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>      
         </button>
         
-  <button class="text-amber-50 px-6 lightShadow py-3 sm:px-10 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-90 orangeShadow font-medium"
+  <button class="text-amber-50  px-6 lightShadow py-3 sm:px-15 dm:px-20 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-90 orangeShadow font-medium"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
           <p class="text-base sm:text-lg md:text-xl">Archiwum wycieczek</p>
         </button> 
