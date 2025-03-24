@@ -18,7 +18,7 @@ title: start
       background-image: url("assets/images/gory_tlo.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: top center;
+      background-position: center center;
       background-attachment: scroll;
       color: RGB(41, 17, 2);
     }
@@ -78,7 +78,7 @@ title: start
 </head>
 
 <body class="relative text-sm sm:text-base text-[#f542b3] min-h-screen flex flex-col">
-  <div class="absolute inset-0 z-[-1] opacity-50"></div>
+  <div class="absolute inset-0 z-10 opacity-50"></div>
   <header
     class="bg-none sticky top-0 max-w-[1000px] mx-auto w-full p-4 sm:p-8 gap-4 sm:gap-8 flex items-center justify-between gap-4">
     <h1 class="">Górołazy</h1>
@@ -96,7 +96,7 @@ title: start
       
   <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 gap-4 sm:gap-8 py-5">  
       
-  <div style=""><img src="assets/images/kompas.jpg" alt="kompas" class="rounded-full orangeShadow animate-wiggle max-w-[200px]"></div>
+  <div style=""><img src="assets/images/kompas.jpg" alt="kompas" class="rounded-full orangeShadow animate-wiggle max-w-[100px] sm: max-w-[200px] md: max-w-[300px]"></div>
 
   <div class="grid grid-rows-2 gap-4">
         <button class=" px-6 lightShadow py-3 sm:px-10 sm:py-4  cursor-pointer   rounded-full bg-white orangeShadow"
