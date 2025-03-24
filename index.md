@@ -1,4 +1,7 @@
-<!doctype html>
+---
+layout: main
+title: start
+---
 <html lang="pl">
 
 <head>
