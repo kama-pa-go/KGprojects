@@ -249,8 +249,8 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
-  .top-10 {
-    top: calc(var(--spacing) * 10);
+  .top-1 {
+    top: calc(var(--spacing) * 1);
   }
   .isolate {
     isolation: isolate;
@@ -2138,7 +2138,7 @@
 }
 @font-face {
   font-family: 'Knight';
-  src: url('assets/fonts/Kingthings_Petrock.ttf') format('truetype');
+  src: url('fonts/Kingthings_Petrock.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
