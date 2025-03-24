@@ -1,5 +1,5 @@
 ---
-layout: wstep.html
+layout: wstep
 title: home
 ---
 <body class="relative text-sm sm:text-base text-[#3929ff] min-h-screen flex flex-col">
