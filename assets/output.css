@@ -15,7 +15,6 @@
     --color-yellow-200: oklch(0.945 0.129 101.54);
     --color-gray-900: oklch(0.21 0.034 264.665);
     --color-stone-400: oklch(0.709 0.01 56.259);
-    --color-stone-700: oklch(0.374 0.01 67.558);
     --color-stone-900: oklch(0.216 0.006 56.043);
     --color-black: #000;
     --color-white: #fff;
@@ -493,9 +492,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -511,14 +507,8 @@
   .max-w-\[100px\] {
     max-width: 100px;
   }
-  .max-w-\[200px\] {
-    max-width: 200px;
-  }
   .max-w-\[300px\] {
     max-width: 300px;
-  }
-  .max-w-\[500px\] {
-    max-width: 500px;
   }
   .max-w-\[800px\] {
     max-width: 800px;
@@ -1162,14 +1152,8 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-amber-50 {
-    background-color: var(--color-amber-50);
-  }
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -1185,9 +1169,6 @@
   }
   .bg-stone-400 {
     background-color: var(--color-stone-400);
-  }
-  .bg-stone-700 {
-    background-color: var(--color-stone-700);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -1383,9 +1364,6 @@
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
   }
-  .py-2 {
-    padding-block: calc(var(--spacing) * 2);
-  }
   .py-2\.5 {
     padding-block: calc(var(--spacing) * 2.5);
   }
@@ -1560,9 +1538,6 @@
   }
   .text-gray-900 {
     color: var(--color-gray-900);
-  }
-  .text-stone-400 {
-    color: var(--color-stone-400);
   }
   .text-stone-900 {
     color: var(--color-stone-900);
