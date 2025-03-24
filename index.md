@@ -18,7 +18,7 @@ title: start
       background-image: url("assets/images/gory_tlo.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center center;
+      background-position:  50 30;
       background-attachment: scroll;
       color: RGB(41, 17, 2);
     }
@@ -99,12 +99,12 @@ title: start
   <div style=""><img src="assets/images/kompas.jpg" alt="kompas" class="rounded-full orangeShadow animate-wiggle max-w-[100px] sm: max-w-[200px] md: max-w-[300px]"></div>
 
   <div class="grid grid-rows-2 gap-4">
-        <button class=" px-6 lightShadow py-3 sm:px-15 dm:px-20 sm:py-4  cursor-pointer   rounded-full bg-white orangeShadow"
+        <button class="w-full px-6 lightShadow py-3 sm:px-10 dm:px-15 sm:py-4 cursor-pointer rounded-full bg-white orangeShadow"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/home.html'">
           <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>      
         </button>
         
-  <button class="text-amber-50  px-6 lightShadow py-3 sm:px-15 dm:px-20 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-90 orangeShadow font-medium"
+  <button class="text-amber-50 w-full px-6 lightShadow py-3 sm:px-10 dm:px-15 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-90 orangeShadow font-medium"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
           <p class="text-base sm:text-lg md:text-xl">Archiwum wycieczek</p>
         </button> 
