@@ -18,7 +18,7 @@ title: start
       background-image: url("assets/images/gory_tlo.jpg");
       background-repeat: no-repeat;
       background-size: cover;
-      background-position:  50 30;
+      background-position:  30 50;
       background-attachment: scroll;
       color: RGB(41, 17, 2);
     }
