@@ -30,13 +30,41 @@
     h3 {
       font-family: "Press Start 2P", system-ui;
     }
+    
+.red-yellow-button {
+    color: #111827; /* text-gray-900 */
+    background-image: linear-gradient(to right, #fecaca, #fca5a5, #fde68a); /* from-red-200 via-red-300 to-yellow-200 */
+    font-weight: 500; /* font-medium */
+    border-radius: 0.5rem; /* rounded-lg */
+    font-size: 0.875rem; /* text-sm */
+    line-height: 1.25rem;
+    padding: 0.625rem 1.25rem; /* px-5 py-2.5 */
+    margin-right: 0.5rem; /* me-2 */
+    margin-bottom: 0.5rem; /* mb-2 */
+    text-align: center; /* text-center */
+    border: none;
+    cursor: pointer;
+}
 
+.red-yellow-button:hover {
+    background-image: linear-gradient(to bottom left, #fecaca, #fca5a5, #fde68a); /* hover:bg-gradient-to-bl */
+}
+
+.red-yellow-button:focus {
+    outline: none; /* focus:outline-none */
+    box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.5); /* focus:ring-4 focus:ring-red-100 */
+}
+
+.dark .red-yellow-button:focus {
+    box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7); /* dark:focus:ring-red-400 */
+}
+    
     .orangeShadow {
       box-shadow: 0px 14px 55px rgb(173, 83, 42);
     }
 
     .paleShadow {
-      box-shadow: 0px 10px 30px rgb(68, 86, 92);
+      box-shadow: 0px 10px 30px #78350f;
     }
 
     .lightShadow {
@@ -105,7 +133,7 @@
           <p class=" text-base sm:text-lg md:text-xl">Zaczynamy!</p>      
         </button>
         
-  <button class="text-amber-50 w-full px-6 lightShadow py-3 sm:px-10 dm:px-15 sm:py-4 cursor-pointer rounded-full bg-amber-900 opacity-90 orangeShadow font-medium"
+  <button class="text-amber-50 w-full px-6 red-yellow-button py-3 sm:px-10 dm:px-15 sm:py-4 cursor-pointer rounded-full opacity-90 orangeShadow font-medium"
           onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
           <p class="text-base sm:text-lg md:text-xl">Archiwum wycieczek</p>
         </button> 
