@@ -1,4 +1,40 @@
+- name: Grota komonieckiego: ekipa
+  date: 14_05_2023
+  src: assets/images/zdjeciaGorskie/14_05_2023_grota.jpg
+  link: /KGprojects/budowa.html
+- name: Grota komonieckiego: przeprawa przez stumień
+  date: 14_05_2023
+  src: assets/images/zdjeciaGorskie/14_05_2023_grotastrumyk.jpeg
+  link: /KGprojects/budowa.html
 - name: Majówka- zdjęcie z Trzech Koron
-  date: 01_05_2024
+  date: 03_05_2024
   src: assets/images/zdjeciaGorskie/01_05_2024_majowka.jpeg
-  link: /
+  link: /KGprojects/budowa.html
+- name: Majówka- zdjęcie z Babiej Góry
+  date: 02_05_2024
+  src: assets/images/zdjeciaGorskie/02_05_2024_babia.jpeg
+  link: /KGprojects/budowa.html
+- name: Nocowanie w opuszconej chacie: chata
+  date: 04_11_2023
+  src: assets/images/zdjeciaGorskie/04_11_2023_chatka.jpeg
+  link: /KGprojects/budowa.html
+- name: Nocowanie w opuszconej chacie: ładny widoczek
+  date: 03_11_2023
+  src: assets/images/zdjeciaGorskie/04_11_2023_chatka_widoczek.jpeg
+  link: /KGprojects/budowa.html
+- name: Nocowanie w opuszconej chacie: ekipa
+  date: 03_11_2023
+  src: assets/images/zdjeciaGorskie/04_11_2023_chatkowaekipa.jpeg
+  link: /KGprojects/budowa.html
+- name: Nocowanie w opuszconej chacie: chatka w środku
+  date: 04_11_2023
+  src: assets/images/zdjeciaGorskie/04_11_2023_chtakwsrodku.jpeg
+  link: /KGprojects/budowa.html
+- name: Zimowe stołowe: prawie Narożnik
+  date: 08_02_2025
+  src: assets/images/zdjeciaGorskie/08_02_2025_stoly.jpg
+  link: /KGprojects/budowa.html
+- name: Zimowe stołowe: prawie przepaść
+  date: 08_02_2025
+  src: assets/images/zdjeciaGorskie/08_02_2025_urwisko.jpeg
+  link: /KGprojects/budowa.html
