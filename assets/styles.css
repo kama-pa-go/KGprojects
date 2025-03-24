@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Knight';
+  src: url('../fonts/Kingthings_Petrock.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  font-family: Monaco, Monospace;
+  font-family: Knight, Monospace;
   margin-left: 20px;
   margin-right: 20px;
   background-color: rgb(243, 226, 198);
