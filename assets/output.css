@@ -34,6 +34,8 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --tracking-wider: 0.05em;
+    --tracking-widest: 0.1em;
     --radius-lg: 0.5rem;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
     --ease-out: cubic-bezier(0, 0, 0.2, 1);
@@ -523,9 +525,6 @@
   }
   .w-screen {
     width: 100vw;
-  }
-  .max-w-\[140px\] {
-    max-width: 140px;
   }
   .max-w-\[150px\] {
     max-width: 150px;
@@ -1380,6 +1379,9 @@
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
+  .p-5 {
+    padding: calc(var(--spacing) * 5);
+  }
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
@@ -1486,6 +1488,14 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .tracking-wider {
+    --tw-tracking: var(--tracking-wider);
+    letter-spacing: var(--tracking-wider);
+  }
+  .tracking-widest {
+    --tw-tracking: var(--tracking-widest);
+    letter-spacing: var(--tracking-widest);
   }
   .text-balance {
     text-wrap: balance;
@@ -2082,11 +2092,6 @@
       max-width: 210px;
     }
   }
-  .sm\:max-w-\[220px\] {
-    @media (width >= 40rem) {
-      max-width: 220px;
-    }
-  }
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2162,11 +2167,6 @@
       max-width: 280px;
     }
   }
-  .md\:max-w-\[290px\] {
-    @media (width >= 48rem) {
-      max-width: 290px;
-    }
-  }
   .md\:grid-cols-3 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2204,11 +2204,6 @@
       max-width: 300px;
     }
   }
-  .lg\:max-w-\[330px\] {
-    @media (width >= 64rem) {
-      max-width: 330px;
-    }
-  }
   .lg\:grid-cols-5 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -2217,11 +2212,6 @@
   .xl\:max-w-\[330px\] {
     @media (width >= 80rem) {
       max-width: 330px;
-    }
-  }
-  .xl\:max-w-\[380px\] {
-    @media (width >= 80rem) {
-      max-width: 380px;
     }
   }
 }
@@ -2396,6 +2386,10 @@ p {
   inherits: false;
 }
 @property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-tracking {
   syntax: "*";
   inherits: false;
 }
