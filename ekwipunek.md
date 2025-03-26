@@ -7,7 +7,7 @@ title: Jak spakować się w góry?
 
 Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest orientacyjna, należy zmodyfikiwać ją w zależności od pory roku, pasma górskiego itp. (więcej wskazówek na dole strony).
 
-<h3 class="bg-greyBaseDark">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
+<h3 class="bg-greyBase">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
 
 <blockquote>
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
@@ -26,95 +26,90 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
     <div class="bg-white w-full">
         <a haref="/KGprojects/odziez.html"><h2>Odzież</h2></a>
         <ul>
-            <li> obuwie</li>
-            <li> japonki/klapki</li>
-            <li> spodnie/pasek/getry</li>
-            <li> koszulki</li>
-            <li> bielizna/skarpetki</li>
-            <li> kurtka przeciwdeszczowa</li>
-            <li> peleryna przeciwdeszczowa</li>
-            <li> polar</li>
-            <li> cienka bluza/kamizelka</li>
-            <li> nakrycie głowy/buff</li>
-            <li> piżama</li>
-            <li> stuptuty</li>
-            <li> ręcznik</li>
+            <li class="py-8"> obuwie</li>
+            <li class="py-8"> japonki/klapki</li>
+            <li class="py-8"> spodnie/pasek/getry</li>
+            <li class="py-8"> koszulki</li>
+            <li class="py-8"> bielizna/skarpetki</li>
+            <li class="py-8"> kurtka przeciwdeszczowa</li>
+            <li class="py-8"> peleryna przeciwdeszczowa</li>
+            <li class="py-8"> polar</li>
+            <li class="py-8"> cienka bluza/kamizelka</li>
+            <li class="py-8"> nakrycie głowy/buff</li>
+            <li class="py-8"> piżama</li>
+            <li class="py-8"> stuptuty</li>
+            <li class="py-8"> ręcznik</li>
         </ul>
     </div>
     <div class="bg-greyBase w-full">
         <a haref="/KGprojects/apteczka.html"><h2>Apteczka</h2></a>
         <ul>
-            <li> leki, które przyjmujesz na stałe</li>
-            <li> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
-            <li> plastry</li>
-            <li> bandaż elastyczny</li>
+            <li class="py-8"> leki, które przyjmujesz na stałe</li>
+            <li class="py-8"> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
+            <li class="py-8"> plastry</li>
+            <li class="py-8"> bandaż elastyczny</li>
         </ul>
     </div>
     <div class="bg-white w-full">
         <h2><a haref="/KGprojects/kosmetyczka.html">Kosmetyczka</a></h2>
         <ul>
-            <li> żel pod prysznic</li>
-            <li> szampon</li>
-            <li> dezodorant</li>
-            <li> pasta do zębów/szczoteczka</li>
-            <li> krem z filtrem</li>
-            <li> pomadka ochronna</li>
-            <li> okulary przeciwsłoneczne</li>
-            <li> żel antybakteryjny</li>
-            <li> chusteczki nawilżone/chusteczki</li>
-            <li> szczotka/grzebień</li>
-            <li> spray na owady/maść po ukąszeniach</li>
-            <li> papier toaletowy</li>
-            <li> podpaski/tampony</li>
+            <li class="py-8"> żel pod prysznic</li>
+            <li class="py-8"> szampon</li>
+            <li class="py-8"> dezodorant</li>
+            <li class="py-8"> pasta do zębów/szczoteczka</li>
+            <li class="py-8"> krem z filtrem</li>
+            <li class="py-8"> pomadka ochronna</li>
+            <li class="py-8"> okulary przeciwsłoneczne</li>
+            <li class="py-8"> żel antybakteryjny</li>
+            <li class="py-8"> chusteczki nawilżone/chusteczki</li>
+            <li class="py-8"> szczotka/grzebień</li>
+            <li class="py-8"> spray na owady/maść po ukąszeniach</li>
+            <li class="py-8"> papier toaletowy</li>
+            <li class="py-8"> podpaski/tampony</li>
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-    
-## [Dokumenty](dokumenty.html)
-
-<ul>
-            <li> dowód osobisty/paszport</li>
-            <li> ubezpieczenie (wyjazd zagraniczny)</li>
-            <li> legitymacja</li>
-            <li> bilety na autobus/pociąg/samolot</li>
-            <li> gotówka/karta płatnicza</li>
+        <a haref="/KGprojects/dokumenty.html"><h2>Dokumenty</h2></a>
+        <ul>
+            <li class="py-8"> dowód osobisty/paszport</li>
+            <li class="py-8"> ubezpieczenie (wyjazd zagraniczny)</li>
+            <li class="py-8"> legitymacja</li>
+            <li class="py-8"> bilety na autobus/pociąg/samolot</li>
+            <li class="py-8"> gotówka/karta płatnicza</li>
         </ul>
-</div>
-<div class="bg-white w-full">
-
-## [Prowiant](prowiant.html)
-
-<ul>
-            <li> kabanosy</li>
-            <li> pasztet/konserwy</li>
-            <li> zupki chińskie</li>
-            <li> pieczywo</li>
-            <li> czekolada/chałwa</li>
-            <li> batony energetyczne/orzechy/suszone owoce</li>
-            <li> herbata/kawa/cukier</li>
-    </ul>
-</div>
-<div class="bg-greyBase w-full">
-
-## [Pozostałe](pozostale.html)
-
-<ul>
-            <li> mapa</li>
-            <li> aparat fotograficzny/statyw</li>
-            <li> baterie/akumulatory/ładowarka</li>
-            <li> karty pamięci</li>
-            <li> ładowarka do telefonu</li>
-            <li> czołówka</li>
-            <li> scyzoryk</li>
-            <li> kijki</li>
-            <li> powerbank</li>
-            <li> śpiwór/karimata</li>
-            <li> butelka na wodę/bukłak</li>
-            <li> termos/kubek termiczny</li>
-            <li> sztućce turystyczne</li>
-            <li> podręczny plecak</li>
-            <li> karty do gry</li>
-            <li> poduszka turystyczna</li>
-    </ul>
+    </div>
+    <div class="bg-white w-full">
+        <a haref="/KGprojects/prowiant.html"><h2>Prowiant</h2></a>
+        <ul>
+            <li class="py-8"> kabanosy</li>
+            <li class="py-8"> pasztet/konserwy</li>
+            <li class="py-8"> zupki chińskie</li>
+            <li class="py-8"> pieczywo</li>
+            <li class="py-8"> czekolada/chałwa</li>
+            <li class="py-8"> batony energetyczne/orzechy/suszone owoce</li>
+            <li class="py-8"> herbata/kawa/cukier</li>
+        </ul>
+    </div>
+    <div class="bg-greyBase w-full">
+        <a haref="/KGprojects/pozostale.html"><h2>Pozostałe</h2></a>
+        <ul>
+            <li class="py-8"> mapa</li>
+            <li class="py-8"> aparat fotograficzny/statyw</li>
+            <li class="py-8"> baterie/akumulatory/ładowarka</li>
+            <li class="py-8"> karty pamięci</li>
+            <li class="py-8"> ładowarka do telefonu</li>
+            <li class="py-8"> czołówka</li>
+            <li class="py-8"> scyzoryk</li>
+            <li class="py-8"> kijki</li>
+            <li class="py-8"> powerbank</li>
+            <li class="py-8"> śpiwór/karimata</li>
+            <li class="py-8"> butelka na wodę/bukłak</li>
+            <li class="py-8"> termos/kubek termiczny</li>
+            <li class="py-8"> sztućce turystyczne</li>
+            <li class="py-8"> podręczny plecak</li>
+            <li class="py-8"> karty do gry</li>
+            <li class="py-8"> poduszka turystyczna</li>
+        </ul>
+    </div>
 </div>
 <br><br>
