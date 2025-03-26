@@ -3,7 +3,7 @@ layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
 <div class="flex flex-col gap-6">
-<h1 class="w-full bg-greyBase text-center py-10 m-4 -mb-8"> Co należy przygotować jadąc w góry?</h1>
+<h1 class="w-full bg-greyBase text-center py-10 m-4 -mb-6"> Co należy przygotować jadąc w góry?</h1>
 <div class="grid max-w-[800px] ps-5">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <ol class="list-roman ml-10">
@@ -104,7 +104,7 @@ title: Poradnik przygotowania wycieczki górskiej
 <br>
 <div class="justify-items-center">
     <h2>Trasy poza Polską:</h2>
-    <div class="bg-allmostWhite w-full py-2 px-4">
+    <div class="bg-White shadow-sm w-full py-2 px-4">
         <h3>Interaktywna Mapa Europy</h3>
         <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
         <!--mapa-->
