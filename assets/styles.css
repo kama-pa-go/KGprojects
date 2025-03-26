@@ -39,7 +39,8 @@
 
 body {
   font-family: Monaco, monospace;
-  background-image: linear-gradient(to top, whitesmoke, whitesmoke, var(--color-basicBeage));
+  background-image: linear-gradient(to top, whitesmoke, var(--color-basicBeage));
+  background-color: whitesmoke;
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;

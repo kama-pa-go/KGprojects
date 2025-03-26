@@ -553,9 +553,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -1253,26 +1250,17 @@
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
-  .bg-amber-950 {
-    background-color: var(--color-amber-950);
-  }
   .bg-amber-950\/50 {
     background-color: color-mix(in oklab, var(--color-amber-950) 50%, transparent);
   }
   .bg-basicBeage {
     background-color: var(--color-basicBeage);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
   .bg-greyBase {
     background-color: var(--color-greyBase);
-  }
-  .bg-greyBaseDark {
-    background-color: var(--color-greyBaseDark);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1488,9 +1476,6 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
-  .py-8 {
-    padding-block: calc(var(--spacing) * 8);
-  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -1505,6 +1490,9 @@
   }
   .ps-6 {
     padding-inline-start: calc(var(--spacing) * 6);
+  }
+  .pl-8 {
+    padding-left: calc(var(--spacing) * 8);
   }
   .text-center {
     text-align: center;
@@ -2379,7 +2367,8 @@
 }
 body {
   font-family: Monaco, monospace;
-  background-image: linear-gradient(to top, whitesmoke, whitesmoke, var(--color-basicBeage));
+  background-image: linear-gradient(to top, whitesmoke, var(--color-basicBeage));
+  background-color: whitesmoke;
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
