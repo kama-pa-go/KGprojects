@@ -4,7 +4,7 @@ title: Poradnik przygotowania wycieczki górskiej
 ---
 
 <h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
-<div class="grid w-max-[900px]">
+<div class="grid max-w-[900px]">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <ol class="list-roman">
         <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
@@ -46,11 +46,11 @@ title: Poradnik przygotowania wycieczki górskiej
     <thead class="bg-almostWhite border-b-2 border-grayBrown">
         <tr>
             <th class="w-50 p-3 text-sm tracking-wide text-left whitespace-nowrap">Pasmo górskie </th>
-            <th class="w-min-[30px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> GOT</th>
-            <th class="w-min-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap">Nocleg pod dachem </th>
-          <th class="w-min-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap">Dostęp do wody</th>
-          <th class="w-min-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> Dojazd pociągiem </th>
-          <th class="w-65 p-3 text-sm tracking-wide text-left whitespace-nowrap"> Trasa </th>
+            <th class="min-w-[30px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> GOT</th>
+            <th class="min-w-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap">Nocleg pod dachem </th>
+          <th class="min-w-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap">Dostęp do wody</th>
+          <th class="min-w-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> Dojazd pociągiem </th>
+          <th class="min-w-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> Trasa </th>
         </tr>
     </thead>
     <tbody>
