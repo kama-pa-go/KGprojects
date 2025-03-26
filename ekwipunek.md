@@ -24,8 +24,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
 <div class="flex flex-col gap-10 w-full">
     <div class="bg-white w-full">
-        <div class="p-6"><a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a></div>
-        <ul class="pl-10">
+        <div class="p-6 -pb-6"><a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a></div>
+        <ul class="pl-10 p-4">
             <li class="pl-2"> obuwie</li>
             <li class="pl-2"> japonki/klapki</li>
             <li class="pl-2"> spodnie/pasek/getry</li>
@@ -42,8 +42,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/apteczka.html"><h2 clas="p-6">Apteczka</h2></a>
-        <ul class="pl-10">
+        <div class="p-6 -pb-6"><a href="/KGprojects/apteczka.html"><h2 clas="p-6">Apteczka</h2></a></div>
+        <ul class="pl-10 p-4">
             <li class="pl-2"> leki, które przyjmujesz na stałe</li>
             <li class="pl-2"> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
             <li class="pl-2"> plastry</li>
@@ -51,8 +51,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-white w-full">
-        <a href="/KGprojects/kosmetyczka.html"><h2 clas="p-6">Kosmetyczka</h2></a>
-        <ul class="pl-10">
+        <div class="p-6 -pb-6"><a href="/KGprojects/kosmetyczka.html"><h2 clas="p-6">Kosmetyczka</h2></a></div>
+        <ul class="pl-10 p-4">
             <li class="pl-2"> żel pod prysznic</li>
             <li class="pl-2"> szampon</li>
             <li class="pl-2"> dezodorant</li>
@@ -69,8 +69,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/dokumenty.html"><h2 clas="p-6">Dokumenty</h2></a>
-        <ul class="pl-10">
+        <div class="p-6 -pb-6"><a href="/KGprojects/dokumenty.html"><h2 clas="p-6">Dokumenty</h2></a></div>
+        <ul class="pl-10 p-4">
             <li class="pl-2"> dowód osobisty/paszport</li>
             <li class="pl-2"> ubezpieczenie (wyjazd zagraniczny)</li>
             <li class="pl-2"> legitymacja</li>
@@ -79,8 +79,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-white w-full">
-        <a href="/KGprojects/prowiant.html"><h2 clas="p-6">Prowiant</h2></a>
-        <ul class="pl-10">
+        <div class="p-6 -pb-6"><a href="/KGprojects/prowiant.html"><h2 clas="p-6">Prowiant</h2></a></div>
+        <ul class="pl-10 p-4">
             <li class="pl-2"> kabanosy</li>
             <li class="pl-2"> pasztet/konserwy</li>
             <li class="pl-2"> zupki chińskie</li>
@@ -91,8 +91,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/pozostale.html"><h2 clas="p-6">Pozostałe</h2></a>
-        <ul class="pl-10">
+        <div class="p-6 -pb-6"><a href="/KGprojects/pozostale.html"><h2 clas="p-6">Pozostałe</h2></a></div>
+        <ul class="pl-10 p-4">
             <li class="pl-2"> mapa</li>
             <li class="pl-2"> aparat fotograficzny/statyw</li>
             <li class="pl-2"> baterie/akumulatory/ładowarka</li>
