@@ -406,9 +406,6 @@
       max-width: 96rem !important;
     }
   }
-  .m-1 {
-    margin: calc(var(--spacing) * 1);
-  }
   .m-4 {
     margin: calc(var(--spacing) * 4);
   }
@@ -417,6 +414,15 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .mt-2 {
+    margin-top: calc(var(--spacing) * 2);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
+  }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -537,6 +543,9 @@
   }
   .w-65 {
     width: calc(var(--spacing) * 65);
+  }
+  .w-auto {
+    width: auto;
   }
   .w-full {
     width: 100%;
@@ -965,9 +974,6 @@
   }
   .justify-items-stretch {
     justify-items: stretch;
-  }
-  .gap-1 {
-    gap: calc(var(--spacing) * 1);
   }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
@@ -1427,6 +1433,9 @@
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
+  }
+  .px-4 {
+    padding-inline: calc(var(--spacing) * 4);
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
@@ -2374,16 +2383,13 @@ h1, h2, h3 {
   box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7);
 }
 a {
-  color: rgb(165, 104, 0);
+  color: rgb(182, 116, 2);
 }
 a:hover {
-  color: rgb(251 191 36);
+  text-underline-position: below;
 }
 a:visited {
   color: rgb(73, 65, 44);
-}
-a:visited:hover {
-  color: rgb(148, 140, 121);
 }
 @property --tw-translate-x {
   syntax: "*";

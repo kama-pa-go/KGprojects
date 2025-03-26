@@ -110,15 +110,12 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(165, 104, 0);
+    color: rgb(182, 116, 2);
 }
 a:hover {
-    color: rgb(251 191 36);
+    text-underline-position: below;
 }
 a:visited {
   color: rgb(73, 65, 44);
-}
-a:visited:hover {
-  color: rgb(148, 140, 121);
 }
 
