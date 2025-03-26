@@ -527,9 +527,6 @@
   .max-w-\[100px\] {
     max-width: 100px;
   }
-  .max-w-\[300px\] {
-    max-width: 300px;
-  }
   .max-w-\[800px\] {
     max-width: 800px;
   }
@@ -1560,9 +1557,6 @@
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
   }
-  .text-\[\#f542b3\] {
-    color: #f542b3;
-  }
   .text-amber-50 {
     color: var(--color-amber-50);
   }
@@ -2075,9 +2069,19 @@
       grid-column: span 4 / span 4;
     }
   }
+  .sm\:max-w-\[0px\] {
+    @media (width >= 40rem) {
+      max-width: 0px;
+    }
+  }
   .sm\:max-w-\[100px\] {
     @media (width >= 40rem) {
       max-width: 100px;
+    }
+  }
+  .sm\:max-w-\[300px\] {
+    @media (width >= 40rem) {
+      max-width: 300px;
     }
   }
   .sm\:grid-cols-2 {
@@ -2153,6 +2157,11 @@
   .md\:max-w-\[300px\] {
     @media (width >= 48rem) {
       max-width: 300px;
+    }
+  }
+  .md\:max-w-\[600px\] {
+    @media (width >= 48rem) {
+      max-width: 600px;
     }
   }
   .md\:grid-cols-3 {
