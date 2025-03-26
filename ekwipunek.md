@@ -24,7 +24,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
 <div class="flex flex-col gap-8 w-full">
     <div class="bg-white w-full">
-        <a href="/KGprojects/odziez.html"><h2 clas="p-4">>Odzież</h2></a>
+        <a href="/KGprojects/odziez.html"><h2 clas="p-4">Odzież</h2></a>
         <ul class="pl-8">
             <li class="pl-2"> obuwie</li>
             <li class="pl-2"> japonki/klapki</li>
@@ -42,7 +42,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/apteczka.html"><h2 clas="p-4">h2></a>
+        <a href="/KGprojects/apteczka.html"><h2 clas="p-4">Apteczka<h2></a>
         <ul class="pl-8">
             <li class="pl-2"> leki, które przyjmujesz na stałe</li>
             <li class="pl-2"> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
@@ -69,7 +69,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/dokumenty.html"><h2 clas="p-4">/h2></a>
+        <a href="/KGprojects/dokumenty.html"><h2 clas="p-4">Dokumenty</h2></a>
         <ul class="pl-8">
             <li class="pl-2"> dowód osobisty/paszport</li>
             <li class="pl-2"> ubezpieczenie (wyjazd zagraniczny)</li>
@@ -79,7 +79,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-white w-full">
-        <a href="/KGprojects/prowiant.html"><h2 clas="p-4">h2></a>
+        <a href="/KGprojects/prowiant.html"><h2 clas="p-4">Prowiant<h2></a>
         <ul class="pl-8">
             <li class="pl-2"> kabanosy</li>
             <li class="pl-2"> pasztet/konserwy</li>
@@ -91,7 +91,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/pozostale.html"><h2 clas="p-4">/h2></a>
+        <a href="/KGprojects/pozostale.html"><h2 clas="p-4">Pozostałe</h2></a>
         <ul class="pl-8">
             <li class="pl-2"> mapa</li>
             <li class="pl-2"> aparat fotograficzny/statyw</li>
