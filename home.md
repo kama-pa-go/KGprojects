@@ -3,7 +3,7 @@ layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
 
-<h1 class="bg-amber-50/50 flex items-center justify-center py-10 overline m-4"> Co należy przygotować jadąc w góry?</h1>
+<h1 class="bg-greyBase flex items-center justify-center py-10 overline m-4"> Co należy przygotować jadąc w góry?</h1>
 To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <ol class="list-roman">
   <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
@@ -14,7 +14,8 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <br>
 <h3>Zadania do zrobienia:</h3>
 <!-- Checklista z zadaniami -->
-<div class="zadania">
+<div class="grid grid-cols-2 items-center justify-around">
+    <div class="zadania">
         <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
         <label><input type="checkbox" class="zadanie"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
         <label><input type="checkbox" class="zadanie"> Zaplanuj trasę</label>
@@ -22,13 +23,15 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <label><input type="checkbox" class="zadanie"> Zaplanuj jedzenie i picie (ile ze sobą weźmiesz i gdzie uzupwłnisz)</label>
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
-</div>
-<label for="postep">Postęp:</label>
-<progress id="postep" value="0" max="100">0%</progress>
-<p>Aktualny postęp: <span id="procent">0</span>%</p>
+    </div>
+    <div>
+        <label for="postep">Postęp:</label>
+        <progress id="postep" value="0" max="100">0%</progress>
+        <p>Aktualny postęp: <span id="procent">0</span>%</p>
+    </div>
 <br>
 <br>
-# Nie wiesz w jakie góry jecchać? Sprawdź poniżej:
+# Nie wiesz w jakie góry jechać? Sprawdź poniżej:
 
 <div style="display: flex;">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
@@ -37,14 +40,14 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <div class="overflow-auto rounded-lg shadow">
     <table class="table-auto w-full">
     <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
-    <thead class="bg-basic border-b-2 border-grayBrown">
+    <thead class="bg-base border-b-2 border-grayBrown">
         <tr>
-            <th class="p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
+            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
             <th class="p-3 text-sm font-semibold tracking-wide text-left"> GOT</th>
-            <th class="p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
-          <th class="p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>
-          <th class="p-3 text-sm font-semibold tracking-wide text-left"> Dojazd pociągiem </th>
-          <th class="p-3 text-sm font-semibold tracking-wide text-left"> Trasa </th>
+            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
+          <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>
+          <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left"> Dojazd pociągiem </th>
+          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left"> Trasa </th>
         </tr>
     </thead>
     <tbody>
