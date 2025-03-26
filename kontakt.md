@@ -3,7 +3,8 @@ layout: default1
 title: Kontakt
 ---
 # Skontaktuj się z nami:
-<form action="/submit-form" method="post" class="-mt-4 bg-amber-100/50 shadow-sm">
+<form action="/submit-form" method="post" class="-mt-4 bg-white shadow-sm">
+<div class="p-4">
     <!-- Pole tekstowe -->
     <label for="imie">Imię:</label>
     <input class="bg-greyBase inset-shadow-md inset-shadow-amber-950" type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
@@ -45,4 +46,5 @@ title: Kontakt
         class="max-w-[200px] max-h-[150px] px-6 red-yellow-button py-1 sm:px-10 md:px-16 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium">
         Wyślij
     </button>
+</div>
 </form>

@@ -1278,6 +1278,9 @@
   .bg-greyBase {
     background-color: var(--color-greyBase);
   }
+  .bg-greyBaseDark {
+    background-color: var(--color-greyBaseDark);
+  }
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -1494,12 +1497,6 @@
   }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
-  }
-  .py-20 {
-    padding-block: calc(var(--spacing) * 20);
-  }
-  .ps-2 {
-    padding-inline-start: calc(var(--spacing) * 2);
   }
   .ps-4 {
     padding-inline-start: calc(var(--spacing) * 4);
