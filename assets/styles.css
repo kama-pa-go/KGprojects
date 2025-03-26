@@ -90,4 +90,7 @@ a:hover {
 a:visited {
   color: rgb(73, 65, 44);
 }
+a:visited:hover {
+  color: rgb(148, 140, 121);
+}
 

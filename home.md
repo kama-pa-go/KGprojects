@@ -34,38 +34,62 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
-<table border="1" class="table-auto border-collapse border-separate border-spacing-2 border border-gray-400">
+<table border="1" class="table-auto border-collapse border-separate border-spacing-2 border border-amber-950">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
         <tr>
-            <th>Pasmo górskie </th>
-            <th> GOT</th>
-            <th>Nocleg pod dachem </th>
-          <th>Dostęp do wody</th>
-          <th> Dojazd pociągiem </th>
-          <th> Trasa </th>
+            <th class="border border-stone-800">Pasmo górskie </th>
+            <th class="border border-stone-800"> GOT</th>
+            <th class="border border-stone-800">Nocleg pod dachem </th>
+          <th class="border border-stone-800">Dostęp do wody</th>
+          <th class="border border-stone-800"> Dojazd pociągiem </th>
+          <th class="border border-stone-800"> Trasa </th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td> Pieniny </td><td>40</td><td> nie  </td><td> tak</td><td>tak </td><td>tu opis trasy 1 </td>
+            <td class="border border-stone-800"> Pieniny </td>
+            <td class="border border-stone-800">40</td>
+            <td class="border border-stone-800"> nie  </td>
+            <td class="border border-stone-800"> tak</td>
+            <td class="border border-stone-800">tak </td>
+            <td class="border border-stone-800">tu opis trasy 1 </td>
         </tr>
         <tr>
-            <td>Beskid Mały </td><td>24 </td><td>tak  </td><td> tak</td><td> tak </td><td>tu opis trasy 2 </td>
+            <td class="border border-stone-800">Beskid Mały </td>
+            <td class="border border-stone-800">24 </td>
+            <td class="border border-stone-800">tak  </td>
+            <td class="border border-stone-800"> tak</td>
+            <td class="border border-stone-800"> tak </td>
+            <td class="border border-stone-800">tu opis trasy 2 </td>
         </tr>
       <tr>
-            <td rowspan="2">Beskid Żywiecki</td><td>53</td><td>nie</td><td>tak</td><td>nie</td><td>tu opis trasy 3</td>
+            <td  class="border border-stone-800" rowspan="2">Beskid Żywiecki</td>
+            <td class="border border-stone-800">53</td>
+            <td class="border border-stone-800">nie</td>
+            <td class="border border-stone-800">tak</td>
+            <td class="border border-stone-800">nie</td>
+            <td class="border border-stone-800">tu opis trasy 3</td>
         </tr>
       <tr>
-            <td>60</td><td>nie</td><td>nie</td><td>nie</td><td>opis trasy 4</td>
+            <td class="border border-stone-800">60</td>
+            <td class="border border-stone-800">nie</td>
+            <td class="border border-stone-800">nie</td>
+            <td class="border border-stone-800">nie</td>
+            <td class="border border-stone-800">opis trasy 4</td>
         </tr>
       <tr>
-            <td>Bieszczady</td><td> 56</td><td>tak</td><td>tak</td><td>tak</td><td>opis trasy 5 </td>
+            <td class="border border-stone-800">Bieszczady</td>
+            <td class="border border-stone-800"> 56</td>
+            <td class="border border-stone-800">tak</td>
+            <td class="border border-stone-800">tak</td>
+            <td class="border border-stone-800">tak</td>
+            <td class="border border-stone-800">opis trasy 5 </td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="6">Więcej informacji: link</td>
+            <td  class="border border-stone-800" colspan="6">Więcej informacji: link</td>
         </tr>
     </tfoot>
 </table>
