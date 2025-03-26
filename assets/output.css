@@ -427,6 +427,9 @@
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
   }
+  .ml-3 {
+    margin-left: calc(var(--spacing) * 3);
+  }
   .box-border {
     box-sizing: border-box;
   }
@@ -526,6 +529,9 @@
   .h-screen {
     height: 100vh;
   }
+  .max-h-\[50px\] {
+    max-height: 50px;
+  }
   .max-h-none {
     max-height: none;
   }
@@ -546,9 +552,6 @@
   }
   .w-65 {
     width: calc(var(--spacing) * 65);
-  }
-  .w-auto {
-    width: auto;
   }
   .w-full {
     width: 100%;

@@ -6,7 +6,7 @@ title: Poradnik przygotowania wycieczki górskiej
 <h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
 <div class="grid max-w-[900px]">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
-    <ol class="list-roman">
+    <ol class="list-roman ml-3">
         <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
         <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
         <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
@@ -36,7 +36,7 @@ title: Poradnik przygotowania wycieczki górskiej
 <br>
 <h2 class="text-center"> Nie wiesz w jakie góry jechać? Sprawdź poniżej:</h2>
 
-<div style="display: flex;" class="items-center">
+<div style="display: flex;" class="grid justify-items-center">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
@@ -101,27 +101,24 @@ title: Poradnik przygotowania wycieczki górskiej
     </tfoot>
 </table>
 </div>
-<br><br>
-## trasy poza Polską:
-
-Interaktywna Mapa Europy
-<p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
-
-<!-- Mapa obrazkowa -->
-<img class="sepia-80" style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
-
-<!-- Definicja obszarów mapy -->
-<map name="europemap">
-   <!-- Obszar 1: Ukraina -->
-   <area shape="rect" coords="400,200,450,250" alt="Polska" href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" title="Ukraina">
-    <!-- Obszar 2: Niemcy -->
-   <area shape="circle" coords="300,250,30" alt="Niemcy" href="https://de.wikipedia.org/wiki/Deutschland" target="_blank" title="Niemcy">
-  <!-- Obszar 3: Portugalia -->
-  <area shape="poly" coords="150,300,200,350,250,300,200,250" alt="Francja" href="https://pt.wikipedia.org/wiki/Portugal" target="_blank" title="Portugalia">
-</map>
-<p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
-
 <br>
+<div class="justify-items-center">
+    <h2>Trasy poza Polską:</h2>
+    <div class="bg-allmostWhite">
+        <h3>Interaktywna Mapa Europy</h3>
+        <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
+        <!--mapa-->
+        <img class="sepia-80" style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
+        <map name="europemap">
+        <!-- Obszar 1: Ukraina -->
+        <area shape="rect" coords="400,200,450,250" alt="Polska" href="https://uk.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0" target="_blank" title="Ukraina">
+        <!-- Obszar 2: Niemcy -->
+        <area shape="circle" coords="300,250,30" alt="Niemcy" href="https://de.wikipedia.org/wiki/Deutschland" target="_blank" title="Niemcy">
+        <!-- Obszar 3: Portugalia -->
+        <area shape="poly" coords="150,300,200,350,250,300,200,250" alt="Francja" href="https://pt.wikipedia.org/wiki/Portugal" target="_blank" title="Portugalia">
+        </map>
+        <p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
+    </div>
 </div>
 
 </body>
