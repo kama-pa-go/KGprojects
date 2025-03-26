@@ -1,7 +1,11 @@
 <nav>
+    <a href="/KGprojects/">Home</a>
+    <a href="/KGprojects/home.html">Zaplanuj wycieczkę</a>
     {% for item in site.data.navigationekwipunek %}
-        <a href="{{ item.link }}"{% if page.url == item.link2 %} style="color: darkkhaki;"{% endif %}>
-            {{ item.name }}
+        <a href="{{ item.link }}"{% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
+           <li> {{ item.name }} </li>
         </a>
     {% endfor %}
+    <a href="/KGprojects/galeria.html">Archiwum wycieczek</a>
+    <a href="/KGprojects/kontakt.html">Home</a>
 </nav>

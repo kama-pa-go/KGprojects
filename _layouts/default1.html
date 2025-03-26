@@ -17,7 +17,6 @@
             display: block;
             margin: 5px 0;
         }
-        /* Dodajemy overlay dla mobile */
         .sidebar-overlay {
             display: none;
             position: fixed;
@@ -47,7 +46,7 @@
     <!-- Przycisk menu - FIXED i zawsze widoczny -->
     <button @click="sidebarOpen = !sidebarOpen" 
             x-show="isMobile"
-            class="fixed z-50 top-2 left-2 px-4 py-2 cursor-pointer rounded-full bg-white shadow-md font-medium">
+            class="fixed z-50 top-2 left-2 px-6 py-3 cursor-pointer rounded-full bg-white shadow-md font-medium orangeShadow">
         <i class="fas fa-bars" x-show="!sidebarOpen"></i>
         <i class="fas fa-times" x-show="sidebarOpen"></i>
     </button>
@@ -56,7 +55,7 @@
         <!-- Sidebar -->
         <div x-show="!isMobile || sidebarOpen"
              class="bg-amber-900 sm:col-span-2 lg:col-span-1 transition-all duration-300 h-full"
-             :class="{ 'fixed inset-y-0 left-0 z-40 w-64': sidebarOpen && isMobile }">
+             :class="{ 'fixed inset-y-0 left-0 z-40 w-4/5': sidebarOpen && isMobile }">
             
             <h3 class="bg-white p-4">
                 Nawigacja: {% include navigation_ekwipunek.html %} żółty= tu jesteś
@@ -77,7 +76,6 @@
     </div>
 
     <script>
-        // Funkcja do sprawdzania rozmiaru ekranu
         function checkScreenSize() {
             return window.innerWidth < 640;
         }
