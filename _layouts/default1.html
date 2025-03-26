@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="pl">
+
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -23,22 +24,23 @@
     <p>{% feed_meta %}</p>
     <p>{% seo %}</p>
   </head>
+
   <body class="grid grid-cols-1 sm:grid-cols-5 gap-4 items-stretch">
-    <div class="hide sm:col-span-1 bd-amber-900">
+    <div class="hide sm:col-span-1 bg-amber-900">
       <h3 style="background-color: rgb(255, 255, 255)">
       Nawigacja: {% include navigation_ekwipunek.html %} żółty= tu jesteś
       </h3>
     </div>
-    
+
     <div class="sm:col-span-4 m-5">
-    <header>
-      <h1 style="background-color: rgb(255, 255, 255)">{{ page.title }}</h1>
-    </header>
+      <header>
+        <h1 style="background-color: rgb(255, 255, 255)">{{ page.title }}</h1>
+      </header>
     
-    <article>
-      {{ content }}
-      <br/>
-    </article>
+      <article>
+        {{ content }}
+        <br>
+      </article>
     
     </div>
   </body>
