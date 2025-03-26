@@ -3,19 +3,21 @@ layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
 
-<h1 class="bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
-To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
-<ol class="list-roman">
-  <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
-  <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
-  <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
-  <li>Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
-</ol>
+<h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
+<div class="grid w-max-[900px]">
+    To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
+    <ol class="list-roman">
+        <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
+        <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
+        <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
+        <li>Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
+    </ol>
 <br>
+</div>
 <h3>Zadania do zrobienia:</h3>
 <!-- Checklista z zadaniami -->
-<div class="grid grid-cols-2 items-center gap-5 justify-around">
-    <div class="zadania w-full">
+<div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-3 sm:gap-5 justify-around ml-2">
+    <div class="zadania w-full col-span-2">
         <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
         <label><input type="checkbox" class="zadanie"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
         <label><input type="checkbox" class="zadanie"> Zaplanuj trasę</label>
@@ -24,7 +26,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
     </div>
-    <div class="grid h-full bg-allmostWhite items-center justify-around shadow-sm">
+    <div class="col-span-1 grid h-full bg-allmostWhite items-center justify-around shadow-sm">
         <label for="postep" class="text-center">Postęp:</label>
         <progress id="postep" value="0" max="100">0%</progress>
         <p>Aktualny postęp: <span id="procent">0</span>%</p>
@@ -32,69 +34,69 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 </div>
 <br>
 <br>
-# Nie wiesz w jakie góry jechać? Sprawdź poniżej:
+<h2 class="text-center"> Nie wiesz w jakie góry jechać? Sprawdź poniżej:</h2>
 
-<div style="display: flex;">
+<div style="display: flex;" class="items-center">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
 <div class="overflow-auto rounded-lg shadow">
     <table class="w-full">
-    <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
+    <caption class="caption-top"><h3>Poniżej tabela z propozycjami tras</h3><br></caption>
     <thead class="bg-almostWhite border-b-2 border-grayBrown">
         <tr>
-            <th class="w-50 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Pasmo górskie </th>
-            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> GOT</th>
-            <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Nocleg pod dachem </th>
-          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Dostęp do wody</th>
-          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> Dojazd pociągiem </th>
-          <th class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> Trasa </th>
+            <th class="w-50 p-3 text-sm tracking-wide text-left whitespace-nowrap">Pasmo górskie </th>
+            <th class="w-min-[30px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> GOT</th>
+            <th class="w-min-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap">Nocleg pod dachem </th>
+          <th class="w-min-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap">Dostęp do wody</th>
+          <th class="w-min-[40px] p-3 text-sm tracking-wide text-left whitespace-nowrap"> Dojazd pociągiem </th>
+          <th class="w-65 p-3 text-sm tracking-wide text-left whitespace-nowrap"> Trasa </th>
         </tr>
     </thead>
     <tbody>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap whitespace-nowrap"> Pieniny </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">40</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> nie  </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak </td>
-            <td class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tu opis trasy 1 </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap whitespace-nowrap"> Pieniny </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">40</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap"> nie  </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap"> tak</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">tak </td>
+            <td class="w-65 p-3 text-sm tracking-wide text-left whitespace-nowrap">tu opis trasy 1 </td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Beskid Mały </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">24 </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak  </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> tak </td>
-            <td class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tu opis trasy 2 </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">Beskid Mały </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">24 </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">tak  </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap"> tak</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap"> tak </td>
+            <td class="w-65 p-3 text-sm tracking-wide text-left whitespace-nowrap">tu opis trasy 2 </td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td  class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap" rowspan="2">Beskid Żywiecki</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">53</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
-            <td class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tu opis trasy 3</td>
+            <td  class="p-3 text-sm tracking-wide text-left whitespace-nowrap" rowspan="2">Beskid Żywiecki</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">53</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="w-65 p-3 text-sm tracking-wide text-left whitespace-nowrap">tu opis trasy 3</td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">60</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">opis trasy 4</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">60</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">opis trasy 4</td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Bieszczady</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> 56</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">opis trasy 5 </td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">Bieszczady</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap"> 56</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm tracking-wide text-left whitespace-nowrap">opis trasy 5 </td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td  class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap" colspan="6">Więcej informacji: link</td>
+            <td  class="p-3 text-sm tracking-wide text-left whitespace-nowrap" colspan="6">Więcej informacji: link</td>
         </tr>
     </tfoot>
 </table>
