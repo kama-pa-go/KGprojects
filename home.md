@@ -24,8 +24,8 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
     </div>
-    <div class="h-full bg-almostWhite">
-        <label for="postep">Postęp:</label>
+    <div class="grid h-full bg-allmostWhite items-center justify-around shadow-sm">
+        <label for="postep" class="text-center">Postęp:</label>
         <progress id="postep" value="0" max="100">0%</progress>
         <p>Aktualny postęp: <span id="procent">0</span>%</p>
     </div>
@@ -39,62 +39,62 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 </div>
 <br>
 <div class="overflow-auto rounded-lg shadow">
-    <table class="table-auto w-full">
+    <table class="w-full">
     <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead class="bg-almostWhite border-b-2 border-grayBrown">
         <tr>
-            <th class="w-min-[50px] p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
-            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left"> GOT</th>
-            <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
-          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>
-          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left"> Dojazd pociągiem </th>
-          <th class="w-min-[65px] p-3 text-sm font-semibold tracking-wide text-left"> Trasa </th>
+            <th class="w-50 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Pasmo górskie </th>
+            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> GOT</th>
+            <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Nocleg pod dachem </th>
+          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Dostęp do wody</th>
+          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> Dojazd pociągiem </th>
+          <th class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> Trasa </th>
         </tr>
     </thead>
     <tbody>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left"> Pieniny </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">40</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left"> nie  </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left"> tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tu opis trasy 1 </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap whitespace-nowrap"> Pieniny </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">40</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> nie  </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak </td>
+            <td class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tu opis trasy 1 </td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">Beskid Mały </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">24 </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak  </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left"> tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left"> tak </td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tu opis trasy 2 </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Beskid Mały </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">24 </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak  </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> tak </td>
+            <td class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tu opis trasy 2 </td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td  class="p-3 text-sm font-semibold tracking-wide text-left" rowspan="2">Beskid Żywiecki</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">53</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tu opis trasy 3</td>
+            <td  class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap" rowspan="2">Beskid Żywiecki</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">53</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="w-65 p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tu opis trasy 3</td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">60</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">opis trasy 4</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">60</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">opis trasy 4</td>
         </tr>
         <tr class="odd:bg-white even:bg-greyBase">
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">Bieszczady</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left"> 56</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
-            <td class="p-3 text-sm font-semibold tracking-wide text-left">opis trasy 5 </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">Bieszczady</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap"> 56</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap">opis trasy 5 </td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td  class="p-3 text-sm font-semibold tracking-wide text-left" colspan="6">Więcej informacji: link</td>
+            <td  class="p-3 text-sm font-semibold tracking-wide text-left whitespace-nowrap" colspan="6">Więcej informacji: link</td>
         </tr>
     </tfoot>
 </table>
