@@ -1422,6 +1422,9 @@
   .object-top {
     object-position: top;
   }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
   .p-3 {
     padding: calc(var(--spacing) * 3);
   }
@@ -1439,6 +1442,9 @@
   }
   .py-1 {
     padding-block: calc(var(--spacing) * 1);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
@@ -2251,6 +2257,16 @@
       gap: calc(var(--spacing) * 14);
     }
   }
+  .md\:px-15 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 15);
+    }
+  }
+  .md\:px-16 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 16);
+    }
+  }
   .md\:py-20 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 20);
@@ -2298,16 +2314,16 @@
 @layer base {
   ul {
     list-style-type: disc;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   ol {
     list-style-type: decimal;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 }
 .list-roman {
   list-style-type: upper-roman;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 body {
   font-family: Monaco, monospace;
