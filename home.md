@@ -34,65 +34,67 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
-<table border="1" class="bg-stone-200 table-auto border-collapse border-separate border border-amber-950">
+<div class="overflow-auto rounded-lg shadow hidden md:block">
+    <table border="1" class="table-auto w-full">
     <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
-    <thead>
+    <thead class="bg-basic border-b-2 border-grayBrown">
         <tr>
-            <th class="border border-stone-800 bg-stone-400">Pasmo górskie </th>
-            <th class="border border-stone-800 bg-stone-400"> GOT</th>
-            <th class="border border-stone-800 bg-stone-400">Nocleg pod dachem </th>
-          <th class="border border-stone-800 bg-stone-400">Dostęp do wody</th>
-          <th class="border border-stone-800 bg-stone-400"> Dojazd pociągiem </th>
-          <th class="border border-stone-800 bg-stone-400"> Trasa </th>
+            <th class="p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
+            <th class="p-3 text-sm font-semibold tracking-wide text-left"> GOT</th>
+            <th class="p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
+          <th class="p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>
+          <th class="p-3 text-sm font-semibold tracking-wide text-left"> Dojazd pociągiem </th>
+          <th class="p-3 text-sm font-semibold tracking-wide text-left"> Trasa </th>
         </tr>
     </thead>
     <tbody>
-        <tr class="odd:bg-white even:bg-slate-50">
-            <td class="border border-stone-800"> Pieniny </td>
-            <td class="border border-stone-800">40</td>
-            <td class="border border-stone-800"> nie  </td>
-            <td class="border border-stone-800"> tak</td>
-            <td class="border border-stone-800">tak </td>
-            <td class="border border-stone-800">tu opis trasy 1 </td>
+        <tr class="odd:bg-white even:bg-greyBase">
+            <td class="p-3 text-sm font-semibold tracking-wide text-left"> Pieniny </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">40</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left"> nie  </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left"> tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tu opis trasy 1 </td>
         </tr>
-        <tr>
-            <td class="border border-stone-800">Beskid Mały </td>
-            <td class="border border-stone-800">24 </td>
-            <td class="border border-stone-800">tak  </td>
-            <td class="border border-stone-800"> tak</td>
-            <td class="border border-stone-800"> tak </td>
-            <td class="border border-stone-800">tu opis trasy 2 </td>
+        <tr class="odd:bg-white even:bg-greyBase">
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">Beskid Mały </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">24 </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak  </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left"> tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left"> tak </td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tu opis trasy 2 </td>
         </tr>
-      <tr>
-            <td  class="border border-stone-800" rowspan="2">Beskid Żywiecki</td>
-            <td class="border border-stone-800">53</td>
-            <td class="border border-stone-800">nie</td>
-            <td class="border border-stone-800">tak</td>
-            <td class="border border-stone-800">nie</td>
-            <td class="border border-stone-800">tu opis trasy 3</td>
+        <tr class="odd:bg-white even:bg-greyBase">
+            <td  class="p-3 text-sm font-semibold tracking-wide text-left" rowspan="2">Beskid Żywiecki</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">53</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tu opis trasy 3</td>
         </tr>
-      <tr>
-            <td class="border border-stone-800">60</td>
-            <td class="border border-stone-800">nie</td>
-            <td class="border border-stone-800">nie</td>
-            <td class="border border-stone-800">nie</td>
-            <td class="border border-stone-800">opis trasy 4</td>
+        <tr class="odd:bg-white even:bg-greyBase">
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">60</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">nie</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">opis trasy 4</td>
         </tr>
-      <tr>
-            <td class="border border-stone-800">Bieszczady</td>
-            <td class="border border-stone-800"> 56</td>
-            <td class="border border-stone-800">tak</td>
-            <td class="border border-stone-800">tak</td>
-            <td class="border border-stone-800">tak</td>
-            <td class="border border-stone-800">opis trasy 5 </td>
+        <tr class="odd:bg-white even:bg-greyBase">
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">Bieszczady</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left"> 56</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">tak</td>
+            <td class="p-3 text-sm font-semibold tracking-wide text-left">opis trasy 5 </td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td  class="border border-stone-800" colspan="6">Więcej informacji: link</td>
+            <td  class="p-3 text-sm font-semibold tracking-wide text-left" colspan="6">Więcej informacji: link</td>
         </tr>
     </tfoot>
 </table>
+</div>
 <br><br>
 ## trasy poza Polską:
 
