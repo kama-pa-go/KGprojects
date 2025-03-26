@@ -9,8 +9,6 @@
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-amber-50: oklch(0.987 0.022 95.277);
     --color-amber-100: oklch(0.962 0.059 95.617);
-    --color-amber-400: oklch(0.828 0.189 84.429);
-    --color-amber-500: oklch(0.769 0.188 70.08);
     --color-amber-950: oklch(0.279 0.077 45.635);
     --color-gray-400: oklch(0.707 0.022 261.325);
     --color-black: #000;
@@ -515,9 +513,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1190,17 +1185,11 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-amber-50 {
-    background-color: var(--color-amber-50);
-  }
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
   .bg-amber-100 {
     background-color: var(--color-amber-100);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -1410,9 +1399,6 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
-  .py-15 {
-    padding-block: calc(var(--spacing) * 15);
-  }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
   }
@@ -1580,9 +1566,6 @@
   }
   .text-amber-50 {
     color: var(--color-amber-50);
-  }
-  .text-amber-500 {
-    color: var(--color-amber-500);
   }
   .text-amber-950 {
     color: var(--color-amber-950);
@@ -2077,13 +2060,6 @@
       }
     }
   }
-  .hover\:text-amber-400 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-amber-400);
-      }
-    }
-  }
   .hover\:shadow-xl {
     &:hover {
       @media (hover: hover) {
@@ -2145,11 +2121,6 @@
   .sm\:py-4 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 4);
-    }
-  }
-  .sm\:py-10 {
-    @media (width >= 40rem) {
-      padding-block: calc(var(--spacing) * 10);
     }
   }
   .sm\:py-14 {
@@ -2252,7 +2223,7 @@
   font-style: normal;
 }
 body {
-  font-family: Knight, sans-serif;
+  font-family: Monaco, monospace;
   background-color: rgb(243, 226, 198);
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
@@ -2261,8 +2232,8 @@ body {
   background-attachment: scroll;
   color: RGB(100, 17, 12);
 }
-p {
-  font-family: Monaco, monospace;
+h1, h2, h3 {
+  font-family: Knight, sans-serif;
 }
 .orangeShadow {
   box-shadow: 0px 14px 55px rgb(173, 83, 42);
@@ -2313,6 +2284,15 @@ p {
 }
 .dark .red-yellow-button:focus {
   box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7);
+}
+a {
+  color: rgb(245 158 11);
+}
+a:hover {
+  color: rgb(251 191 36);
+}
+a:visited {
+  color: rgb(212, 159, 23);
 }
 @property --tw-border-spacing-x {
   syntax: "<length>";

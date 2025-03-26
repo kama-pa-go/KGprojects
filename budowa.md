@@ -8,7 +8,7 @@ title: 404
         <p class="text-xl">Niedługo pojawią się tutaj:</p>
         <h1> Trasa i zdjęcia z wycieczki w, której zdjęcie kliknąłeś</h1>
         <br>
-        <p>W międzyczasie być może zainteresuje Cie nasz <a href="ekwipunek.html" class="text-amber-500 hover:text-amber-400">poradnik "jak się  spakować"</a>.</p>
+        <p>W międzyczasie być może zainteresuje Cie nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>.</p>
     </div>
     <button class="text-amber-50 w-full px-6 red-yellow-button py-1 sm:px-10 dm:px-15 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium"
         onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">

@@ -12,7 +12,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
   <li>Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
 </ol>
 <br>
-### Zadani do zrobienia:
+<h3>Zadania do zrobienia:</h3>
 <!-- Checklista z zadaniami -->
 <div class="zadania">
         <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
