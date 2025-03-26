@@ -36,7 +36,7 @@ title: Poradnik przygotowania wycieczki górskiej
 <br>
 <h2 class="text-center"> Nie wiesz w jakie góry jechać? Sprawdź poniżej:</h2>
 
-<div style="display: flex;" class="grid justify-items-center">
+<div class="grid justify-items-center bg-white shadow-sm">
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
@@ -104,9 +104,9 @@ title: Poradnik przygotowania wycieczki górskiej
 <br>
 <div class="justify-items-center">
     <h2>Trasy poza Polską:</h2>
-    <div class="bg-white shadow-sm w-full py-2 px-4">
+    <div class="bg-white justify-items-center shadow-sm w-full py-2 px-4">
         <h3>Interaktywna Mapa Europy</h3>
-        <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
+        <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej:<br> (na ten moment działa link tylko do Portugali, Niemiec i Ukrainy)</p>
         <!--mapa-->
         <img class="sepia-80" style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
         <map name="europemap">
