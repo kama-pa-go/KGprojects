@@ -23,7 +23,7 @@
       
 <body x-data="{ sidebarOpen: false }" class="h-full">
   <button @click="sidebarOpen = !sidebarOpen" 
-    class="absolute sticky z-20 sm:hidden m-5 fixed top-2 left-2 px-6 lightShadow py-3 cursor-pointer rounded-full bg-white orangeShadow font-medium">
+    class="absolute sticky z-50 sm:hidden m-5 fixed top-2 left-2 px-6 lightShadow py-3 cursor-pointer rounded-full bg-white orangeShadow font-medium">
     <i class="fas fa-bars"></i>
     <p>...</p>
   </button>
@@ -32,10 +32,10 @@
     <!-- sidebar -->
     <div x-show="!isMobile() || sidebarOpen" 
          @click.away="if(isMobile()) sidebarOpen = false"
-         :class="{ 'fixed inset-0 z-50': sidebarOpen && isMobile() }" 
+         :class="{ 'fixed inset-0 z-30': sidebarOpen && isMobile() }" 
         class="sm:col-span-2 lg:col-span-1 bg-amber-900 transition-all duration-300 h-full"
         :style="sidebarOpen && isMobile() ? 'display: block !important' : ''">
-      <button @click="sidebarOpen = !sidebarOpen" class="sm:hidden absolute top-4 right-4 text-white">
+      <button @click="sidebarOpen = !sidebarOpen" class="absolute sticky z-20 sm:hidden m-5 fixed top-2 left-2 px-6 lightShadow py-3 cursor-pointer rounded-full bg-white orangeShadow font-medium">
         <i class="fas fa-times"></i>
       </button>
       <h3 style="background-color: rgb(255, 255, 255)">
