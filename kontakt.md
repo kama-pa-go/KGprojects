@@ -7,14 +7,14 @@ title: Kontakt
 <div class="p-4">
     <!-- Pole tekstowe -->
     <label for="imie">Imię:</label>
-    <input class="bg-greyBase shadow-inner shadow-amber-950 w-full p-4" type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
+    <input class="bg-greyBase shadow-inner shadow-amber-950 w-3/5 p-4 rounded-lg" type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
     <br>
     <label for="mail">Mail:</label>
-    <input class="bg-greyBase shadow-inner shadow-amber-950 w-full p-4" type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
+    <input class="bg-greyBase shadow-inner shadow-amber-950 w-3/5 p-4 rounded-lg" type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
     <br><br>
     <!-- Pole wyboru z optgroup -->
     <label for="temat">W jakiej sprawie chcesz się skontaktować:</label>
-    <select class="bg-greyBase shadow-inner shadow-amber-950 w-full p-4" id="temat" name="temat" required>
+    <select class="bg-greyBase shadow-inner shadow-amber-950 w-3/5 p-4 rounded-lg" id="temat" name="temat" required>
             <optgroup label="Pochwały">
                 <option value="pytanie">Pytanie do autorów</option>
                 <option value="wspolpraca">Współpraca</option>
@@ -28,7 +28,7 @@ title: Kontakt
     </select>
     <br><br>
     <label for="tresc">Treść wiadomości:</label><br>
-    <textarea class="bg-greyBase inset-shadow-md inset-shadow-amber-950 w-full p-4" id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
+    <textarea class="bg-greyBase shadow-inner shadow-amber-950 w-full p-4 rounded-lg" id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
     <br>
     <!-- Rozwijane zasady przetwarzania danych -->
         <details>
