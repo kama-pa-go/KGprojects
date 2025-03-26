@@ -1,11 +1,11 @@
-<nav>
+<nav class="p-3">
     <a href="/KGprojects/">Home</a>
     <br>
     <a href="/KGprojects/home.html">Zaplanuj wycieczkę</a>
     <br>
     <a href="/KGprojects/ekwipunek.html">Spakuj się na wycieczkę</a>
     <br>
-    <ul>
+    <ul class="list-outside">
         {% for item in site.data.navigationekwipunek %}
         <a href="{{ item.link }}"{% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
            <li> {{ item.name }} </li>
