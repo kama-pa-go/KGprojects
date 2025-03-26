@@ -3,9 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/main.sass" />
-    <p>{% feed_meta %}</p>
-    <p>{% seo %}</p>
+    <link rel="stylesheet" href="/assets/output.css" />
+    
+    <style>
+      .sidebar-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 30;
+        }
+        .sidebar-overlay.active {
+            display: block;
+        }
+        h1{
+          font-weight: 800;
+          letter-spacing: 0.1em;
+          font-size: 1.875rem;   
+          line-height: 2.25rem;
+        }
+        h2{
+          font-weight: 600;
+          font-size: 1.25rem; 
+          line-height: 1.75rem;
+        }
+        h3{
+          font-weight: 200;
+          font-size: 1.125rem; 
+          line-height: 1.75rem;
+        }
+    </style>
+
+
   </head>
   <body
     style="
@@ -13,7 +45,7 @@
       margin-right: 100px;"
   >
     <header>
-      <h1 style="background-color: rgb(198, 213, 171)">{{ page.title }}</h1>
+      <h1 class="bg-basicBeage">{{ page.title }}</h1>
     </header>
     
     <article>
@@ -21,10 +53,16 @@
       <br/>
     </article>
     
-    <footer>
-      <h3 style="background-color: rgb(198, 213, 171)">
-      Nawigacja: {% include navigation_ekwipunek.html %} żółty= tu jesteś
-      </h3>
+    
+    <footer class= "bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30">
+      <p styless="text-center">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
     </footer>
+  
+    <script>
+      function checkScreenSize() {
+          return window.innerWidth < 1024;
+      }
+  </script>
+  </main>
   </body>
-</html>
+  </html>
