@@ -47,7 +47,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr class="odd:bg-white even:bg-slate-50">
             <td class="border border-stone-800"> Pieniny </td>
             <td class="border border-stone-800">40</td>
             <td class="border border-stone-800"> nie  </td>

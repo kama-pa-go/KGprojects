@@ -9,6 +9,7 @@
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-amber-50: oklch(0.987 0.022 95.277);
     --color-amber-950: oklch(0.279 0.077 45.635);
+    --color-slate-50: oklch(0.984 0.003 247.858);
     --color-stone-200: oklch(0.923 0.003 48.717);
     --color-stone-400: oklch(0.709 0.01 56.259);
     --color-stone-800: oklch(0.268 0.007 34.298);
@@ -17,8 +18,6 @@
     --spacing: 0.25rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
-    --text-base: 1rem;
-    --text-base--line-height: calc(1.5 / 1);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
     --text-xl: 1.25rem;
@@ -43,6 +42,7 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-base: rgb(243, 226, 198);
   }
 }
 @layer base {
@@ -515,9 +515,6 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -592,11 +589,6 @@
   }
   .border-separate {
     border-collapse: separate;
-  }
-  .border-spacing-2 {
-    --tw-border-spacing-x: calc(var(--spacing) * 2);
-    --tw-border-spacing-y: calc(var(--spacing) * 2);
-    border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
   }
   .origin-bottom {
     transform-origin: bottom;
@@ -1198,9 +1190,6 @@
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
@@ -1475,10 +1464,6 @@
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
-  .text-base {
-    font-size: var(--text-base);
-    line-height: var(--tw-leading, var(--text-base--line-height));
-  }
   .text-lg {
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
@@ -1585,6 +1570,9 @@
   }
   .text-amber-950 {
     color: var(--color-amber-950);
+  }
+  .text-base {
+    color: var(--color-base);
   }
   .text-white {
     color: var(--color-white);
@@ -2068,6 +2056,16 @@
       }
     }
   }
+  .odd\:bg-white {
+    &:nth-child(odd) {
+      background-color: var(--color-white);
+    }
+  }
+  .even\:bg-slate-50 {
+    &:nth-child(even) {
+      background-color: var(--color-slate-50);
+    }
+  }
   .hover\:text-xl {
     &:hover {
       @media (hover: hover) {
@@ -2161,12 +2159,6 @@
       line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
-  .sm\:text-base {
-    @media (width >= 40rem) {
-      font-size: var(--text-base);
-      line-height: var(--tw-leading, var(--text-base--line-height));
-    }
-  }
   .sm\:text-lg {
     @media (width >= 40rem) {
       font-size: var(--text-lg);
@@ -2177,6 +2169,11 @@
     @media (width >= 40rem) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .sm\:text-base {
+    @media (width >= 40rem) {
+      color: var(--color-base);
     }
   }
   .md\:max-w-\[280px\] {
@@ -2240,19 +2237,21 @@
 }
 body {
   font-family: Monaco, monospace;
-  background-color: rgb(243, 226, 198);
+  background-color: allmostWhite;
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: scroll;
-  color: RGB(100, 17, 12);
+  color: justBrown;
 }
 h1, h2, h3 {
   font-family: Knight, sans-serif;
+  letter-spacing: 0.05em;
+  color: specialBrown;
 }
 .orangeShadow {
-  box-shadow: 0px 14px 55px rgb(173, 83, 42);
+  box-shadow: 0px 14px 55px brownOrange;
 }
 .lightShadow {
   position: relative;
@@ -2312,16 +2311,6 @@ a:visited {
 }
 a:visited:hover {
   color: rgb(148, 140, 121);
-}
-@property --tw-border-spacing-x {
-  syntax: "<length>";
-  inherits: false;
-  initial-value: 0;
-}
-@property --tw-border-spacing-y {
-  syntax: "<length>";
-  inherits: false;
-  initial-value: 0;
 }
 @property --tw-translate-x {
   syntax: "*";
