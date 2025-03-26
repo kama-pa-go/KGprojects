@@ -12,6 +12,7 @@
     --color-amber-400: oklch(0.828 0.189 84.429);
     --color-amber-500: oklch(0.769 0.188 70.08);
     --color-amber-950: oklch(0.279 0.077 45.635);
+    --color-gray-400: oklch(0.707 0.022 261.325);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -527,12 +528,6 @@
   .w-screen {
     width: 100vw;
   }
-  .max-w-\[10px\] {
-    max-width: 10px;
-  }
-  .max-w-\[150px\] {
-    max-width: 150px;
-  }
   .max-w-\[180px\] {
     max-width: 180px;
   }
@@ -598,6 +593,11 @@
   }
   .border-separate {
     border-collapse: separate;
+  }
+  .border-spacing-2 {
+    --tw-border-spacing-x: calc(var(--spacing) * 2);
+    --tw-border-spacing-y: calc(var(--spacing) * 2);
+    border-spacing: var(--tw-border-spacing-x) var(--tw-border-spacing-y);
   }
   .origin-bottom {
     transform-origin: bottom;
@@ -1172,6 +1172,9 @@
     --tw-border-style: solid;
     border-style: solid;
   }
+  .border-gray-400 {
+    border-color: var(--color-gray-400);
+  }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
   }
@@ -1407,8 +1410,14 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+  .py-15 {
+    padding-block: calc(var(--spacing) * 15);
+  }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
+  }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
   }
   .text-center {
     text-align: center;
@@ -1808,6 +1817,10 @@
     --tw-sepia: sepia(100%);
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
+  .sepia-80 {
+    --tw-sepia: sepia(80%);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+  }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
@@ -2134,9 +2147,19 @@
       padding-block: calc(var(--spacing) * 4);
     }
   }
+  .sm\:py-10 {
+    @media (width >= 40rem) {
+      padding-block: calc(var(--spacing) * 10);
+    }
+  }
   .sm\:py-14 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 14);
+    }
+  }
+  .sm\:py-15 {
+    @media (width >= 40rem) {
+      padding-block: calc(var(--spacing) * 15);
     }
   }
   .sm\:text-3xl {
@@ -2290,6 +2313,16 @@ p {
 }
 .dark .red-yellow-button:focus {
   box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7);
+}
+@property --tw-border-spacing-x {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
+}
+@property --tw-border-spacing-y {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0;
 }
 @property --tw-translate-x {
   syntax: "*";

@@ -34,7 +34,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
-<table border="1">
+<table border="1" class="table-auto border-collapse border-separate border-spacing-2 border border-gray-400">
     <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
         <tr>
@@ -76,7 +76,7 @@ Interaktywna Mapa Europy
 <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
 
 <!-- Mapa obrazkowa -->
-<img style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
+<img class="sepia-80" style="width: 100%; max-width: 600px; height: auto;" src="assets/images/Europe_countries.svg" alt="Mapa Europy" usemap="#europemap">
 
 <!-- Definicja obszarów mapy -->
 <map name="europemap">
