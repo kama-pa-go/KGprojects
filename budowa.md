@@ -2,13 +2,13 @@
 layout: default1
 title: 404
 ---
-<div class="grid items-center grid-rows-3 justify-center gap-4 h-screen m-5">
-    <div class="center animate-bounce text-3xl sm:text-6xl m-3 text-center w-full">🌲 🌄 🌲</div>
+<div class="grid items-center grid-rows-3 justify-center gap-3 h-screen m-5">
+    <div class="center animate-bounce text-5xl sm:text-6xl m-2 text-center w-full">🦔 🦔 🦔</div>
     <div class="text-2xl sm:text-3xl text-center w-full"> Przepraszamy ta strona jest jeszcze w budowie.
-        <p>Niedługo pojawią się tutaj:<br>
+        <p>Niedługo pojawią się tutaj:</p>
         <h1> Trasa i zdjęcia z wycieczki w, której zdjęcie kliknąłeś</h1>
-        <br><br>
-        W międzyczasie być może zainteresuje Cie nasz <a href="ekwipunek.html" class="color-amber-500">poradnik "jak się  spakować"</a>.</p>
+        <br>
+        <p>W międzyczasie być może zainteresuje Cie nasz <a href="ekwipunek.html" class="text-amber-500 hover:text-amber-400">poradnik "jak się  spakować"</a>.</p>
     </div>
     <button class="text-amber-50 w-full px-6 red-yellow-button py-1 sm:px-10 dm:px-15 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium"
         onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
