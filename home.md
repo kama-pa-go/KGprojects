@@ -34,16 +34,16 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
-<table border="1" class="table-auto border-collapse border-separate border-spacing-2 border border-amber-950">
-    <caption><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
+<table border="1" class="bg-stone-200 table-auto border-collapse border-separate border border-amber-950">
+    <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead>
         <tr>
-            <th class="border border-stone-800">Pasmo górskie </th>
-            <th class="border border-stone-800"> GOT</th>
-            <th class="border border-stone-800">Nocleg pod dachem </th>
-          <th class="border border-stone-800">Dostęp do wody</th>
-          <th class="border border-stone-800"> Dojazd pociągiem </th>
-          <th class="border border-stone-800"> Trasa </th>
+            <th class="border border-stone-800 bg-stone-400">Pasmo górskie </th>
+            <th class="border border-stone-800 bg-stone-400"> GOT</th>
+            <th class="border border-stone-800 bg-stone-400">Nocleg pod dachem </th>
+          <th class="border border-stone-800 bg-stone-400">Dostęp do wody</th>
+          <th class="border border-stone-800 bg-stone-400"> Dojazd pociągiem </th>
+          <th class="border border-stone-800 bg-stone-400"> Trasa </th>
         </tr>
     </thead>
     <tbody>
