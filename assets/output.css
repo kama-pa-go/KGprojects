@@ -44,7 +44,6 @@
     --color-basicBeage: rgb(243, 226, 198);
     --color-greyBase: rgb(227, 219, 207);
     --color-allmostWhite: rgb(247, 243, 237);
-    --color-allmostAllmostWhite: rgb(252, 250, 247);
     --color-brownOrange: rgb(173, 83, 42);
     --color-specialBrown: rgb(51, 10, 7);
     --color-justBrown: rgb(18, 13, 12);
@@ -423,12 +422,6 @@
   }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
-  }
-  .ml-2 {
-    margin-left: calc(var(--spacing) * 2);
-  }
-  .ml-3 {
-    margin-left: calc(var(--spacing) * 3);
   }
   .ml-4 {
     margin-left: calc(var(--spacing) * 4);
@@ -1461,9 +1454,6 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
-  .py-4 {
-    padding-block: calc(var(--spacing) * 4);
-  }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
@@ -1653,6 +1643,9 @@
   }
   .text-amber-950 {
     color: var(--color-amber-950);
+  }
+  .text-basicBeage {
+    color: var(--color-basicBeage);
   }
   .text-white {
     color: var(--color-white);
@@ -2346,7 +2339,7 @@
 }
 body {
   font-family: Monaco, monospace;
-  background-color: var(--color-allmostAllmostWhite);
+  background-color: whitesmoke;
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;

@@ -2,7 +2,7 @@
 layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
-
+<div class="flex gap-4">
 <h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
 <div class="grid max-w-[800px] ps-5">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
@@ -120,8 +120,6 @@ title: Poradnik przygotowania wycieczki górskiej
         <p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
     </div>
 </div>
-
-</body>
 
 <!-- Podłącz zewnętrzny plik JavaScript -->
 <script src="assets/pasekPostepu.js"></script>

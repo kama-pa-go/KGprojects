@@ -6,14 +6,14 @@ title: Kontakt
 <form action="/submit-form" method="post">
     <!-- Pole tekstowe -->
     <label for="imie">Imię:</label>
-    <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
+    <input class="bg-almostWhite" type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
     <br>
     <label for="mail">Mail:</label>
-    <input type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
+    <input class="bg-almostWhite" type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
     <br><br>
     <!-- Pole wyboru z optgroup -->
     <label for="temat">W jakiej sprawie chcesz się skontaktować:</label>
-    <select id="temat" name="temat" required>
+    <select class="bg-almostWhite" id="temat" name="temat" required>
             <optgroup label="Pochwały">
                 <option value="pytanie">Pytanie do autorów</option>
                 <option value="wspolpraca">Współpraca</option>
@@ -27,12 +27,12 @@ title: Kontakt
     </select>
     <br><br>
     <label for="tresc">Treść wiadomości:</label><br>
-    <textarea id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
+    <textarea class="bg-almostWhite" id="tresc" name="tresc" rows="5" cols="60" placeholder="Zacznij pisać..." required></textarea>
     <br>
     <!-- Rozwijane zasady przetwarzania danych -->
         <details>
-            <summary>Zasady przetwarzania danych osobowych</summary>
-            <p>
+            <summary class="text-basicBeage">Zasady przetwarzania danych osobowych</summary>
+            <p class="bg-basicBeage rounded-lg">
                 Administratorem Twoich danych osobowych jest firma XYZ. Dane są przetwarzane w celu realizacji zgłoszenia oraz w celach statystycznych. 
                 Masz prawo dostępu do swoich danych, ich poprawiania, usunięcia lub ograniczenia przetwarzania. Więcej informacji znajdziesz w naszej 
                 <a href="/polityka-prywatnosci">Polityce Prywatności</a>.
@@ -41,4 +41,7 @@ title: Kontakt
         <br>
     <br>
     <!-- Przycisk -->
-    <button type="submit">Wyślij</button>
+    <button type="submit"
+        class="text-amber-50 w-full max-h-[100px] px-6 red-yellow-button py-1 sm:px-10 md:px-16 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium">
+        Wyślij
+    </button>

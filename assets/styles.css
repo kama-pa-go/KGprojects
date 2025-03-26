@@ -35,7 +35,7 @@
 
 body {
   font-family: Monaco, monospace;
-  background-color: var(--color-allmostAllmostWhite);
+  background-color: whitesmoke;
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;

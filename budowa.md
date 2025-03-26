@@ -14,7 +14,7 @@ title: 404
       </div>
       <button class="text-amber-50 w-full max-h-[100px] px-6 red-yellow-button py-1 sm:px-10 md:px-16 sm:py-4 cursor-pointer rounded-full orangeShadow font-medium"
         onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
-        <p class="text-base sm:text-lg md:text-xl">Powrót do archiwum</p>
+        <p class="sm:text-lg md:text-xl">Powrót do archiwum</p>
     </button> 
     </div>
   </div>
