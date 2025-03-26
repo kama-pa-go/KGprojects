@@ -36,9 +36,7 @@
 <body x-data="{ sidebarOpen: false, isMobile: window.innerWidth < 640 }" 
       x-init="window.addEventListener('resize', () => { isMobile = window.innerWidth < 640 })">
 
-    <header class="bg-none sticky z-20 top-0 max-w-[1000px] mx-auto w-full p-4 sm:p-8 gap-4 sm:gap-8 flex items-center justify-between gap-4">
-      
-      <h1 class="bg-white rounded-full">Górołazy <br> {{ page.title }}</h1>
+    <header>
 
       <button @click="sidebarOpen = !sidebarOpen" 
             x-show="isMobile"
@@ -46,8 +44,8 @@
         <i class="fas fa-bars" x-show="!sidebarOpen"></i>
         <i class="fas fa-times" x-show="sidebarOpen"></i>
       </button>
-
       
+      <h1 class="bg-white rounded-full fixed z-50 top-2 right px-6 py-3 ">Górołazy <br> {{ page.title }}</h1>
 
     </header>
 
