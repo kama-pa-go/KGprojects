@@ -2,9 +2,9 @@
 layout: default1
 title: 404
 ---
-<div class="grid items-center grid-rows-3 justify-center gap-3 h-screen m-5">
+<div class="grid items-center grid-rows-3 justify-center gap-3 h-screen m-5 max-w-[800px]">
     <div class="center animate-bounce text-5xl sm:text-6xl m-1 text-center w-full">🦔 🦔 🦔</div>
-    <div class="text-2xl sm:text-3xl text-center w-max-[600px]"> Przepraszamy ta strona jest jeszcze w budowie.
+    <div class="text-2xl sm:text-3xl text-center"> Przepraszamy ta strona jest jeszcze w budowie.
         <p class="text-xl">Niedługo pojawią się tutaj:</p>
         <h1> Trasa i zdjęcia z wycieczki w, której zdjęcie kliknąłeś</h1>
         <br>
