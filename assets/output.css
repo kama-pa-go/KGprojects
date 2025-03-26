@@ -1491,6 +1491,9 @@
   .ps-6 {
     padding-inline-start: calc(var(--spacing) * 6);
   }
+  .pl-2 {
+    padding-left: calc(var(--spacing) * 2);
+  }
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
   }
