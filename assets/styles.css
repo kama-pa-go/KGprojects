@@ -28,6 +28,9 @@
     list-style-type: decimal;
     margin-left: 4px;
   }
+  li {
+    margin-left: 4px;
+  }
 }
 .list-roman {
   list-style-type: upper-roman;
@@ -115,12 +118,10 @@ a {
     color: #c49b6c;
 }
 a:hover {
-    text-underline-position: below;
+  text-decoration: underline;
 }
 a:visited {
-  color: var(--color-brownOrange);
+  color: var(--color-specialBrown);
 }
-a:visited:hover {
-  text-underline-position: below;
-}
+
 
