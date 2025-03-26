@@ -2237,21 +2237,21 @@
 }
 body {
   font-family: Monaco, monospace;
-  background-color: allmostWhite;
+  background-color: --color-allmostWhite;
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: scroll;
-  color: justBrown;
+  color: --color-justBrown;
 }
 h1, h2, h3 {
   font-family: Knight, sans-serif;
   letter-spacing: 0.05em;
-  color: specialBrown;
+  color: --color-specialBrown;
 }
 .orangeShadow {
-  box-shadow: 0px 14px 55px brownOrange;
+  box-shadow: 0px 14px 55px --color-brownOrange;
 }
 .lightShadow {
   position: relative;
