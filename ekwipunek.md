@@ -24,7 +24,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
 <div class="flex flex-col gap-8 w-full">
     <div class="bg-white w-full">
-        <h2><a haref="/KGprojects/odziez.html">Odzież</a></h2>
+        <a haref="/KGprojects/odziez.html"><h2>Odzież</h2></a>
         <ul>
             <li> obuwie</li>
             <li> japonki/klapki</li>
@@ -42,7 +42,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <h2><a haref="/KGprojects/apteczka.html">Apteczka</a></h2>
+        <a haref="/KGprojects/apteczka.html"><h2>Apteczka</h2></a>
         <ul>
             <li> leki, które przyjmujesz na stałe</li>
             <li> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
