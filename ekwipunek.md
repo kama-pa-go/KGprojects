@@ -9,7 +9,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 
 <h3 class="bg-greyBase">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
 
-<blockquote>
+<blockquote class="p-4">
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
     <img src="assets/images/bulb.png" alt="Żarówka" style="margin-right: 20px; width: 100px; height: auto;">
     <p style= "color: rgb(75, 70, 70); padding: 10px;">
@@ -24,7 +24,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
 <div class="flex flex-col gap-10 w-full">
     <div class="bg-white w-full">
-        <a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a>
+        <div class="p-6"><a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a></div>
         <ul class="pl-10">
             <li class="pl-2"> obuwie</li>
             <li class="pl-2"> japonki/klapki</li>
