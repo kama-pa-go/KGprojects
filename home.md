@@ -4,7 +4,7 @@ title: Poradnik przygotowania wycieczki górskiej
 ---
 
 <h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
-<div class="grid max-w-[900px]">
+<div class="grid max-w-[800px]">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <ol class="list-roman ml-3">
         <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>

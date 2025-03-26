@@ -406,6 +406,9 @@
       max-width: 96rem !important;
     }
   }
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
+  }
   .m-4 {
     margin: calc(var(--spacing) * 4);
   }
@@ -529,8 +532,17 @@
   .h-screen {
     height: 100vh;
   }
+  .max-h-\[0px\] {
+    max-height: 0px;
+  }
+  .max-h-\[10px\] {
+    max-height: 10px;
+  }
   .max-h-\[50px\] {
     max-height: 50px;
+  }
+  .max-h-\[100px\] {
+    max-height: 100px;
   }
   .max-h-none {
     max-height: none;
@@ -540,6 +552,9 @@
   }
   .min-h-screen {
     min-height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1240,6 +1255,9 @@
   }
   .bg-basicBeage {
     background-color: var(--color-basicBeage);
+  }
+  .bg-black {
+    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -2309,16 +2327,16 @@
 @layer base {
   ul {
     list-style-type: disc;
-    margin-left: 2rem;
+    margin-left: 4px;
   }
   ol {
     list-style-type: decimal;
-    margin-left: 2rem;
+    margin-left: 4px;
   }
 }
 .list-roman {
   list-style-type: upper-roman;
-  margin-left: 3rem;
+  margin-left: 3px;
 }
 body {
   font-family: Monaco, monospace;
