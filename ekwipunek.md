@@ -7,7 +7,7 @@ title: Jak spakować się w góry?
 
 Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest orientacyjna, należy zmodyfikiwać ją w zależności od pory roku, pasma górskiego itp. (więcej wskazówek na dole strony).
 
-<h3 class="bg-greyBaseDark">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy
+<h3 class="bg-greyBaseDark">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
 
 <blockquote>
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
@@ -24,7 +24,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
 <div class="flex flex-col gap-8 w-full">
     <div class="bg-white w-full">
-        <h2><a haref="odziez.html">Odzież</a></h2>
+        <h2><a haref="/KGprojects/odziez.html">Odzież</a></h2>
         <ul>
             <li> obuwie</li>
             <li> japonki/klapki</li>
@@ -42,20 +42,17 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-## [Apteczka](apteczka.html)
-
-
+        <h2><a haref="/KGprojects/apteczka.html">Apteczka</a></h2>
+        <ul>
             <li> leki, które przyjmujesz na stałe</li>
             <li> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
             <li> plastry</li>
             <li> bandaż elastyczny</li>
-</div>
-<div class="bg</li>
-            <li>white w</li>
-            <li>full">
-## [Kosmetyczka](kosmetyczka.html)
-
-
+        </ul>
+    </div>
+    <div class="bg-white w-full">
+        <h2><a haref="/KGprojects/kosmetyczka.html">Kosmetyczka</a></h2>
+        <ul>
             <li> żel pod prysznic</li>
             <li> szampon</li>
             <li> dezodorant</li>
@@ -69,74 +66,55 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
             <li> spray na owady/maść po ukąszeniach</li>
             <li> papier toaletowy</li>
             <li> podpaski/tampony</li>
-</div>
-<div class="bg-greyBase w-full">
+        </ul>
+    </div>
+    <div class="bg-greyBase w-full">
+    
 ## [Dokumenty](dokumenty.html)
 
+<ul>
             <li> dowód osobisty/paszport</li>
             <li> ubezpieczenie (wyjazd zagraniczny)</li>
             <li> legitymacja</li>
             <li> bilety na autobus/pociąg/samolot</li>
             <li> gotówka/karta płatnicza</li>
+        </ul>
 </div>
-<div class="bg</li>
-            <li>white w</li>
-            <li>full">
+<div class="bg-white w-full">
+
 ## [Prowiant](prowiant.html)
 
-</li>
-            <li> kabanosy
-</li>
-            <li> pasztet/konserwy
-</li>
-            <li> zupki chińskie
-</li>
-            <li> pieczywo
-</li>
-            <li> czekolada/chałwa
-</li>
-            <li> batony energetyczne/orzechy/suszone owoce
-</li>
-            <li> herbata/kawa/cukier
+<ul>
+            <li> kabanosy</li>
+            <li> pasztet/konserwy</li>
+            <li> zupki chińskie</li>
+            <li> pieczywo</li>
+            <li> czekolada/chałwa</li>
+            <li> batony energetyczne/orzechy/suszone owoce</li>
+            <li> herbata/kawa/cukier</li>
+    </ul>
 </div>
-<div class="bg</li>
-            <li>greyBase w</li>
-            <li>full">
+<div class="bg-greyBase w-full">
+
 ## [Pozostałe](pozostale.html)
 
-</li>
-            <li> mapa
-</li>
-            <li> aparat fotograficzny/statyw
-</li>
-            <li> baterie/akumulatory/ładowarka
-</li>
-            <li> karty pamięci
-</li>
-            <li> ładowarka do telefonu
-</li>
-            <li> czołówka
-</li>
-            <li> scyzoryk
-</li>
-            <li> kijki
-</li>
-            <li> powerbank
-</li>
-            <li> śpiwór/karimata
-</li>
-            <li> butelka na wodę/bukłak
-</li>
-            <li> termos/kubek termiczny
-</li>
-            <li> sztućce turystyczne
-</li>
-            <li> podręczny plecak
-</li>
-            <li> karty do gry
-</li>
-            <li> poduszka turystyczna
-</li>
-            <li> mała suszarka do włosów
+<ul>
+            <li> mapa</li>
+            <li> aparat fotograficzny/statyw</li>
+            <li> baterie/akumulatory/ładowarka</li>
+            <li> karty pamięci</li>
+            <li> ładowarka do telefonu</li>
+            <li> czołówka</li>
+            <li> scyzoryk</li>
+            <li> kijki</li>
+            <li> powerbank</li>
+            <li> śpiwór/karimata</li>
+            <li> butelka na wodę/bukłak</li>
+            <li> termos/kubek termiczny</li>
+            <li> sztućce turystyczne</li>
+            <li> podręczny plecak</li>
+            <li> karty do gry</li>
+            <li> poduszka turystyczna</li>
+    </ul>
 </div>
 <br><br>
