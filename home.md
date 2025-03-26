@@ -3,7 +3,7 @@ layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
 
-<h1 class="bg-greyBase flex items-center justify-center py-10 overline m-4"> Co należy przygotować jadąc w góry?</h1>
+<h1 class="bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
 To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <ol class="list-roman">
   <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
@@ -14,8 +14,8 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <br>
 <h3>Zadania do zrobienia:</h3>
 <!-- Checklista z zadaniami -->
-<div class="grid grid-cols-2 items-center justify-around">
-    <div class="zadania">
+<div class="grid grid-cols-2 items-center gap-5 justify-around">
+    <div class="zadania w-full">
         <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
         <label><input type="checkbox" class="zadanie"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
         <label><input type="checkbox" class="zadanie"> Zaplanuj trasę</label>
@@ -24,7 +24,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
     </div>
-    <div>
+    <div class="h-full bg-almostWhite">
         <label for="postep">Postęp:</label>
         <progress id="postep" value="0" max="100">0%</progress>
         <p>Aktualny postęp: <span id="procent">0</span>%</p>
@@ -43,12 +43,12 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead class="bg-almostWhite border-b-2 border-grayBrown">
         <tr>
-            <th class="w-30 p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
-            <th class="p-3 text-sm font-semibold tracking-wide text-left"> GOT</th>
-            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
-          <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>
-          <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left"> Dojazd pociągiem </th>
-          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left"> Trasa </th>
+            <th class="w-min-[50px] p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
+            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left"> GOT</th>
+            <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
+          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>
+          <th class="w-min-[40px] p-3 text-sm font-semibold tracking-wide text-left"> Dojazd pociągiem </th>
+          <th class="w-min-[65px] p-3 text-sm font-semibold tracking-wide text-left"> Trasa </th>
         </tr>
     </thead>
     <tbody>
