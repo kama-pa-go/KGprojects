@@ -1,19 +1,19 @@
 <nav class="p-3">
-    <a href="/KGprojects/">Home</a>
+    <a href="/KGprojects/" class="hover:text-xl">Główna</a>
     <br>
-    <a href="/KGprojects/home.html">Zaplanuj wycieczkę</a>
+    <a href="/KGprojects/home.html" class="hover:text-xl">Zaplanuj wycieczkę</a>
     <br>
-    <a href="/KGprojects/ekwipunek.html">Spakuj się na wycieczkę</a>
+    <a href="/KGprojects/ekwipunek.html" class="hover:text-xl">Spakuj się na wycieczkę</a>
     <br>
     <ul class="list-outside">
         {% for item in site.data.navigationekwipunek %}
-        <a href="{{ item.link }}"{% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
-           <li> {{ item.name }} </li>
-        </a>
+        <li> <a href="{{ item.link }}"class="hover:text-xl" {% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
+           {{ item.name }}
+        </a> </li>
         {% endfor %}
     </ul>
     <br>
-    <a href="/KGprojects/galeria.html">Archiwum wycieczek</a>
+    <a href="/KGprojects/galeria.html" class="hover:text-xl">Archiwum wycieczek</a>
     <br>
-    <a href="/KGprojects/kontakt.html">Home</a>
+    <a href="/KGprojects/kontakt.html" class="hover:text-xl">Home</a>
 </nav>
