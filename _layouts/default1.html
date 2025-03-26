@@ -56,7 +56,7 @@
 
       <button @click="sidebarOpen = !sidebarOpen" 
             x-show="isMobile"
-            class="fixed z-50 top-2 right-2 px-6 py-3 cursor-pointer rounded-full bg-base shadow-md font-medium orangeShadow">
+            class="fixed z-50 top-2 right-2 px-6 py-3 cursor-pointer rounded-full bg-basicBeage shadow-md font-medium orangeShadow">
         <i class="fas fa-bars" x-show="!sidebarOpen"></i>
         <i class="fas fa-times" x-show="sidebarOpen"></i>
       </button>
@@ -102,7 +102,7 @@
 
   <script>
     function checkScreenSize() {
-        return window.innerWidth < 640;
+        return window.innerWidth < 768;
     }
 </script>
 </main>

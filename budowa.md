@@ -2,7 +2,8 @@
 layout: default1
 title: 404
 ---
-<div class="grid items-center grid-rows-3 justify-center gap-1 h-screen m-5 max-w-[800px]">
+<div class="grid items-center grid-rows-3 justify-center gap-1 h-screen m-5 w-full">
+<div class="w-max-[800px]">
     <div class="center animate-bounce text-5xl sm:text-6xl m-1 text-center w-full">🦔 🦔 🦔</div>
     <div class="text-2xl sm:text-3xl text-center"> Przepraszamy ta strona jest jeszcze w budowie.
         <p class="text-xl">Niedługo pojawią się tutaj:</p>
@@ -14,4 +15,5 @@ title: 404
         onclick="window.location.href='https://kama-pa-go.github.io/KGprojects/galeria.html'">
         <p class="text-base sm:text-lg md:text-xl">Powrót do archiwum</p>
     </button> 
+</div>
 </div>
