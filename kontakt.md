@@ -5,10 +5,10 @@ title: Kontakt
 # Skontaktuj się z nami:
 <form action="/submit-form" method="post">
     <!-- Pole tekstowe -->
-    <label class="bg-basicBeage" for="imie">Imię:</label>
+    <label for="imie">Imię:</label>
     <input class="bg-basicBeage" type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
     <br>
-    <label class="bg-basicBeage" for="mail">Mail:</label>
+    <label for="mail">Mail:</label>
     <input class="bg-basicBeage" type="text" id="mail" name="mail" placeholder="Wpisz swój adres email" required>
     <br><br>
     <!-- Pole wyboru z optgroup -->

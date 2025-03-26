@@ -2,11 +2,11 @@
 layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
-<div class="flex flex-col gap-4">
-<h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
+<div class="flex flex-col gap-6">
+<h1 class="w-full bg-greyBase text-center py-10 m-4 -mb-8"> Co należy przygotować jadąc w góry?</h1>
 <div class="grid max-w-[800px] ps-5">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
-    <ol class="list-roman ml-5">
+    <ol class="list-roman ml-10">
         <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
         <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
         <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
