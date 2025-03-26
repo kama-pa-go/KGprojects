@@ -82,12 +82,12 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(245 158 11);
+    color: rgb(165, 104, 0);
 }
 a:hover {
     color: rgb(251 191 36);
 }
 a:visited {
-  color: rgb(212, 159, 23);
+  color: rgb(73, 65, 44);
 }
 

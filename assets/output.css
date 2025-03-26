@@ -944,6 +944,9 @@
   .justify-items-stretch {
     justify-items: stretch;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -2286,13 +2289,13 @@ h1, h2, h3 {
   box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7);
 }
 a {
-  color: rgb(245 158 11);
+  color: rgb(165, 104, 0);
 }
 a:hover {
   color: rgb(251 191 36);
 }
 a:visited {
-  color: rgb(212, 159, 23);
+  color: rgb(73, 65, 44);
 }
 @property --tw-border-spacing-x {
   syntax: "<length>";
