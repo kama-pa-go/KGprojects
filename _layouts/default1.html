@@ -34,12 +34,12 @@
 </head>
       
 <body x-data="{ sidebarOpen: false, isMobile: window.innerWidth < 640 }" 
-      x-init="window.addEventListener('resize', () => { isMobile = window.innerWidth < 640 })" 
-      class="h-full">
+      x-init="window.addEventListener('resize', () => { isMobile = window.innerWidth < 640 })">
 
-    <header
-      class="bg-none sticky z-20 top-0 max-w-[1000px] mx-auto w-full p-4 sm:p-8 gap-4 sm:gap-8 flex items-center justify-between gap-4">
+    <header class="bg-none sticky z-20 top-0 max-w-[1000px] mx-auto w-full p-4 sm:p-8 gap-4 sm:gap-8 flex items-center justify-between gap-4">
       
+      <h1 class="bg-white rounded-full">Górołazy <br> {{ page.title }}</h1>
+
       <button @click="sidebarOpen = !sidebarOpen" 
             x-show="isMobile"
             class="fixed z-50 top-2 left-2 px-6 py-3 cursor-pointer rounded-full bg-white shadow-md font-medium orangeShadow">
@@ -47,10 +47,11 @@
         <i class="fas fa-times" x-show="sidebarOpen"></i>
       </button>
 
-      <h1 class="bg-white rounded-full">Górołazy <br> {{ page.title }}</h1>
+      
 
     </header>
 
+  <main id="app" class="flex flex-col flex-1 z-0">
 
     <!-- Overlay dla mobile (tylko gdy sidebar otwarty) -->
     <div class="sidebar-overlay" 
@@ -91,5 +92,6 @@
         return window.innerWidth < 640;
     }
 </script>
+</main>
 </body>
 </html>

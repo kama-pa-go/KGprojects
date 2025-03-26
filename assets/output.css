@@ -521,11 +521,11 @@
   .w-screen {
     width: 100vw;
   }
-  .max-w-\[50px\] {
-    max-width: 50px;
-  }
   .max-w-\[100px\] {
     max-width: 100px;
+  }
+  .max-w-\[150px\] {
+    max-width: 150px;
   }
   .max-w-\[800px\] {
     max-width: 800px;
@@ -2069,14 +2069,14 @@
       grid-column: span 4 / span 4;
     }
   }
-  .sm\:max-w-\[0px\] {
+  .sm\:max-w-\[00px\] {
     @media (width >= 40rem) {
-      max-width: 0px;
+      max-width: 00px;
     }
   }
-  .sm\:max-w-\[100px\] {
+  .sm\:max-w-\[200px\] {
     @media (width >= 40rem) {
-      max-width: 100px;
+      max-width: 200px;
     }
   }
   .sm\:max-w-\[300px\] {
