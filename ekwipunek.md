@@ -12,7 +12,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <blockquote>
     <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
     <img src="assets/images/bulb.png" alt="Żarówka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 8px;">
+    <p style= "color: rgb(75, 70, 70); padding: 10px;">
         Wydrukuj tą listę. Po powrocie do domu popatrz na nią jeszcze raz- wykreśl rzeczy, które Ci się nie przydały, dopisz rzeczy, których żałujesz że nie wziąłeś.<br>
         Aktualizuj listę po każdej wyprawie górskiej a wkrótce stworzysz swój wymarzony ekwipunek!
     </p>
@@ -22,10 +22,10 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <br>
 
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
-<div class="flex flex-col gap-8 w-full">
+<div class="flex flex-col gap-10 w-full">
     <div class="bg-white w-full">
-        <a href="/KGprojects/odziez.html"><h2 clas="p-4">Odzież</h2></a>
-        <ul class="pl-8">
+        <a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a>
+        <ul class="pl-10">
             <li class="pl-2"> obuwie</li>
             <li class="pl-2"> japonki/klapki</li>
             <li class="pl-2"> spodnie/pasek/getry</li>
@@ -42,8 +42,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/apteczka.html"><h2 clas="p-4">Apteczka<h2></a>
-        <ul class="pl-8">
+        <a href="/KGprojects/apteczka.html"><h2 clas="p-6">Apteczka</h2></a>
+        <ul class="pl-10">
             <li class="pl-2"> leki, które przyjmujesz na stałe</li>
             <li class="pl-2"> leki przeciwbólowe/rozkurczowe/na dolegliwości żołądkowe</li>
             <li class="pl-2"> plastry</li>
@@ -51,8 +51,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-white w-full">
-        <a href="/KGprojects/kosmetyczka.html"><h2 clas="p-4">Kosmetyczka</h2></a>
-        <ul class="pl-8">
+        <a href="/KGprojects/kosmetyczka.html"><h2 clas="p-6">Kosmetyczka</h2></a>
+        <ul class="pl-10">
             <li class="pl-2"> żel pod prysznic</li>
             <li class="pl-2"> szampon</li>
             <li class="pl-2"> dezodorant</li>
@@ -69,8 +69,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/dokumenty.html"><h2 clas="p-4">Dokumenty</h2></a>
-        <ul class="pl-8">
+        <a href="/KGprojects/dokumenty.html"><h2 clas="p-6">Dokumenty</h2></a>
+        <ul class="pl-10">
             <li class="pl-2"> dowód osobisty/paszport</li>
             <li class="pl-2"> ubezpieczenie (wyjazd zagraniczny)</li>
             <li class="pl-2"> legitymacja</li>
@@ -79,8 +79,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-white w-full">
-        <a href="/KGprojects/prowiant.html"><h2 clas="p-4">Prowiant<h2></a>
-        <ul class="pl-8">
+        <a href="/KGprojects/prowiant.html"><h2 clas="p-6">Prowiant</h2></a>
+        <ul class="pl-10">
             <li class="pl-2"> kabanosy</li>
             <li class="pl-2"> pasztet/konserwy</li>
             <li class="pl-2"> zupki chińskie</li>
@@ -91,8 +91,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
         </ul>
     </div>
     <div class="bg-greyBase w-full">
-        <a href="/KGprojects/pozostale.html"><h2 clas="p-4">Pozostałe</h2></a>
-        <ul class="pl-8">
+        <a href="/KGprojects/pozostale.html"><h2 clas="p-6">Pozostałe</h2></a>
+        <ul class="pl-10">
             <li class="pl-2"> mapa</li>
             <li class="pl-2"> aparat fotograficzny/statyw</li>
             <li class="pl-2"> baterie/akumulatory/ładowarka</li>
