@@ -4,9 +4,9 @@ title: Poradnik przygotowania wycieczki górskiej
 ---
 
 <h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
-<div class="grid max-w-[800px]">
+<div class="grid max-w-[800px] ps-5">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
-    <ol class="list-roman ml-3">
+    <ol class="list-roman ml-5">
         <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
         <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
         <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
@@ -16,7 +16,7 @@ title: Poradnik przygotowania wycieczki górskiej
 </div>
 <h3>Zadania do zrobienia:</h3>
 <!-- Checklista z zadaniami -->
-<div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-3 sm:gap-5 justify-around ml-2">
+<div class="grid grid-cols-1 sm:grid-cols-3 items-center gap-3 sm:gap-5 justify-around ml-4">
     <div class="zadania w-full col-span-2">
         <label><input type="checkbox" class="zadanie"> Wybranie celu podróży</label>
         <label><input type="checkbox" class="zadanie"> Sprawdź, czy jest dopasowany do Twoich umiejętnosci i dostępnych środków transportu</label>
@@ -104,7 +104,7 @@ title: Poradnik przygotowania wycieczki górskiej
 <br>
 <div class="justify-items-center">
     <h2>Trasy poza Polską:</h2>
-    <div class="bg-allmostWhite">
+    <div class="bg-allmostWhite w-full py-2 px-4">
         <h3>Interaktywna Mapa Europy</h3>
         <p>Kliknij na wybrany kraj, aby dowiedzieć się więcej: (na ten moement działa link tylko do Portugali, Niemiec i Ukrainy)</p>
         <!--mapa-->

@@ -5,7 +5,7 @@
     <br>
     <a href="/KGprojects/ekwipunek.html" class="hover:text-xl">Spakuj się na wycieczkę</a>
     <br>
-    <ul class="list-outside ml-2">
+    <ul class="list-outside ps-2">
         {% for item in site.data.navigationekwipunek %}
         <li> <a href="{{ item.link }}"class="hover:text-xl" {% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
            {{ item.name }}
