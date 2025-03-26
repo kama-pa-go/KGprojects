@@ -2,7 +2,9 @@
 layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
-
+<body class="grid grid-cols-1 sm:grid-cols-5 gap-4 items-stretch">
+  <div class="hide sm:col-span-1 bd-amber-900"></div>
+  <div class="sm:col-span-4 m-5">
 # Co należy przygotować jadąc w góry?
 To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <ol type="I">
@@ -90,6 +92,9 @@ Interaktywna Mapa Europy
 <p><small>Mapa pochodzi z <a href="https://commons.wikimedia.org/wiki/File:Europe_countries.svg" target="_blank">Wikimedia Commons</a>.</small></p>
 
 <br>
+</div>
+
+</body>
 
 <!-- Podłącz zewnętrzny plik JavaScript -->
 <script src="assets/pasekPostepu.js"></script>
