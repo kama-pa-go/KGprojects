@@ -8,7 +8,6 @@
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-amber-50: oklch(0.987 0.022 95.277);
-    --color-amber-100: oklch(0.962 0.059 95.617);
     --color-amber-950: oklch(0.279 0.077 45.635);
     --color-black: #000;
     --color-white: #fff;
@@ -419,8 +418,8 @@
   .mx-auto {
     margin-inline: auto;
   }
-  .-mt-4 {
-    margin-top: calc(var(--spacing) * -4);
+  .-mt-8 {
+    margin-top: calc(var(--spacing) * -8);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -542,8 +541,8 @@
   .max-h-\[150px\] {
     max-height: 150px;
   }
-  .max-h-\[200px\] {
-    max-height: 200px;
+  .max-h-\[250px\] {
+    max-height: 250px;
   }
   .max-h-none {
     max-height: none;
@@ -553,9 +552,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1254,23 +1250,11 @@
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
-  .bg-amber-100 {
-    background-color: var(--color-amber-100);
-  }
-  .bg-amber-100\/50 {
-    background-color: color-mix(in oklab, var(--color-amber-100) 50%, transparent);
-  }
-  .bg-amber-950 {
-    background-color: var(--color-amber-950);
-  }
   .bg-amber-950\/50 {
     background-color: color-mix(in oklab, var(--color-amber-950) 50%, transparent);
   }
   .bg-basicBeage {
     background-color: var(--color-basicBeage);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -1458,6 +1442,9 @@
   }
   .object-top {
     object-position: top;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -2374,7 +2361,7 @@
 }
 body {
   font-family: Monaco, monospace;
-  background-color: whitesmoke;
+  background-image: linear-gradient(to top, whitesmoke, whitesmoke, var(--color-basicBeage));
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2439,13 +2426,16 @@ h1, h2, h3 {
   box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7);
 }
 a {
-  color: rgb(182, 116, 2);
+  color: #c49b6c;
 }
 a:hover {
   text-underline-position: below;
 }
 a:visited {
-  color: rgb(73, 65, 44);
+  color: var(--color-brownOrange);
+}
+a:visited:hover {
+  text-underline-position: below;
 }
 @property --tw-translate-x {
   syntax: "*";

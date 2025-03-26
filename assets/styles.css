@@ -36,7 +36,7 @@
 
 body {
   font-family: Monaco, monospace;
-  background-color: whitesmoke;
+  background-image: linear-gradient(to top, whitesmoke, whitesmoke, var(--color-basicBeage));
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,12 +112,15 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgb(182, 116, 2);
+    color: #c49b6c;
 }
 a:hover {
     text-underline-position: below;
 }
 a:visited {
-  color: rgb(73, 65, 44);
+  color: var(--color-brownOrange);
+}
+a:visited:hover {
+  text-underline-position: below;
 }
 

@@ -7,10 +7,10 @@ title: Poradnik przygotowania wycieczki górskiej
 <div class="grid max-w-[800px] ps-5 gap-2">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <ol class="list-roman ml-16">
-        <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
-        <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
-        <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
-        <li>Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
+        <li class="ps-4">Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
+        <li class="ps-4">Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
+        <li class="ps-4">Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
+        <li class="ps-4">Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
     </ol>
 <br>
 </div>
@@ -37,7 +37,7 @@ title: Poradnik przygotowania wycieczki górskiej
 <h2 class="text-center"> Nie wiesz w jakie góry jechać? Sprawdź poniżej:</h2>
 
 <div class="grid justify-items-center bg-white shadow-sm">
-    <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
+    <iframe class="p-2" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
 <div class="overflow-auto rounded-lg shadow">
