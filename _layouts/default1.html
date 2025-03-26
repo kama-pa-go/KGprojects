@@ -23,7 +23,7 @@
       
 <body x-data="{ sidebarOpen: false }" class="h-full">
   <button @click="sidebarOpen = !sidebarOpen" 
-    class="fixed z-50 sm:hidden top-2 left-1 px-4 py-2 lightShadow cursor-pointer rounded-full bg-white orangeShadow font-medium">
+    class="fixed z-50 sm:hidden top-2 left-2 px-6 py-3 lightShadow cursor-pointer rounded-full bg-white orangeShadow font-medium">
     <i class="fas fa-bars"></i>
     <span>...</span>
   </button>
@@ -35,7 +35,7 @@
         :class="{ 'fixed inset-0 z-40 w-3/4': sidebarOpen && isMobile() }" 
         class="sm:col-span-2 lg:col-span-1 bg-amber-900 transition-all duration-300 h-full"
         :style="sidebarOpen && isMobile() ? 'display: block !important' : ''">
-      <h3 style="bg-stone-400">
+      <h3 class="bg-stone-400">
       Nawigacja: {% include navigation_ekwipunek.html %} żółty= tu jesteś
       </h3>
     </div>
@@ -44,7 +44,7 @@
     <div class="sm:col-span-4 m-5">
       
       <header>
-        <h1 style="bg-stone-400">{{ page.title }}</h1>
+        <h1 class="bg-stone-400">{{ page.title }}</h1>
       </header>
     
       <article>
