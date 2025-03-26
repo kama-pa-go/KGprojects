@@ -2,8 +2,8 @@
 layout: default1
 title: 404
 ---
-<div class="flex items-center w-full mx-auto">
-<div class="grid max-w-[800px] items-center grid-rows-3 justify-center gap-1 h-screen p-2">
+<div class="lex justify-center items-center w-full min-h-screen p-2">
+<div class="grid max-w-[800px] grid-rows-3 justify-center gap-1 w-full">
     <div class="animate-bounce text-5xl sm:text-6xl m-1 text-center w-full">🦔 🦔 🦔</div>
     <div class="text-2xl sm:text-3xl text-center"> Przepraszamy ta strona jest jeszcze w budowie.
         <p class="text-xl">Niedługo pojawią się tutaj:</p>
