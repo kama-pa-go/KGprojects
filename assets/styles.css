@@ -53,8 +53,31 @@ p {
     transform: translateX(100%);
   }
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 1rem; /* global side padding */
+  .red-yellow-button {
+    color: #111827; /* text-gray-900 */
+    background-image: linear-gradient(to right, #78350f, #c49b6c, #B49C90); /* from-red-200 via-red-300 to-yellow-200 */
+    font-weight: 500; /* font-medium */
+    font-size: 0.875rem; /* text-sm */
+    line-height: 1.25rem;
+    padding: 0.625rem 1.25rem; /* px-5 py-2.5 */
+    margin-right: 0.5rem; /* me-2 */
+    margin-bottom: 0.5rem; /* mb-2 */
+    text-align: center; /* text-center */
+    border: none;
+    cursor: pointer;
 }
+
+.red-yellow-button:hover {
+    background-image: linear-gradient(to left, #c49b6c, #B49C90, #B49C90); /* hover:bg-gradient-to-bl */
+    transition-duration: 200ms;
+}
+
+.red-yellow-button:focus {
+    outline: none; /* focus:outline-none */
+    box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.5); /* focus:ring-4 focus:ring-red-100 */
+}
+
+.dark .red-yellow-button:focus {
+    box-shadow: 0 0 0 4px rgba(248, 113, 113, 0.7); /* dark:focus:ring-red-400 */
+}
+
