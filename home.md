@@ -2,7 +2,7 @@
 layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
-<div class="flex gap-4">
+<div class="flex flex-col gap-4">
 <h1 class="w-full bg-greyBase text-center py-10 m-4"> Co należy przygotować jadąc w góry?</h1>
 <div class="grid max-w-[800px] ps-5">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:

@@ -558,6 +558,9 @@
   .w-screen {
     width: 100vw;
   }
+  .max-w-\[150px\] {
+    max-width: 150px;
+  }
   .max-w-\[180px\] {
     max-width: 180px;
   }
