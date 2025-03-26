@@ -29,6 +29,7 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
         <progress id="postep" value="0" max="100">0%</progress>
         <p>Aktualny postęp: <span id="procent">0</span>%</p>
     </div>
+</div>
 <br>
 <br>
 # Nie wiesz w jakie góry jechać? Sprawdź poniżej:
@@ -40,9 +41,9 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
 <div class="overflow-auto rounded-lg shadow">
     <table class="table-auto w-full">
     <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
-    <thead class="bg-base border-b-2 border-grayBrown">
+    <thead class="bg-almostWhite border-b-2 border-grayBrown">
         <tr>
-            <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
+            <th class="w-30 p-3 text-sm font-semibold tracking-wide text-left">Pasmo górskie </th>
             <th class="p-3 text-sm font-semibold tracking-wide text-left"> GOT</th>
             <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Nocleg pod dachem </th>
           <th class="w-min-[30px] p-3 text-sm font-semibold tracking-wide text-left">Dostęp do wody</th>

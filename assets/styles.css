@@ -11,6 +11,7 @@
   --color-base: rgb(243, 226, 198);
   --color-greyBase: rgb(227, 219, 207);
   --color-allmostWhite: rgb(247, 243, 237);
+  --color-allmostAllmostWhite: rgb(252, 250, 247);
   --color-brownOrange: rgb(173, 83, 42);
   --color-specialBrown: rgb(51, 10, 7);
   --color-justBrown: rgb(18, 13, 12);
@@ -34,7 +35,7 @@
 
 body {
   font-family: Monaco, monospace;
-  background-color: var(--color-allmostWhite);
+  background-color: var(--color-allmostAllmostWhite);
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
