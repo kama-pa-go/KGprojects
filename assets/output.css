@@ -9,13 +9,6 @@
     --color-red-500: oklch(0.637 0.237 25.331);
     --color-amber-50: oklch(0.987 0.022 95.277);
     --color-amber-950: oklch(0.279 0.077 45.635);
-    --color-slate-50: oklch(0.984 0.003 247.858);
-    --color-gray-50: oklch(0.985 0.002 247.839);
-    --color-gray-100: oklch(0.967 0.003 264.542);
-    --color-gray-200: oklch(0.928 0.006 264.531);
-    --color-stone-200: oklch(0.923 0.003 48.717);
-    --color-stone-400: oklch(0.709 0.01 56.259);
-    --color-stone-800: oklch(0.268 0.007 34.298);
     --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -49,8 +42,6 @@
     --color-base: rgb(243, 226, 198);
     --color-greyBase: rgb(227, 219, 207);
     --color-allmostWhite: rgb(247, 243, 237);
-    --color-brownOrange: rgb(173, 83, 42);
-    --color-specialBrown: rgb(51, 10, 7);
     --color-justBrown: rgb(18, 13, 12);
   }
 }
@@ -523,9 +514,6 @@
   }
   .min-h-screen {
     min-height: 100vh;
-  }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
@@ -1182,15 +1170,6 @@
     --tw-border-style: solid;
     border-style: solid;
   }
-  .border-amber-950 {
-    border-color: var(--color-amber-950);
-  }
-  .border-gray-200 {
-    border-color: var(--color-gray-200);
-  }
-  .border-stone-800 {
-    border-color: var(--color-stone-800);
-  }
   .bg-\(--my_variable\) {
     background-color: var(--my_variable);
   }
@@ -1212,17 +1191,8 @@
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
-  }
-  .bg-gray-50 {
-    background-color: var(--color-gray-50);
-  }
-  .bg-gray-100 {
-    background-color: var(--color-gray-100);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1232,12 +1202,6 @@
   }
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
-  }
-  .bg-stone-200 {
-    background-color: var(--color-stone-200);
-  }
-  .bg-stone-400 {
-    background-color: var(--color-stone-400);
   }
   .bg-white {
     background-color: var(--color-white);
@@ -2101,11 +2065,6 @@
       background-color: var(--color-greyBase);
     }
   }
-  .even\:bg-slate-50 {
-    &:nth-child(even) {
-      background-color: var(--color-slate-50);
-    }
-  }
   .hover\:text-xl {
     &:hover {
       @media (hover: hover) {
@@ -2282,13 +2241,13 @@
 }
 body {
   font-family: Monaco, monospace;
-  background-color: --color-allmostWhite;
+  background-color: var(--color-allmostWhite);
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: scroll;
-  color: --color-justBrown;
+  color: var(--color-justBrown);
 }
 h1, h2, h3 {
   font-family: Knight, sans-serif;

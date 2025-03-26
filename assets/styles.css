@@ -18,13 +18,13 @@
 
 body {
   font-family: Monaco, monospace;
-  background-color: --color-allmostWhite;
+  background-color: var(--color-allmostWhite);
   -webkit-font-smoothing: antialiased;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   background-attachment: scroll;
-  color: --color-justBrown;
+  color: var(--color-justBrown);
 }
 
 h1, h2, h3 {
