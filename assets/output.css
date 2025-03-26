@@ -42,6 +42,8 @@
     --color-base: rgb(243, 226, 198);
     --color-greyBase: rgb(227, 219, 207);
     --color-allmostWhite: rgb(247, 243, 237);
+    --color-brownOrange: rgb(173, 83, 42);
+    --color-specialBrown: rgb(51, 10, 7);
     --color-justBrown: rgb(18, 13, 12);
   }
 }
@@ -1191,6 +1193,9 @@
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
+  .bg-base {
+    background-color: var(--color-base);
+  }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
@@ -2175,11 +2180,6 @@
       color: var(--color-base);
     }
   }
-  .md\:block {
-    @media (width >= 48rem) {
-      display: block;
-    }
-  }
   .md\:max-w-\[280px\] {
     @media (width >= 48rem) {
       max-width: 280px;
@@ -2239,6 +2239,20 @@
   font-weight: normal;
   font-style: normal;
 }
+@layer base {
+  ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+  }
+  ol {
+    list-style-type: decimal;
+    margin-left: 1rem;
+  }
+}
+.list-roman {
+  list-style-type: upper-roman;
+  margin-left: 1rem;
+}
 body {
   font-family: Monaco, monospace;
   background-color: var(--color-allmostWhite);
@@ -2252,10 +2266,10 @@ body {
 h1, h2, h3 {
   font-family: Knight, sans-serif;
   letter-spacing: 0.05em;
-  color: --color-specialBrown;
+  color: var(--color-specialBrown);
 }
 .orangeShadow {
-  box-shadow: 0px 14px 55px --color-brownOrange;
+  box-shadow: 0px 14px 55px var(--color-brownOrange);
 }
 .lightShadow {
   position: relative;

@@ -3,9 +3,9 @@ layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
 
-# Co należy przygotować jadąc w góry?
+<h1 class="bg-amber-50/50 flex items-center justify-center py-10 overline m-4"> Co należy przygotować jadąc w góry?</h1>
 To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
-<ol type="I">
+<ol class="list-roman">
   <li>Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
   <li>Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
   <li>Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
@@ -34,8 +34,8 @@ To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
     <iframe style="border:none" src="https://en.frame.mapy.cz/s/pugotazeto" width="600" height="333" frameborder="0"></iframe>
 </div>
 <br>
-<div class="overflow-auto rounded-lg shadow hidden md:block">
-    <table border="1" class="table-auto w-full">
+<div class="overflow-auto rounded-lg shadow">
+    <table class="table-auto w-full">
     <caption class="caption-top"><strong>Poniżej tabela z propozycjami tras</strong><br></caption>
     <thead class="bg-basic border-b-2 border-grayBrown">
         <tr>

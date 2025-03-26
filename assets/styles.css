@@ -16,6 +16,22 @@
   --color-justBrown: rgb(18, 13, 12);
 }
 
+@layer base {
+  ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 1rem;
+  }
+}
+.list-roman {
+  list-style-type: upper-roman;
+  margin-left: 1rem;
+}
+
 body {
   font-family: Monaco, monospace;
   background-color: var(--color-allmostWhite);
@@ -30,11 +46,11 @@ body {
 h1, h2, h3 {
   font-family: Knight, sans-serif;
   letter-spacing: 0.05em;
-  color: --color-specialBrown;
+  color: var(--color-specialBrown);
 }
 
 .orangeShadow {
-  box-shadow: 0px 14px 55px --color-brownOrange;
+  box-shadow: 0px 14px 55px var(--color-brownOrange);
 }
 
 .lightShadow {
