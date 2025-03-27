@@ -2355,9 +2355,19 @@
       max-width: 300px;
     }
   }
+  .xl\:ml-1 {
+    @media (width >= 80rem) {
+      margin-left: calc(var(--spacing) * 1);
+    }
+  }
   .xl\:ml-10 {
     @media (width >= 80rem) {
       margin-left: calc(var(--spacing) * 10);
+    }
+  }
+  .xl\:ml-12 {
+    @media (width >= 80rem) {
+      margin-left: calc(var(--spacing) * 12);
     }
   }
   .xl\:max-w-\[330px\] {

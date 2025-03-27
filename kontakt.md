@@ -2,7 +2,7 @@
 layout: default1
 title: Kontakt
 ---
-<div class="items-center xl:ml-10">
+<div class="items-center xl:ml-12">
 <h1 class="p-4 my-10"> Skontaktuj się z nami:</h1>
 <form action="/submit-form" method="post" class="-mt-4 bg-white shadow-sm max-w-[900px] sm:w-full p-6">
 <div class="p-4">
