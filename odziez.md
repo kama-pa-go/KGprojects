@@ -21,7 +21,7 @@ title: Odzież
 - stuptuty\*\*\*
 - ręcznik
 
-<blockquote>
+<blockquote class="p-4">
     <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
     <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
     <p style= "padding: 8px;" class="text-greyBaseDark">

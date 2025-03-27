@@ -10,9 +10,9 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <h3 class="bg-greyBase">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
 
 <blockquote class="p-4">
-    <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="assets/images/bulb.png" alt="Żarówka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 10px;">
+    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <p style= "padding: 8px;" class="text-greyBaseDark">
         Wydrukuj tą listę. Po powrocie do domu popatrz na nią jeszcze raz- wykreśl rzeczy, które Ci się nie przydały, dopisz rzeczy, których żałujesz że nie wziąłeś.<br>
         Aktualizuj listę po każdej wyprawie górskiej a wkrótce stworzysz swój wymarzony ekwipunek!
     </p>
