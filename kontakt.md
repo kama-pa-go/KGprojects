@@ -2,7 +2,8 @@
 layout: default1
 title: Kontakt
 ---
-<h1 class="p-4"> Skontaktuj się z nami:</h1>
+<div class="items-center">
+<h1 class="p-4 py-8"> Skontaktuj się z nami:</h1>
 <form action="/submit-form" method="post" class="-mt-8 bg-white shadow-sm max-w-[900px] sm:w-full p-6">
 <div class="p-4">
     <!-- Pole tekstowe -->
@@ -48,3 +49,4 @@ title: Kontakt
     </button>
 </div>
 </form>
+</div>
