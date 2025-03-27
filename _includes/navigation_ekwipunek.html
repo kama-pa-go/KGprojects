@@ -7,7 +7,7 @@
     <br>
     <ul class="list-outside ps-6">
         {% for item in site.data.navigationekwipunek %}
-        <li class="ps-4"> <a href="{{ item.link }}"class="hover:text-xl" {% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
+        <li class="ps-2"> <a href="{{ item.link }}"class="hover:text-xl" {% if page.url == item.link2 %} style="color: rgb(255, 247, 210);"{% endif %}>
            {{ item.name }}
         </a> </li>
         {% endfor %}

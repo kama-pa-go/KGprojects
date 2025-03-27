@@ -45,6 +45,7 @@
     --color-greyBase: rgb(227, 219, 207);
     --color-greyBaseDark: rgb(120, 113, 103);
     --color-allmostWhite: rgb(247, 243, 237);
+    --color-allmostAllmostWhite: rgb(252, 250, 247);
     --color-brownOrange: rgb(173, 83, 42);
     --color-specialBrown: rgb(51, 10, 7);
     --color-justBrown: rgb(18, 13, 12);
@@ -439,6 +440,9 @@
   .ml-16 {
     margin-left: calc(var(--spacing) * 16);
   }
+  .ml-20 {
+    margin-left: calc(var(--spacing) * 20);
+  }
   .box-border {
     box-sizing: border-box;
   }
@@ -553,8 +557,14 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-3 {
+    width: calc(var(--spacing) * 3);
   }
   .w-3\/5 {
     width: calc(3/5 * 100%);
@@ -1247,6 +1257,9 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
+  .bg-allmostAllmostWhite {
+    background-color: var(--color-allmostAllmostWhite);
+  }
   .bg-allmostWhite {
     background-color: var(--color-allmostWhite);
   }
@@ -1256,11 +1269,17 @@
   .bg-amber-50\/50 {
     background-color: color-mix(in oklab, var(--color-amber-50) 50%, transparent);
   }
+  .bg-amber-950 {
+    background-color: var(--color-amber-950);
+  }
   .bg-amber-950\/50 {
     background-color: color-mix(in oklab, var(--color-amber-950) 50%, transparent);
   }
   .bg-basicBeage {
     background-color: var(--color-basicBeage);
+  }
+  .bg-black {
+    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -1490,6 +1509,9 @@
   }
   .py-16 {
     padding-block: calc(var(--spacing) * 16);
+  }
+  .ps-2 {
+    padding-inline-start: calc(var(--spacing) * 2);
   }
   .ps-4 {
     padding-inline-start: calc(var(--spacing) * 4);
@@ -2200,14 +2222,29 @@
       }
     }
   }
+  .sm\:col-span-1 {
+    @media (width >= 40rem) {
+      grid-column: span 1 / span 1;
+    }
+  }
   .sm\:col-span-2 {
     @media (width >= 40rem) {
       grid-column: span 2 / span 2;
     }
   }
+  .sm\:col-span-3 {
+    @media (width >= 40rem) {
+      grid-column: span 3 / span 3;
+    }
+  }
   .sm\:col-span-4 {
     @media (width >= 40rem) {
       grid-column: span 4 / span 4;
+    }
+  }
+  .sm\:col-span-6 {
+    @media (width >= 40rem) {
+      grid-column: span 6 / span 6;
     }
   }
   .sm\:w-full {

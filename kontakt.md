@@ -3,7 +3,7 @@ layout: default1
 title: Kontakt
 ---
 # Skontaktuj się z nami:
-<form action="/submit-form" method="post" class="-mt-8 bg-white shadow-sm max-w-[800px] sm:w-full">
+<form action="/submit-form" method="post" class="-mt-8 bg-white shadow-sm max-w-[800px] sm:w-full p-6">
 <div class="p-4">
     <!-- Pole tekstowe -->
     <label for="imie">Imię:</label>

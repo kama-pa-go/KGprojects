@@ -3,14 +3,14 @@ layout: default1
 title: Poradnik przygotowania wycieczki górskiej
 ---
 <div class="flex flex-col gap-8 overflow-auto">
-<h1 class="w-full bg-greyBase text-center py-10 m-4 -mb-6"> Co należy przygotować jadąc w góry?</h1>
+<h1 class="w-full bg-greyBase text-center py-10 m-2 -mb-6"> Co należy przygotować jadąc w góry?</h1>
 <div class="grid max-w-[800px] ps-5 gap-2">
     To niełatwe zadanie, a więc postanowiliśmy Ci to ułatwić:
-    <ol class="list-roman ml-16">
-        <li class="ps-4">Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
-        <li class="ps-4">Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
-        <li class="ps-4">Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
-        <li class="ps-4">Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
+    <ol class="list-roman ml-20">
+        <li class="ps-2">Skorzystaj z naszej listy zadań do zrobienia, aby upewnić się, że niczego nie przeoczyłeś.</li>
+        <li class="ps-2">Jeśli szukasz inspiracji w sprawie celu podróży: sprawdź propozycje tras i mapkę na dole strony.</li>
+        <li class="ps-2">Sprawdź nasz <a href="ekwipunek.html">poradnik "jak się  spakować"</a>. Oprócz poradnika pakowania znajdziesz tam wiele wskazówek przydatnych podczas całej podróży.</li>
+        <li class="ps-2">Jeśli masz dodatkowe pytania <a href="kontakt.html">skontaktuj się z nami!</a></li>
     </ol>
 <br>
 </div>
@@ -26,7 +26,7 @@ title: Poradnik przygotowania wycieczki górskiej
         <label><input type="checkbox" class="zadanie"> Zarezerwuj nocleg lub zaplanuj miejsce biwakowe pod namiotem</label>
         <label><input type="checkbox" class="zadanie"> Przygotuj resztę ekwipunku</label>
     </div>
-    <div class="col-span-1 grid h-full bg-allmostWhite items-center justify-around shadow-sm">
+    <div class="col-span-1 grid h-full bg-allmostAllmostWhite items-center justify-around shadow-sm">
         <label for="postep" class="text-center">Postęp:</label>
         <progress id="postep" value="0" max="100">0%</progress>
         <p>Aktualny postęp: <span id="procent">0</span>%</p>
