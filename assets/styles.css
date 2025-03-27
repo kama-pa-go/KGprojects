@@ -55,6 +55,49 @@ h1, h2, h3 {
   letter-spacing: 0.05em;
   color: var(--color-specialBrown);
 }
+/* Główna zawartość */
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+  min-width: 0;
+  width: 100%;
+}
+/* Styl dla footer */
+footer {
+  position: relative;
+  z-index: 30;
+}
+/* Sidebar */
+.sidebar-container {
+  width: 250px;
+  background-color: #f8f8f8;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 40;
+}
+/* Styl dla otwartego sidebara na mobile */
+.sidebar-container.active {
+  transform: translateX(0);
+}
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 30;
+}
+.sidebar-overlay.active {
+  display: block;
+}
 
 .orangeShadow {
   box-shadow: 0px 14px 55px var(--color-brownOrange);

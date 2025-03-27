@@ -255,23 +255,14 @@
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
-  .inset-y-0 {
-    inset-block: calc(var(--spacing) * 0);
-  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
   .top-2 {
     top: calc(var(--spacing) * 2);
   }
-  .right-0 {
-    right: calc(var(--spacing) * 0);
-  }
   .right-2 {
     right: calc(var(--spacing) * 2);
-  }
-  .left-0 {
-    left: calc(var(--spacing) * 0);
   }
   .left-2 {
     left: calc(var(--spacing) * 2);
@@ -293,9 +284,6 @@
   }
   .z-30 {
     z-index: 30;
-  }
-  .z-40 {
-    z-index: 40;
   }
   .z-50 {
     z-index: 50;
@@ -1502,9 +1490,6 @@
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
   }
-  .py-6 {
-    padding-block: calc(var(--spacing) * 6);
-  }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
@@ -2220,16 +2205,6 @@
       }
     }
   }
-  .sm\:col-span-1 {
-    @media (width >= 40rem) {
-      grid-column: span 1 / span 1;
-    }
-  }
-  .sm\:col-span-3 {
-    @media (width >= 40rem) {
-      grid-column: span 3 / span 3;
-    }
-  }
   .sm\:my-12 {
     @media (width >= 40rem) {
       margin-block: calc(var(--spacing) * 12);
@@ -2288,11 +2263,6 @@
   .sm\:py-14 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 14);
-    }
-  }
-  .sm\:py-15 {
-    @media (width >= 40rem) {
-      padding-block: calc(var(--spacing) * 15);
     }
   }
   .sm\:text-3xl {
@@ -2362,19 +2332,9 @@
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
-  .lg\:col-span-4 {
-    @media (width >= 64rem) {
-      grid-column: span 4 / span 4;
-    }
-  }
   .lg\:max-w-\[300px\] {
     @media (width >= 64rem) {
       max-width: 300px;
-    }
-  }
-  .lg\:grid-cols-5 {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
   }
   .xl\:max-w-\[330px\] {
@@ -2422,6 +2382,45 @@ h1, h2, h3 {
   font-family: Knight, sans-serif;
   letter-spacing: 0.05em;
   color: var(--color-specialBrown);
+}
+.main-content {
+  flex: 1;
+  padding: 1.5rem;
+  min-width: 0;
+  width: 100%;
+}
+footer {
+  position: relative;
+  z-index: 30;
+}
+.sidebar-container {
+  width: 250px;
+  background-color: #f8f8f8;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 40;
+}
+.sidebar-container.active {
+  transform: translateX(0);
+}
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 30;
+}
+.sidebar-overlay.active {
+  display: block;
 }
 .orangeShadow {
   box-shadow: 0px 14px 55px var(--color-brownOrange);
