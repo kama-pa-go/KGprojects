@@ -5,9 +5,9 @@ title: Jak spakować się w góry?
 
 # Lista Ekwipunku Górskiego
 
-Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest orientacyjna, należy zmodyfikiwać ją w zależności od pory roku, pasma górskiego itp. (więcej wskazówek na dole strony).
+<p class="p-4">Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest orientacyjna, należy zmodyfikiwać ją w zależności od pory roku, pasma górskiego itp. (więcej wskazówek na dole strony).</p>
 
-<h3 class="bg-greyBase">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
+<h3 class="bg-greyBase p-2">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
 
 <blockquote class="p-4">
     <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
@@ -21,7 +21,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 
 <br>
 
-<small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
+<small class="p-2">(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
 <div class="flex flex-col gap-8 w-full">
     <div class="grid sm:grid-flow-col-dense gap-6">
     <div class="bg-white w-full">
@@ -42,7 +42,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
             <li class="pl-2"> ręcznik</li>
         </ul>
     </div>
-    <div class="grid  grid-flow-row-dense gap-8">
+    <div class="grid  grid-flow-row-dense gap-6">
     <div class="bg-greyBase w-full">
         <div class="p-6 -pb-6"><a href="/KGprojects/apteczka.html"><h2 clas="p-6">Apteczka</h2></a></div>
         <ul class="pl-10 p-4">
