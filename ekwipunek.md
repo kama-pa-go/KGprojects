@@ -22,7 +22,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <br>
 
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
-<div class="flex flex-col gap-10 w-full">
+<div class="grid gap-10 w-full grid-flow-row-dense">
     <div class="bg-white w-full">
         <div class="p-6 -pb-6"><a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a></div>
         <ul class="pl-10 p-4">

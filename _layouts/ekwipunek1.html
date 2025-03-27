@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="assets/output.css" />    
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <style>
       .sidebar-overlay {
@@ -42,10 +43,10 @@
   </head>
   <body x-data="{ sidebarOpen: false, isMobile: window.innerWidth < 1024}" 
       x-init="window.addEventListener('resize', () => { isMobile = window.innerWidth < 1024 })"
-      style="margin-left: 100px; margin-right: 100px;">
+      style="margin-left: 100px; margin-right: 100px;" class="py-10">
 
     <header>
-      <h1 class="bg-basicBeage">{{ page.title }}</h1>
+      <h1 class="bg-allmostAllmostWhite p-4">{{ page.title }}</h1>
 
       <button @click="sidebarOpen = !sidebarOpen" 
             x-show="isMobile"
@@ -58,46 +59,48 @@
 
     </header>
 
-  <main id="app" class="flex flex-col flex-1 z-0 h-full">
+    <main id="app" class="flex flex-col flex-1 z-0 h-full">
 
-    <!-- Overlay dla mobile (tylko gdy sidebar otwarty) -->
-    <div class="sidebar-overlay" 
-         :class="{ 'active': sidebarOpen && isMobile }"
-         @click="sidebarOpen = false"
-         x-show="isMobile"></div>
-
-  <div class="grid grid-cols-1 sm:grid-cols-6 lg:grid-cols-5 gap-6 min-h-screen items-center">
-        
-      <!-- Main content -->
-      <div class="grid sm:col-span-4 h-full p-5 py-6 sm:py-15 items-center gap-2">
-        {{ content }}
-        <br>
+      <!-- Overlay dla mobile (tylko gdy sidebar otwarty) -->
+      <div class="sidebar-overlay" 
+           :class="{ 'active': sidebarOpen && isMobile }"
+           @click="sidebarOpen = false"
+           x-show="isMobile">
       </div>
-
-      <!-- Sidebar -->
-      <div x-show="!isMobile || sidebarOpen"
-             class="right-0 bg-allmostWhite sm:col-span-2 lg:col-span-1 transition-all duration-300 h-full shadow-md"
-             :class="{ 'fixed inset-y-0 left-0 z-40 w-full': sidebarOpen && isMobile }">
-            
-            <div class="fixed top-2 p-4 py-10">
-                Nawigacja:
-                <div class="m-2">
-                  {% include navigation_ekwipunek.html %}
-                </div>
-            </div>
-      </div>
-
-  </div>
-    
-
-  <footer class= "bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30">
-    <p styless="text-center">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
-  </footer>
   
-  <script>
-    function checkScreenSize() {
-        return window.innerWidth < 1024;
-    }
+      <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-6 min-h-screen items-center">
+          
+        <!-- Main content -->
+        <div class="sm:col-span-3 lg:col-span-4 h-full p-5 py-6 sm:py-15 items-center gap-2">
+          {{ content }}
+          <br>
+        </div>
+          
+        <!-- Sidebar -->
+        <div x-show="!isMobile || sidebarOpen"
+            class="right-0 bg-allmostWhite sm:col-span-1 lg:col-span-1 transition-all duration-300 h-full shadow-md"
+            :class="{ 'fixed inset-y-0 left-0 z-40 w-full': sidebarOpen && isMobile }">
+                  
+          <div class="fixed top-2 p-4 py-10">
+            Nawigacja:
+            <div class="m-2">
+              {% include navigation_ekwipunek.html %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  
+    <footer class= "bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30">
+      <p styless="text-center">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
+    </footer>
+  
+    <script>
+      function checkScreenSize() {
+          return window.innerWidth < 1024;
+      }
   </script>
   </main>
   </body>
