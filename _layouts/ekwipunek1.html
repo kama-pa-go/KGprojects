@@ -66,9 +66,7 @@
 
     </header>
 
-    <main id="app" class="flex flex-col min-h-screen">
-      <h1 class="bg-allmostAllmostWhite m-4 p-4 z-0">{{ page.title }}</h1>
-      
+    <main id="app" class="flex flex-col min-h-screen">      
         <!-- Overlay dla mobile (tylko gdy sidebar otwarty) -->
         <div class="sidebar-overlay" 
              :class="{ 'active': sidebarOpen && isMobile }"
@@ -78,7 +76,8 @@
 
         <div class="flex flex-1">
             <!-- Main content -->
-            <div class="main-content p-5 my-6 sm:my-12">
+            <div class="main-content p-2 my-6 sm:my-12">
+              <h1 class="bg-allmostAllmostWhite mb-4 p-2 z-0">{{ page.title }}</h1>
               {{ content }}
               <br>
             </div>

@@ -11,7 +11,7 @@ title: Jak spakować się w góry?
 
 <blockquote class="my-4 w-full">
     <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300 w-full">
-    <img src="assets/images/bulb.png" alt="Opis obrazka" style="height: auto;">
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
     <p style= "padding: 8px;" class="text-greyBaseDark">
         Wydrukuj tą listę. Po powrocie do domu popatrz na nią jeszcze raz- wykreśl rzeczy, które Ci się nie przydały, dopisz rzeczy, których żałujesz że nie wziąłeś.<br>
         Aktualizuj listę po każdej wyprawie górskiej a wkrótce stworzysz swój wymarzony ekwipunek!
