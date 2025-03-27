@@ -558,14 +558,8 @@
   .min-h-screen {
     min-height: 100vh;
   }
-  .w-1 {
-    width: calc(var(--spacing) * 1);
-  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
-  }
-  .w-3 {
-    width: calc(var(--spacing) * 3);
   }
   .w-3\/5 {
     width: calc(3/5 * 100%);
@@ -1273,17 +1267,11 @@
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
-  .bg-amber-950 {
-    background-color: var(--color-amber-950);
-  }
   .bg-amber-950\/50 {
     background-color: color-mix(in oklab, var(--color-amber-950) 50%, transparent);
   }
   .bg-basicBeage {
     background-color: var(--color-basicBeage);
-  }
-  .bg-black {
-    background-color: var(--color-black);
   }
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
@@ -2350,6 +2338,11 @@
   .lg\:max-w-\[300px\] {
     @media (width >= 64rem) {
       max-width: 300px;
+    }
+  }
+  .xl\:ml-10 {
+    @media (width >= 80rem) {
+      margin-left: calc(var(--spacing) * 10);
     }
   }
   .xl\:max-w-\[330px\] {

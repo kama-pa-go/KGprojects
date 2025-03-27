@@ -3,7 +3,7 @@ layout: ekwipunek1
 title: Kosmetyczka
 ---
 
-## Odrobina lususu w górach? Oto co musisz spakować, żeby zadbać o higienę podczas wyjzadu.
+## Odrobina luksusu w górach? Oto co musisz spakować, żeby zadbać o higienę podczas wyjzadu.
 
 ## Spakuj:
 

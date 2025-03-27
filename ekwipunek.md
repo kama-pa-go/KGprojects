@@ -10,7 +10,7 @@ title: Jak spakować się w góry?
 <h3 class="bg-greyBase p-2">Aby przeczytać więcej nt. danej kategorii ekwipunku kliknij tytuł listy</h3>
 
 <blockquote class="my-4 w-full">
-    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
+    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300 w-full">
     <img src="assets/images/bulb.png" alt="Opis obrazka" style="height: auto;">
     <p style= "padding: 8px;" class="text-greyBaseDark">
         Wydrukuj tą listę. Po powrocie do domu popatrz na nią jeszcze raz- wykreśl rzeczy, które Ci się nie przydały, dopisz rzeczy, których żałujesz że nie wziąłeś.<br>
