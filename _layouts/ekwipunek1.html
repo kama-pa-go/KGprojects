@@ -46,8 +46,6 @@
       style="margin-left: 100px;" class="py-10">
 
     <header>
-      <h1 class="bg-allmostAllmostWhite p-4 z-10">{{ page.title }}</h1>
-
       <button @click="sidebarOpen = !sidebarOpen" 
             x-show="isMobile"
             class="fixed z-50 top-2 right-2 px-6 py-3 cursor-pointer rounded-full bg-basicBeage shadow-md font-medium orangeShadow">
@@ -58,8 +56,8 @@
       <h3 class="bg-amber-950/50 rounded-full fixed left-2 z-50 top-2 text-justBrown px-6 py-3 ">{{ page.title }}</h3>
 
     </header>
-
     <main id="app" class="flex flex-col flex-1 z-0 h-full">
+    <h1 class="bg-allmostAllmostWhite p-4 z-10">{{ page.title }}</h1>
 
       <!-- Overlay dla mobile (tylko gdy sidebar otwarty) -->
       <div class="sidebar-overlay" 
@@ -98,9 +96,10 @@
   </script>
   </main>
 
-  <footer class= "bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30">
-    <p styless="text-center">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
+  <footer class= "bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30 w-full">
+    <p styless="text-center w-full">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
   </footer>
+  
 
   </body>
   </html>

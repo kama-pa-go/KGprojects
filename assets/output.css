@@ -543,6 +543,9 @@
   .h-screen {
     height: 100vh;
   }
+  .max-h-\[50px\] {
+    max-height: 50px;
+  }
   .max-h-\[150px\] {
     max-height: 150px;
   }
@@ -572,6 +575,9 @@
   }
   .w-50 {
     width: calc(var(--spacing) * 50);
+  }
+  .w-64 {
+    width: calc(var(--spacing) * 64);
   }
   .w-65 {
     width: calc(var(--spacing) * 65);
@@ -2379,6 +2385,11 @@
   .lg\:col-span-4 {
     @media (width >= 64rem) {
       grid-column: span 4 / span 4;
+    }
+  }
+  .lg\:w-64 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 64);
     }
   }
   .lg\:max-w-\[300px\] {
