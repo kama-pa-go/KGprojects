@@ -46,11 +46,11 @@
           font-size: 1.125rem; 
           line-height: 1.75rem;
         }
-        /* Added styles */
         .sidebar-container {
-            width: 250px; /* Fixed width for sidebar */
+            width: 250px;
             right: 0;
-            text-align: right;
+            display: flex;
+            flex-direction: column;
         }
         @media (min-width: 1024px) {
             .sidebar-container {
@@ -84,7 +84,7 @@
 
         <div class="flex min-h-screen">
             <!-- Main content -->
-            <div class="flex-1 p-5 py-6 sm:py-15">
+            <div class="flex-1 p-5 my-6 sm:my-12">
                 {{ content }}
                 <br>
             </div>
@@ -92,9 +92,9 @@
             <!-- Sidebar -->
             <div x-show="!isMobile || sidebarOpen"
                 class="sidebar-container bg-allmostWhite transition-all duration-300 h-full shadow-md"
-                :class="{ 'fixed inset-y-0 z-40 w-64': sidebarOpen && isMobile, 'lg:w-100 lg:overflow-auto fixed inset-y-0 z-40 h-full': !isMobile }">
+                :class="{ 'fixed inset-y-0 z-40 w-64': sidebarOpen && isMobile, 'lg:w-64 lg:overflow-auto fixed inset-y-0 z-40': !isMobile }">
                 
-                <div class="p-4 py-10 items-center">
+                <div class="p-4 my-12 items-center">
                     <div>Nawigacja:</div>
                     <div class="m-2">
                         {% include navigation_ekwipunek.html %}
@@ -105,13 +105,7 @@
     </main>
 
     <footer class="bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30 w-full">
-        <p styless="text-center">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
+        <p class="text-center">🌳 żadna góra nie ucierpiała przy robieniu tej strony 🌳</p>
     </footer>
-
-    <script>
-        function checkScreenSize() {
-            return window.innerWidth < 1024;
-        }
-    </script>
 </body>
 </html>
