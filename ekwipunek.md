@@ -22,7 +22,8 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
 <br>
 
 <small>(lista scrapowana ze strony: https://www.goromaniacy.pl/2017/07/jak-sie-spakowac-na-wyjazd-w-gory-i.html#)</small>
-<div class="grid gap-10 w-full grid-flow-row-dense">
+<div class="flex flex-col gap-10 w-full">
+    <div class="grid sm:grid-flow-col-dense gap-5">
     <div class="bg-white w-full">
         <div class="p-6 -pb-6"><a href="/KGprojects/odziez.html"><h2 clas="p-6">Odzież</h2></a></div>
         <ul class="pl-10 p-4">
@@ -41,6 +42,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
             <li class="pl-2"> ręcznik</li>
         </ul>
     </div>
+    <div class="grid  grid-flow-row-dense">
     <div class="bg-greyBase w-full">
         <div class="p-6 -pb-6"><a href="/KGprojects/apteczka.html"><h2 clas="p-6">Apteczka</h2></a></div>
         <ul class="pl-10 p-4">
@@ -50,6 +52,31 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
             <li class="pl-2"> bandaż elastyczny</li>
         </ul>
     </div>
+    <div class="bg-greyBase w-full">
+        <div class="p-6 -pb-6"><a href="/KGprojects/dokumenty.html"><h2 clas="p-6">Dokumenty</h2></a></div>
+        <ul class="pl-10 p-4">
+            <li class="pl-2"> dowód osobisty/paszport</li>
+            <li class="pl-2"> ubezpieczenie (wyjazd zagraniczny)</li>
+            <li class="pl-2"> legitymacja</li>
+            <li class="pl-2"> bilety na autobus/pociąg/samolot</li>
+            <li class="pl-2"> gotówka/karta płatnicza</li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <div class="bg-white w-full">
+        <div class="p-6 -pb-6"><a href="/KGprojects/prowiant.html"><h2 clas="p-6">Prowiant</h2></a></div>
+        <ul class="pl-10 p-4">
+            <li class="pl-2"> kabanosy</li>
+            <li class="pl-2"> pasztet/konserwy</li>
+            <li class="pl-2"> zupki chińskie</li>
+            <li class="pl-2"> pieczywo</li>
+            <li class="pl-2"> czekolada/chałwa</li>
+            <li class="pl-2"> batony energetyczne/orzechy/suszone owoce</li>
+            <li class="pl-2"> herbata/kawa/cukier</li>
+        </ul>
+    </div>
+    <div class="grid sm:grid-flow-col-dense gap-5">
     <div class="bg-white w-full">
         <div class="p-6 -pb-6"><a href="/KGprojects/kosmetyczka.html"><h2 clas="p-6">Kosmetyczka</h2></a></div>
         <ul class="pl-10 p-4">
@@ -67,29 +94,7 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
             <li class="pl-2"> papier toaletowy</li>
             <li class="pl-2"> podpaski/tampony</li>
         </ul>
-    </div>
-    <div class="bg-greyBase w-full">
-        <div class="p-6 -pb-6"><a href="/KGprojects/dokumenty.html"><h2 clas="p-6">Dokumenty</h2></a></div>
-        <ul class="pl-10 p-4">
-            <li class="pl-2"> dowód osobisty/paszport</li>
-            <li class="pl-2"> ubezpieczenie (wyjazd zagraniczny)</li>
-            <li class="pl-2"> legitymacja</li>
-            <li class="pl-2"> bilety na autobus/pociąg/samolot</li>
-            <li class="pl-2"> gotówka/karta płatnicza</li>
-        </ul>
-    </div>
-    <div class="bg-white w-full">
-        <div class="p-6 -pb-6"><a href="/KGprojects/prowiant.html"><h2 clas="p-6">Prowiant</h2></a></div>
-        <ul class="pl-10 p-4">
-            <li class="pl-2"> kabanosy</li>
-            <li class="pl-2"> pasztet/konserwy</li>
-            <li class="pl-2"> zupki chińskie</li>
-            <li class="pl-2"> pieczywo</li>
-            <li class="pl-2"> czekolada/chałwa</li>
-            <li class="pl-2"> batony energetyczne/orzechy/suszone owoce</li>
-            <li class="pl-2"> herbata/kawa/cukier</li>
-        </ul>
-    </div>
+    </div> 
     <div class="bg-greyBase w-full">
         <div class="p-6 -pb-6"><a href="/KGprojects/pozostale.html"><h2 clas="p-6">Pozostałe</h2></a></div>
         <ul class="pl-10 p-4">
@@ -111,5 +116,6 @@ Poniżej znajduje się propozycja co spakować w góry. Poniższa lista jest ori
             <li class="pl-2"> poduszka turystyczna</li>
         </ul>
     </div>
+</div>
 </div>
 <br><br>

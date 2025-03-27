@@ -27,9 +27,9 @@ title: Pozostałe
   <br><br>
 
 <blockquote>
-    <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 8px;">
+    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <p style= "padding: 8px;" class="text-greyBaseDark">
         Nie wszystkie z powyższych Ci się przydadzą. Swój ekwipunek będziesz musiał nieść na własnych plecach: nie pakuj za dużo!
     </p>
     </div>

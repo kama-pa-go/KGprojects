@@ -13,14 +13,14 @@ title: Dokumenty
 
 ### Dokumenty i pieniądze włóż do kieszeni, która dla Ciebie jest łatwo- a dla potencjalnego złodzieja trudno- dostępna.
 
-Przykłądowe miejsca: wewnętrzna kieszeń kurtki, nerka (torebka, którą nosisz blisko ciała), kieszeń na plecach plecaka.
+Przykładowe miejsca: wewnętrzna kieszeń kurtki, nerka (torebka, którą nosisz blisko ciała), kieszeń na plecach plecaka.
 
 <br>
 
 <blockquote>
-    <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 8px;">
+    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <p style= "padding: 8px;" class="text-greyBaseDark">
         W niektórych miejscowościach w górach nie ma zasięgu. Bezpiecznie jest mieć przy sobie trochę gotówki na wypadek, gdyby terminal nie działał.
     </p>
     </div>

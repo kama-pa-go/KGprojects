@@ -24,9 +24,9 @@ Zadbaj, by mieć ze sobą odpowiednio dużo jedzenia. Warto, żeby rzeczy, któr
 <br>
 
 <blockquote>
-    <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 8px;">
+    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <p style= "padding: 8px;" class="text-greyBaseDark">
         Ceny jedzenia w schronisku potrafią być drogie, jednak dużo schronisk udostępnia za darmo wrzątek. To oznacza możliwość zjedzenia zabranej z domu: zupki chińskiej, owsianki, herbatki lub kawy. <br> Sprawdź w internecie, czy schronisko w którym się zatrzymujesz oferuje darmowy wrzątek!
     </p>
     </div>
@@ -36,7 +36,7 @@ Zadbaj, by mieć ze sobą odpowiednio dużo jedzenia. Warto, żeby rzeczy, któr
 # Oprócz jedzenia pamiętaj o piciu!
 
 <div style="display: flex; background-color:rgb(242, 242, 242);">
-<img src="images/bottle.jpg" alt="butelka_ikona" style="margin-right: 20px; width: 160px; height: 160px;">
+<img src="assets/images/bottle.jpg" alt="butelka_ikona" style="margin-right: 20px; width: 160px; height: 160px;">
     <h3 style= "padding: 10px;">
         Dziennie człowiek powinien pić conajmniej 2L <br> Wysiłek fizyczny= większe pragnienie- spakuj co najmniej 2,5L/ dizeń <br> Przemyśl, gdzie podczas trasy, będziesz mógł ponownie wypełnić swoją butelkę z wodą (z częście strumyków górskich można bezpiecznie czerpać wodę).
     </h3>

@@ -22,9 +22,9 @@ title: Odzież
 - ręcznik
 
 <blockquote>
-    <div style="display: flex; align-items: center; background-color:rgb(255, 230, 0); padding: 10px;">
-    <img src="images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
-    <p style= "color: rgb(75, 70, 70); padding: 8px;">
+    <div style="display: flex; align-items: center; padding: 10px;" class="bg-amber-300">
+    <img src="assets/images/bulb.png" alt="Opis obrazka" style="margin-right: 20px; width: 100px; height: auto;">
+    <p style= "padding: 8px;" class="text-greyBaseDark">
         Spakuj do plecaka dodatkowe ubrania, które możesz szybko na siebie założyć (np. buff).<br>
         Zostaw w plecaku trochę wolnego miejsca na bluzę/ kurtkę, na wypadek gdyby się okazało, że jednak jest za ciepło!
     </p>
