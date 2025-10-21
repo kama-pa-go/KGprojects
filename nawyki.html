@@ -13,7 +13,7 @@
         body {
           background-color: white;
           background-image: url("assets/images/TłoJasne.png");
-          background-position:  center 40;
+          background-position:  center center;
           background-size: cover;
           opacity: 0.75;
         }
@@ -61,7 +61,7 @@
 <body x-data="{ sidebarOpen: false, isMobile: window.innerWidth < 1024}" 
       x-init="window.addEventListener('resize', () => { isMobile = window.innerWidth < 1024 })">
 
-    <header class="bg-white dark:bg-gray-800 shadow-md">
+    <header>
   <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       
