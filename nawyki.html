@@ -15,7 +15,9 @@
           background-image: url("assets/images/TłoJasne.png");
           background-position:  center center;
           background-size: cover;
-          opacity: 0.75;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          min-height: 100vh;
         }
         h1{
           font-weight: 800;
@@ -88,7 +90,7 @@
 
 <main id="app" class="flex flex-col min-h-screen">
   
-  <div id="nagłowek nawyków" class="flex flex-row justify-between items-center m-4 max-w-800">
+  <div id="nagłowek nawyków" class="flex flex-row justify-between items-center m-4 max-w-xl">
     <button class="rounded-full bg-white/50 shadow-md w-20 h-20 text-xl m-4">📉</button>
     <h1>21.10<br>2025</h1>
     <button class="rounded-full bg-white/50 shadow-md w-20 h-20 text-xl m-4">⚙️</button>
