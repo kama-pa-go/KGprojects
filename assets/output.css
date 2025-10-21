@@ -7,9 +7,11 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(0.637 0.237 25.331);
+    --color-orange-50: oklch(0.98 0.016 73.684);
     --color-amber-50: oklch(0.987 0.022 95.277);
     --color-amber-300: oklch(0.879 0.169 91.605);
     --color-amber-950: oklch(0.279 0.077 45.635);
+    --color-sky-50: oklch(0.977 0.013 236.62);
     --color-indigo-500: oklch(0.585 0.233 277.117);
     --color-gray-100: oklch(0.967 0.003 264.542);
     --color-gray-300: oklch(0.872 0.01 258.338);
@@ -1310,11 +1312,11 @@
   .bg-black\/50 {
     background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
   }
-  .bg-gray-700\/50 {
-    background-color: color-mix(in oklab, var(--color-gray-700) 50%, transparent);
-  }
   .bg-greyBase {
     background-color: var(--color-greyBase);
+  }
+  .bg-orange-50\/50 {
+    background-color: color-mix(in oklab, var(--color-orange-50) 50%, transparent);
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
@@ -1324,6 +1326,9 @@
   }
   .bg-red-500\/\[50\%\] {
     background-color: color-mix(in oklab, var(--color-red-500) 50%, transparent);
+  }
+  .bg-sky-50\/50 {
+    background-color: color-mix(in oklab, var(--color-sky-50) 50%, transparent);
   }
   .bg-white {
     background-color: var(--color-white);
