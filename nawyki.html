@@ -17,13 +17,6 @@
           background-size: cover;
           opacity: 0.75;
         }
-        .zadanie {
-            margin-bottom: 20px;
-        }
-        .zadania label {
-            display: block;
-            margin: 5px 0;
-        }
         h1{
           font-weight: 800;
           letter-spacing: 0.1em;
@@ -43,14 +36,6 @@
         
         /* Styl dla desktopu */
         @media (min-width: 1024px) {
-            .sidebar-container {
-                position: sticky;
-                top: 0;
-                transform: none;
-                height: 100dvh;
-                margin-top: 4rem;
-            }
-            /* Dodaj margines dla głównej zawartości */
             .main-content {
                 margin-right: 30px;
             }
@@ -103,7 +88,7 @@
 
 <main id="app" class="flex flex-col min-h-screen">
   
-  <div id="nagłowek nawyków" class="flex flex-row justify-between items-center m-4">
+  <div id="nagłowek nawyków" class="flex flex-row justify-between items-center m-4 max-w-800">
     <button class="rounded-full bg-white/50 shadow-md w-20 h-20 text-xl m-4">📉</button>
     <h1>21.10<br>2025</h1>
     <button class="rounded-full bg-white/50 shadow-md w-20 h-20 text-xl m-4">⚙️</button>
