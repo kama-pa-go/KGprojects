@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl" class="h-full">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RutineTracker</title>
+    <link rel="stylesheet" href="assets/output.css" />    
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        body {
+          background-image: url("assets/images/TłoJasne.jpg");
+          background-position:  center 30;
+        }
+        .zadanie {
+            margin-bottom: 20px;
+        }
+        .zadania label {
+            display: block;
+            margin: 5px 0;
+        }
+        h1{
+          font-weight: 800;
+          letter-spacing: 0.1em;
+          font-size: 1.875rem;   
+          line-height: 2.25rem;
+        }
+        h2{
+          font-weight: 600;
+          font-size: 1.25rem; 
+          line-height: 1.75rem;
+        }
+        h3{
+          font-weight: 200;
+          font-size: 1.125rem; 
+          line-height: 1.75rem;
+        }
+        
+        /* Styl dla desktopu */
+        @media (min-width: 1024px) {
+            .sidebar-container {
+                position: sticky;
+                top: 0;
+                transform: none;
+                height: 100dvh;
+                margin-top: 4rem;
+            }
+            /* Dodaj margines dla głównej zawartości */
+            .main-content {
+                margin-right: 30px;
+            }
+        }
+    </style>
+</head>
+      
+<body x-data="{ sidebarOpen: false, isMobile: window.innerWidth < 1024}" 
+      x-init="window.addEventListener('resize', () => { isMobile = window.innerWidth < 1024 })">
+
+    <header class="bg-white dark:bg-gray-800 shadow-md">
+  <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      
+      <div class="flex-shrink-0">
+        <h1 class="text-xl font-bold text-gray-900 dark:text-white">
+          HabitTracker
+        </h1>
+      </div>
+
+      <div class="flex items-center">
+        <button 
+          type="button" 
+          aria-label="Przełącz tryb jasny/ciemny"
+          class="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+        >
+          <svg 
+            class="h-6 w-6 block dark:hidden" 
+            xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 24 24" 
+            fill="currentColor"
+          >
+            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.106a.75.75 0 011.06-1.06l1.591 1.591a.75.75 0 11-1.06 1.06l-1.591-1.591zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.894 17.894a.75.75 0 01-1.06 1.06l-1.591-1.591a.75.75 0 111.06-1.06l1.591 1.591zM12 18a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V18.75a.75.75 0 01.75-.75zM6.106 17.894a.75.75 0 011.06 1.06l-1.591 1.591a.75.75 0 11-1.06-1.06l1.591-1.591zM3 12a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm3.106-4.894a.75.75 0 011.06-1.06l1.591 1.591a.75.75 0 01-1.06 1.06L6.106 7.106z" />
+          </svg>
+
+          <svg 
+            class="h-6 w-6 hidden dark:block" 
+            xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 24 24" 
+            fill="currentColor"
+          >
+            <path fill-rule="evenodd" d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6.75a9 9 0 009 9 8.97 8.97 0 004.212-.69a.75.75 0 01.162.819l-.357 1.072a.75.75 0 01-1.06.39A10.438 10.438 0 0112 21a10.5 10.5 0 01-10.5-10.5c0-4.306 2.64-8.02 6.374-9.67l1.072-.357a.75.75 0 01.39-1.06l1.072-.357z" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+    <main id="app" class="flex flex-col min-h-screen">      
+        <div id="nagłowek nawyków" class="flex flex-col justify-center">
+          <button class="rounded-lg bg-white/50 shadow-md">📉</button>
+          <h1>21.10<br>2025</h1>
+          <button class="rounded-lg bg-white/50 shadow-md">⚙️</button>
+        </div>
+        <div class="grid col-2">
+          <div id="poranne-nawyki" class="shadow-md rounded-full bg-amber-950/50">
+            <div class="flex flex-col justify-center"><p>🌞</p></div>
+            <div class="flex flex-col justify-between"><p>leki</p><p>✅</p></div>
+            <div class="flex flex-col justify-between"></div><p>śniadanie</p><p>⬜</p></div>            
+            <div class="flex flex-col justify-between"></div><p>zęby</p><p>⬜</p></div>
+          </div>
+          <div class="grid col-2">
+          <div id="wieczorne-nawyki" class="shadow-md rounded-full bg-gray-700/50">
+            <div class="flex flex-col justify-center"><p>🌚</p></div>
+            <div class="flex flex-col justify-between"><p>sprzątanie</p><p>✅</p></div>
+            <div class="flex flex-col justify-between"><p>journaling</p><p>✅</p></div>
+            <div class="flex flex-col justify-between"></div><p>kolacja</p><p>✅</p></div>            
+            <div class="flex flex-col justify-between"></div><p>kąpiel</p><p>⬜</p></div>
+            <div class="flex flex-col justify-between"></div><p>zęby</p><p>⬜</p></div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="bg-amber-950/50 flex items-center justify-center m-4 py-10 overline z-30 w-full">
+        <p class="text-center">🌳 KAMAPAGO 2025 🌳</p>
+    </footer>
+</body>
+</html>
