@@ -666,6 +666,9 @@
   .grow {
     flex-grow: 1;
   }
+  .basis-50 {
+    flex-basis: calc(var(--spacing) * 50);
+  }
   .basis-auto {
     flex-basis: auto;
   }
